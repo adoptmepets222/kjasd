@@ -129,8 +129,8 @@ if game.PlaceId == ffcalc and hooksupported then
         bypassloaded = true
         print("bypass activate")
     end
-elseif game.PlaceId == 8206123457 then
-    bypassloaded == true 
+else
+    bypassloaded = true 
 end
 --
 print("Testing")
