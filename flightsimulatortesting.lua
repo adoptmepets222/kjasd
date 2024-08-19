@@ -55,7 +55,6 @@ end
 -- ff
 ffcalc = 4102449570 * 2
 local bypassloaded = false
-print("test")
 local hook = hookmetamethod
 if not hook or hooksupported == false then
     bypassloaded = true
@@ -130,6 +129,8 @@ if game.PlaceId == ffcalc and hooksupported then
         bypassloaded = true
         print("bypass activate")
     end
+elseif game.PlaceId == 8206123457 then
+    bypassloaded == true 
 end
 --
 print("Testing")
