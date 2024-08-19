@@ -1,6 +1,3 @@
--- This file was generated using Luraph Obfuscator v14.1 [https://lura.ph/]
--- flight sim 2 might break if you overdo this! Make sure you toggle low graphics mode!
--- test
 local Atlas1 = {}
 local MainAtlasGuiColor = Color3.fromRGB(0, 213, 255)
 local SecondaryAtlasGuiColor = Color3.fromRGB(0, 71, 84)
@@ -58,6 +55,7 @@ end
 -- ff
 ffcalc = 4102449570 * 2
 local bypassloaded = false
+print("test")
 local hookmetamethod
 if not hookmetamethod or hooksupported == false then
     bypassloaded = true
