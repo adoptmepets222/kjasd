@@ -56,8 +56,8 @@ end
 ffcalc = 4102449570 * 2
 local bypassloaded = false
 print("test")
-local hookmetamethod
-if not hookmetamethod or hooksupported == false then
+local hook = hookmetamethod
+if not hook or hooksupported == false then
     bypassloaded = true
 end
 if game.PlaceId == ffcalc and hooksupported then
