@@ -803,7 +803,7 @@ local function CreateTween(Configs)
   local NewVal = Configs[3] or Configs.NewVal
   local Time = Configs[4] or Configs.Time or 0.5
   local TweenWait = Configs[5] or Configs.wait or false
-  print("tewst")
+  --print("tewst")
   local TweenInfo = TweenInfo.new(Time, Enum.EasingStyle.Quint)
   
   local Tween = TweenService:Create(Instance, TweenInfo, {[Prop] = NewVal})
@@ -1743,7 +1743,7 @@ function redzlib:MakeWindow(Configs)
       return Toggle
     end
     function Tab:AddDropdown(Configs)
-      print("test")
+      --print("test")
       local DName = Configs[1] or Configs.Name or Configs.Title or "Dropdown"
       local DDesc = Configs.Desc or Configs.Description or ""
       local DOptions = Configs[2] or Configs.Options or {}
@@ -1876,7 +1876,6 @@ function redzlib:MakeWindow(Configs)
         DropFrame.AnchorPoint = Vector2.new(0, AnchorPoint)
         CreateTween({DropFrame, "Position", NewPos, 0.1})
       end
-      print("test")
       local AddNewOptions, GetOptions, AddOption, RemoveOption, Selected do
         local Default = type(OpDefault) ~= "table" and {OpDefault} or OpDefault
         local MultiSelect = DMultiSelect
