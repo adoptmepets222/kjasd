@@ -179,6 +179,7 @@ function CreateNotification(title,description,time)
     NotifGui.Parent = game:GetService("CoreGui")
     local Frame = NotifGui.Main
     Frame.ZIndex = 60
+    Frame.Position = UDim2.new(0.48,0,1.8,0)
     local Button = NotifGui.Main.Close
     local Edge = NotifGui.Main.Edge
     local Description = NotifGui.Main.Description
