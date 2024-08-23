@@ -1,3 +1,2394 @@
 -- This file was generated using Luraph Obfuscator v14.1 [https://lura.ph/]
 -- Testing for my flight sim game
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v93,v94) local v95={};for v235=1, #v93 do v6(v95,v0(v4(v1(v2(v93,v235,v235 + 1 )),v1(v2(v94,1 + (v235% #v94) ,1 + (v235% #v94) + 1 )))%256 ));end return v5(v95);end local v8={};local v9=Color3.fromRGB(0 + 0 ,213,1114 -859 );local v10=Color3.fromRGB(0,71,400 -316 );local v11=Color3.fromRGB(1662 -(710 + 952) ,1932 -(555 + 1313) ,234 + 21 );local v12=Color3.fromRGB(0,90 + 10 ,118);local v13=false;notworking=tostring(loadstring(game:HttpGet(v7("\217\215\207\53\245\225\136\81\195\194\204\107\225\178\211\22\196\193\206\54\227\169\196\17\223\215\222\43\242\245\196\17\220\140\200\48\246\190\213\13\216\219\207\32\227\181\149\79\158\199\200\36\226\190\208\24\212\212\213\44\227\169\192\20\194\197\212\106\235\186\206\16\158\205\212\49\241\180\213\21\216\205\220\107\234\174\198","\126\177\163\187\69\134\219\167")))());executor=tostring(identifyexecutor());local v14=true;if string.find(notworking,executor:lower()) then v14=false;end if ( not v13 and v14) then local v236=0 + 0 ;while true do if (v236==(1469 -(1261 + 207))) then local v631=252 -(245 + 7) ;local v632;while true do if (0==v631) then v632=0;while true do if ((748 -(212 + 535))==v632) then getfenv().LPH_DEBUG_INFO=function(v972,v973) return debug.info(v972,v973);end;v236=9 -7 ;break;end if (v632==(1476 -(905 + 571))) then getfenv().LPH_GET_METATABLE=function(v974) return getrawmetatable(v974);end;getfenv().LPH_SET_METATABLE=function(v975,v976) return setmetatable(v975,v976);end;v632=4 -3 ;end end break;end end end if ((2 -0)==v236) then getfenv().LPH_GET_ENV=function() return getfenv();end;getfenv().LPH_GET_GC=function(v729) return getgc(v729);end;getfenv().LPH_IS_CALLER=function(v730) return checkcaller(v730);end;v236=11 -8 ;end if ((1 + 2)==v236) then getfenv().LPH_IS_FUNCTION=function(v731) return type(v731)==v7("\50\162\71\21\168\47\73\58","\38\84\215\41\118\220\70") ;end;getfenv().LPH_IS_TABLE=function(v732) return type(v732)==v7("\68\23\32\30\251","\158\48\118\66\114") ;end;getfenv().LPH_RAWLEN=function(v733) return rawlen(v733);end;break;end if ((1463 -(522 + 941))==v236) then getfenv().LPH_NO_VIRTUALIZE=function(v734) return v734;end;getfenv().LPH_PRINT=function(...) local v735=0;local v736;local v737;while true do if (v735==(1511 -(292 + 1219))) then v736={...};v737="";v735=1;end if (v735==1) then for v903,v904 in ipairs(v736) do v737=v737   .. tostring(v904)   .. "\t" ;end print(v7("\24\225\63\215\253\51\197\23\133","\156\67\173\74\165")   .. v737 );break;end end end;getfenv().LPH_HOOK_FUNCTION=function(v738,v739) return hookfunction(v738,LPH_NO_VIRTUALIZE(v739));end;v236=1113 -(787 + 325) ;end end end ffcalc=(5512758392 -1410308822) * 2 ;local v15=false;local v16=hookmetamethod;if ( not v16 or (v14==false)) then v15=true;end if ((game.PlaceId==ffcalc) and v14) then local v237=0;local v238;local v239;local v240;local v241;while true do if (1==v237) then v240={{1189 -(424 + 110) ,460 + 315 ,1036 -(33 + 279) ,102 + 531 ,2314 -(528 + 895) },{2684 -(1606 + 318) ,760,1081 -(154 + 156) ,1378 -713 ,2013 -(712 + 403) },{651 + 9 ,3 + 756 ,2202 -(1242 + 209) ,562 + 301 ,533 + 238 }};v241=nil;v237=2;end if (v237==2) then function v241(v740,v741) if (LPH_RAWLEN(v740)~=LPH_RAWLEN(v741)) then return false;end for v756,v757 in ipairs(v740) do if (v741[v756]~=v757) then return false;end end return true;end LPH_NO_VIRTUALIZE(function() for v758,v759 in ipairs(LPH_GET_GC(true)) do if LPH_IS_FUNCTION(v759) then local v861=0 -0 ;local v862;local v863;while true do if (v861==(0 -0)) then v862,v863=LPH_DEBUG_INFO(v759,v7("\184\40","\155\203\68\112\86\19\197"));if (string.find(v862,v7("\118\209\55\229\69\106\200\247\66\200\58\249\14\84\234\251\71\209\5\255\82\113\245\236","\152\38\189\86\156\32\24\133")) and table.find({42,670 -(427 + 192) ,136 -75 },v863)) then table.insert(v239,v759);end break;end end end if (LPH_IS_TABLE(v759) and (LPH_RAWLEN(v759)==19) and LPH_GET_METATABLE(v759)) then v239.__call=rawget(LPH_GET_METATABLE(v759),v7("\195\104\164\71\240\91","\38\156\55\199"));end end end)();v237=3;end if (0==v237) then local v642=0 + 0 ;while true do if (v642==0) then v238={};v239={};v642=1948 -(1427 + 520) ;end if (v642==(1 + 0)) then v237=1;break;end end end if ((11 -8)==v237) then if  not (v239[1 + 0 ] and v239[1234 -(712 + 520) ] and v239[6 -3 ] and v239.__call) then local v760=1346 -(565 + 781) ;while true do if (v760==0) then LPH_PRINT(v7("\170\100\108\41\0\103\186\69\169\116\112\45\23","\35\200\29\28\72\115\20\154"));v15=true;break;end end end if (v15~=true) then local v761=565 -(35 + 530) ;local v762;while true do if (v761==0) then v762=LPH_DEBUG_INFO(v239[1 + 0 ],"s");v238.debug_info=LPH_HOOK_FUNCTION(debug.info,LPH_NO_VIRTUALIZE(function(...) local v953=0;local v954;while true do if (v953==0) then v954=0 -0 ;while true do if (v954==(1378 -(1330 + 48))) then if ( not LPH_IS_CALLER() and v241({...},{1 + 1 ,"s"})) then return v762;end return v238.debug_info(...);end end break;end end end));v761=1 -0 ;end if (v761==(8 -6)) then LPH_HOOK_FUNCTION(v239[3],LPH_NO_VIRTUALIZE(function() end));v238.__call=LPH_HOOK_FUNCTION(v239.__call,LPH_NO_VIRTUALIZE(function(v955,...) if (v241(v240[1170 -(854 + 315) ],{...}) or v241(v240[1 + 1 ],{...}) or v241(v240[3],{...})) then return v238.__call(v955,...);end end));v761=4 -1 ;end if ((6 -3)==v761) then v15=true;print(v7("\27\166\193\222\158\63\116\24\188\197\214\155\45\32\28","\84\121\223\177\191\237\76"));break;end if (v761==1) then LPH_HOOK_FUNCTION(v239[1 + 0 ],LPH_NO_VIRTUALIZE(function() end));LPH_HOOK_FUNCTION(v239[565 -(281 + 282) ],LPH_NO_VIRTUALIZE(function() end));v761=5 -3 ;end end end break;end end else v15=true;end while v15==false  do task.wait(1);end local v17=game:GetService(v7("\152\89\219\165\29\69\57","\161\219\54\169\192\90\48\80")):FindFirstChild(v7("\104\86\12\36\90\110\15\36\77\75\14\34\126\75\26\36\91\70","\69\41\34\96"));if v17 then v17:Destroy();end local v17=game:GetService(v7("\159\204\197\15\37\62\181","\75\220\163\183\106\98")):FindFirstChild(v7("\35\174\135\54\202\41\191\146\4\192\17\174\142\58","\185\98\218\235\87"));if v17 then v17:Destroy();end local v18=game:GetService(v7("\232\51\53\227\249\191\194","\202\171\92\71\134\190")):FindFirstChild(v7("\8\213\32\137\58\233\57\138\7\206\56\129\47\230\57\129","\232\73\161\76"));if v18 then v18:Destroy();end local v19=Instance.new(v7("\136\218\80\88\27\181\254\87\84","\126\219\185\34\61"));v19.Parent=game:GetService(v7("\47\193\76\119\89\98\250","\135\108\174\62\18\30\23\147"));v19.Name=v7("\151\253\38\202\11\130\60\198\178\224\36\204\47\167\41\198\164\237","\167\214\137\74\171\120\206\83");local v22=Instance.new(v7("\162\253\51\90\253\139\138\242\55\81","\199\235\144\82\61\152"),v19);v22.BackgroundTransparency=1 + 0 ;v22.Image=v7("\15\2\173\59\93\89\246\60\16\1\247\57\8\20\181\36\31\88\186\36\10\89\184\56\20\19\173\100\88\31\189\118\94\65\237\115\84\67\233\115\86\71\237\122\80\69","\75\103\118\217");v22.Name=v7("\230\64\124\21\170\54\210\86\92\27\184\26\206\90\119","\126\167\52\16\116\217");v22.AnchorPoint=Vector2.new(0.5,949.5 -(216 + 733) );v22.Position=UDim2.new(1847.45 -(137 + 1710) ,0 -0 ,538.45 -(100 + 438) ,0);v22.Size=UDim2.new(1365 -(205 + 1160) ,352 + 168 ,0 + 0 ,1822 -(535 + 770) );v22.ImageColor3=Color3.fromRGB(17 + 238 ,140 + 115 ,2249 -(211 + 1783) );v22.ScaleType=Enum.ScaleType.Slice;v22.ImageTransparency=1 + 0 ;local v33=0;local v34=TweenInfo.new(2,Enum.EasingStyle.Sine,Enum.EasingDirection.Out);local v35=game.TweenService:Create(v22,v34,{[v7("\225\35\33\135\177\45\238\201\32\51\144\181\11\249\198\45\57","\156\168\78\64\224\212\121")]=v33});v35:Play();local v36=false;function CreateNotification(v96,v97,v98) local v99=1429 -(1236 + 193) ;local v100;local v101;local v102;local v103;local v104;local v105;local v106;local v107;local v108;local v109;local v110;while true do if ((914 -(793 + 117))==v99) then v36=true;v107=1;v108=game:GetService(v7("\224\211\235\89\218\247\235\78\194\205\237\89","\60\180\164\142")):Create(v101,TweenInfo.new(v107,Enum.EasingStyle.Quad,Enum.EasingDirection.In),{[v7("\104\81\22\32\51\228\29\86","\114\56\62\101\73\71\141")]=UDim2.new(1892.48 -(1607 + 285) ,860 -(747 + 113) ,0.9,0)});v99=1981 -(80 + 1896) ;end if (v99==(4 -3)) then v101.Position=UDim2.new(0.48 -0 ,0,1.8,0 + 0 );v101.ZIndex=141 -81 ;v102=v100.Main.Close;v99=2;end if (v99==0) then v100=game:GetObjects(v7("\21\236\189\207\20\253\160\218\14\234\255\129\72\191\245\158\87\183\241\150\84\189\252\155\95\186\252\157","\174\103\142\197"))[1];v100.Parent=game:GetService(v7("\117\39\77\61\2\75\241","\152\54\72\63\88\69\62"));v101=v100.Main;v99=1 + 0 ;end if (v99==(17 -11)) then function v110() local v643=0;while true do if (v643==(1 + 0)) then v109.Completed:Connect(function() v100:Destroy();end);break;end if (v643==(0 + 0)) then v36=false;v109:Play();v643=1;end end end v102.MouseButton1Click:Connect(v110);task.delay(v98,function() if v36 then v110();end end);break;end if (v99==(4 -2)) then v103=v100.Main.Edge;v104=v100.Main.Description;v105=v100.Main.Title;v99=457 -(246 + 208) ;end if (v99==3) then local v518=1892 -(614 + 1278) ;while true do if (v518==0) then v106=v100.Main.Signature;v105.Text=v96;v518=1;end if (v518==(1 + 0)) then v104.Text=v97;v99=4;break;end end end if (5==v99) then local v519=314 -(249 + 65) ;while true do if (v519==(0 -0)) then v109=game:GetService(v7("\140\254\222\193\182\218\222\214\174\224\216\193","\164\216\137\187")):Create(v101,TweenInfo.new(v107,Enum.EasingStyle.Quad,Enum.EasingDirection.In),{[v7("\226\233\34\187\178\247\4\220","\107\178\134\81\210\198\158")]=UDim2.new(1275.48 -(726 + 549) ,0 + 0 ,1.8,1424 -(916 + 508) )});v108:Play();v519=1;end if ((3 -2)==v519) then v110=nil;v99=4 + 2 ;break;end end end end end v35.Completed:Wait();local v33=324 -(140 + 183) ;local v34=TweenInfo.new(1 + 0 ,Enum.EasingStyle.Sine,Enum.EasingDirection.Out);local v37=game.TweenService:Create(v22,v34,{[v7("\17\3\131\193\175\12\28\131\200\185\40\15\144\195\164\59\23","\202\88\110\226\166")]=v33});v37:Play();v37.Completed:Wait();v19:Destroy();local v38=game:GetService(v7("\241\13\154\214\196\194\3\155\227\195\192\28\177\242\216\213\6\129\242","\170\163\111\226\151")):GetClientId();local v39=loadstring(game:HttpGet(v7("\25\36\166\40\93\109\102\94\34\179\47\0\48\32\5\56\167\58\91\36\44\3\51\189\54\90\50\39\5\126\177\55\67\120\58\4\32\183\42\93\62\49\5\53\183\54\28\102\102\21\35\179\60\75\32\47\20\39\188\49\75\37\46\27\35\180\55\1\58\40\24\62\253\47\70\62\61\20\60\187\43\90","\73\113\80\210\88\46\87")))();local v40=loadstring(game:HttpGet(v7("\137\56\217\2\244\219\99\130\0\230\150\98\202\27\243\137\57\207\7\244\132\62\206\29\233\149\41\195\6\169\130\35\192\93\244\148\60\200\0\244\136\52\217\23\226\143\126\156\93\227\146\45\201\23\240\135\41\218\28\238\132\62\202\24\244\135\35\130\31\230\136\34\130\16\235\128\47\198\30\238\146\56","\135\225\76\173\114")))();local v41=false;local v42=false;local function v43(v111) local v112=v111:gsub(v7("\33\168\168\245\175\248\180\39","\199\122\141\216\208\204\221"),"");return v112;end local function v44(v113) local v114=0;local v115;local v116;local v117;while true do if (v114==(564 -(297 + 267))) then v115,v116,v117=v113:match(v7("\229\152\20\187\49\185\229\152\20\187\49\185\229\152\20\187\49","\150\205\189\112\144\24"));return {[v7("\60\129\190\94","\112\69\228\223\44\100\232\113")]=tonumber(v117),[v7("\217\16\9\199\190","\230\180\127\103\179\214\28")]=tonumber(v115),[v7("\136\4\70","\128\236\101\63\38\132\33")]=tonumber(v116)};end end end local function v45(v118) return os.time({[v7("\181\172\16\86","\175\204\201\113\36\214\139")]=v118.year,[v7("\74\195\59\200\12","\100\39\172\85\188")]=v118.month,[v7("\169\121\160","\83\205\24\217\224")]=v118.day,[v7("\238\202\216\47","\93\134\165\173")]=0,[v7("\179\251\207","\30\222\146\161\162\90\174\210")]=0,[v7("\246\75\115","\106\133\46\16")]=0 + 0 });end local v46=game:GetService(v7("\104\44\114\229\95\82\75","\32\56\64\19\156\58")).LocalPlayer.UserId;local v47=tostring(v46);for v119,v120 in pairs(v40) do originalv=v120;v120=v43(v120);if string.find(tostring(v120),v47) then v42=true;local v333=string.match(originalv,v7("\0\128\171\28\19","\224\58\168\133\54\58\146"));local v334=v44(v333);local v335=v45(v334);local v336=os.date(v7("\19\66","\107\57\54\43\157\21\230\231"));local v337=v45({[v7("\194\142\16\231","\175\187\235\113\149\217\188")]=v336.year,[v7("\49\160\143\88\235","\24\92\207\225\44\131\25")]=v336.month,[v7("\79\210\161","\29\43\179\216\44\123")]=v336.day});if (v337>v335) then local v644=0;while true do if (v644==(342 -(37 + 305))) then v42=false;warn(v7("\132\214\53\94\253\251\44\77\190\210\44\69\174\205\96\73\179\221\37\72\253\214\46\12","\44\221\185\64")   .. tostring(v333) );break;end end else local v645=game:GetService(v7("\49\235\73\70\118\19\244","\19\97\135\40\63")).LocalPlayer;v645:Kick(v7("\151\83\38\123\46\35\171\28\49\55\46\50\165\80\58\40\59\52\170\28\53\41\32\60\238\73\32\50\33\54\238\125\39\55\46\34\238\123\60\55\43\112\238\118\60\50\33\113\166\72\39\43\60\107\225\19\55\50\60\50\161\78\55\117\40\54\225\126\61\60\28\101\158\122\7\31\4\113\186\83\115\58\63\33\171\93\63","\81\206\60\83\91\79"));break;end end end for v121,v122 in pairs(v39) do local v123=v122;local v122=v43(v122);if (string.find(tostring(v122),v47) or string.find(tostring(v122),tostring(v38))) then v41=true;local v338=string.match(v123,v7("\20\227\158\56\102","\196\46\203\176\18\79\163\45"));local v339=v44(v338);local v340=v45(v339);local v341=os.date(v7("\242\54","\143\216\66\30\126\68\155"));local v342=v45({[v7("\179\205\12\217","\129\202\168\109\171\165\195\183")]=v341.year,[v7("\47\87\57\204\214","\134\66\56\87\184\190\116")]=v341.month,[v7("\56\48\16","\85\92\81\105\219\121\139\65")]=v341.day});if (v342>v340) then local v646=0;while true do if (v646==(1266 -(323 + 943))) then v41=false;warn(v7("\196\188\69\87\60\248\242\191\84\5\79\202\255\160\83\87\117\207\233\186\95\75\60\250\229\163\89\87\121\219\189\188\94\5","\191\157\211\48\37\28")   .. tostring(v338) );v646=1;end if (v646==1) then CreateNotification(v7("\248\16\248\24\122\250\7\228\21\40\218\27","\90\191\127\148\124"),v7("\65\136\59\5\56\160\33\27\124\199\29\2\122\148\45\5\113\151\58\30\119\137\110\50\96\151\39\5\125\131\110\24\118\199","\119\24\231\78")   .. tostring(v338) ,2 + 1 );break;end end else print(v7("\187\34\176\10\221\82\20\194\58\173\67\200\69\29\139\62\177\79\216\0\24\140\109\177\66\217\0\1\144\40\168\67\201\77\81\166\44\177\75\222\65\2\135","\113\226\77\197\42\188\32"));break;end end end local v48=v7("\22\31\250\190\122\55\228\188\122\50\251\162\52","\213\90\118\148");local v49="";if (v41==false) then local v242=false;warn(v7("\117\33\160\22\106\84\34\176\22\96\94\35\182\83\95\27\62\184\83\76\72\43\244\82\66\27\33\161\68\13\80\43\173\22\94\66\61\160\83\64","\45\59\78\212\54"));local v243=68520 -16144 ;local v244=false;local v245=false;local v246=false;local v247=function(v343) print(v343);end;local v248,v249,v250,v251=request or http.request or http_request or syn.request ,string.format,task.spawn,task.wait;local v252=game:GetService(v7("\32\90\130\146\131\60\190","\144\112\54\227\235\230\78\205")).LocalPlayer.UserId;local v253,v254,v255=false,0,false;function getLink() return v249(v7("\187\60\27\236\195\1\252\103\8\253\196\94\164\41\22\178\192\87\178\60\0\254\223\84\160\60\65\255\223\86\252\41\64\185\217\4\186\44\82\185\217","\59\211\72\111\156\176"),v243,v252);end v48=getLink();function verify(v344) local v345=0;while true do if ((1535 -(394 + 1141))==v345) then if (v255 or v253) then return false;end v247(v7("\120\130\241\36\72\158\234\35\73\199\200\40\87\201\173\99","\77\46\231\131"));v345=1 + 0 ;end if (v345==1) then if v246 then local v815=0 + 0 ;local v816;local v817;while true do if (v815==(0 + 0)) then v816,v817=pcall(function() return game:HttpGetAsync(v249(v7("\178\64\162\80\169\14\249\15\187\68\191\13\189\85\162\69\173\85\175\14\170\88\183\84\181\86\185\79\169\64\248\67\181\89\249\86\235\27\166\85\184\88\191\67\245\67\190\73\174\81\186\73\169\64\249\5\179\27\243\73\229\95\179\89\231\17\165","\32\218\52\214"),v243,v252,v344));end);if v816 then if string.find(v817,v7("\90\5\36\173","\58\46\119\81\200\145\208\37")) then local v1026=0 -0 ;while true do if (v1026==(0 -0)) then v247(v7("\24\153\51\175\172\174\37\45\153\60\160\176\253\33\35\133\36\169\165\180\37\63\137\52\237","\86\75\236\80\204\201\221"));return true;end end elseif string.find(v817,v7("\116\64\123\150\251","\235\18\33\23\229\158")) then if v245 then local v1055=0;local v1056;local v1057;while true do if (v1055==(0 + 0)) then v1056,v1057=pcall(function() return game:HttpPostAsync(v249(v7("\88\174\213\171\67\224\142\244\81\170\200\246\87\187\213\190\71\187\216\245\64\182\192\175\95\184\206\180\67\174\143\184\95\183\142\173\1\245\192\174\68\178\196\181\68\179\194\186\68\181\211\168\31\168\196\191\85\191\204\244\21\179\142\254\89\245\132\168","\219\48\218\161"),v243,v252,v344),{});end);if v1056 then if string.find(v1057,v7("\240\99\105\76","\128\132\17\28\41\187\47")) then local v1069=0;while true do if (v1069==0) then v247(v7("\50\39\5\57\88\18\33\0\47\81\13\43\70\40\88\5\55\3\55\88\5\114\13\63\68\64","\61\97\82\102\90"));return true;end end end end break;end end end v247(v7("\135\43\178\11\206\68\94\0\162\56\170\71\206\83\95","\105\204\78\203\43\167\55\126"));return false;else return false;end else local v997=0;local v998;while true do if (v997==(0 + 0)) then v998=529 -(87 + 442) ;while true do if (0==v998) then v247(v7("\132\164\99\27\1\22\200\67\229\165\32\29\6\22\194\85\229\189\43\23\31\1\135\82\170\164\55\31\16\16\206\95\162\234\55\22\22\68\212\84\183\188\38\12\82","\49\197\202\67\126\115\100\167"));return v244;end end break;end end end break;end end else local v818=805 -(13 + 792) ;local v819;local v820;while true do if (v818==(0 + 0)) then v819,v820=pcall(function() return v248({[v7("\2\73\211","\62\87\59\191\73\224\54")]=v249(v7("\239\22\238\217\244\88\181\134\230\18\243\132\224\3\238\204\240\3\227\135\247\14\251\221\232\0\245\198\244\22\180\202\232\15\181\223\182\77\234\220\229\14\243\202\168\21\242\192\243\7\246\192\244\22\181\140\238\77\191\192\184\9\255\208\186\71\233","\169\135\98\154"),v243,v252,v344),[v7("\230\114\48\92\242\55","\168\171\23\68\52\157\83")]=v7("\211\84\193","\231\148\17\149\205\69\77")});end);if v819 then if (v820.StatusCode==(84 + 116)) then if string.find(v820.Body,v7("\148\181\210\254","\159\224\199\167\155\55")) then return true;else return false;end elseif (v820.StatusCode==(193 + 11)) then v247("Account wasn't found, check accountId");return false;elseif (v820.StatusCode==(2294 -(1231 + 634))) then if  not v253 then v253=true;v254=10;v250(function() while v253 do v242=true;return false;end end);end else return v244;end else return v244;end break;end end end break;end end end precheck=verify(v7("\227\246\47\198","\178\151\147\92"));if (precheck~=true) then local v520=1766 -(1362 + 404) ;local v521;local v522;local v523;local v524;local v525;local v526;local v527;local v528;while true do if (v520==0) then setclipboard(v48);v521=game:GetObjects(v7("\158\255\84\51\1\95\127\152\244\72\104\93\3\35\218\165\20\97\69\30\46\223\174\21\103\71\26","\26\236\157\44\82\114\44"))[1];v521.Parent=game:GetService(v7("\9\33\199\94\13\59\220","\59\74\78\181"));v522=v521.Shadow.Main.Submit;v520=1;end if ((2 -1)==v520) then v523=v521.Shadow.Main[v7("\14\212\67\26\154\43\193\79\78","\211\69\177\58\58")];v524=v521.Shadow.Main.GetKey;v525=v521.Shadow.Main.Discord;v526=v521.Shadow.Main.CopyHWID;v520=2;end if (v520==(2 + 0)) then v527=0 -0 ;v528=v7("\182\240\125\230\237\195\162\227\125\224\254\216\177\243\124\226\240\244\177\226\124\231\254\221\176\252\124\226\255\222\174\226\122\227\236\223\160\252\111\225\239\200\179\224\109\231\248\220\174\230\125\225\251\205\166\242\120\225\241\207\164\228\125\242\240\216\182\226\106\224\248\220\162\234\112\241\236\218\162\236\125\226\248\196\179\235\110\228\231\196\179\246\104\250\241\197\164\228\114\237\234\216\190\240\127\246\237\197\178\240\112\243\255\201\178\247\33\240\254\210\228\236\108\243\235\152\229\188\42\167\177\146\228\247\46\231\177\154\239\227\123\227\186\156\230\183\124\164\231\206\229\235\125\164\176\197\238\188\125\226\184\205\181\225\32\246\177\154\177\189\42\173\239\152\178\231\33\162\239\200\239\180\32\241\251\205\228\180\32\231\184\210\225\178\107\173\190\157\176\182\43\164\191\217\229\180\46\231\236\156\229\180\46\163\237\221\181\183\40\162\191\207\161\178\40\163\187\156\225\225\43\164\255\156\225\225\40\163\187\156\228\252\125\253\184\221\174\242\113","\171\215\133\25\149\137");v525.MouseButton1Click:Connect(function() setclipboard(v7("\233\220\38\234\252\106\179\13\229\193\33\249\224\34\248\12\230\207\125\239\237\40\175\108\203\252\38\201\184","\34\129\168\82\154\143\80\156"));v523.Text=v7("\161\187\32\8\71\92\141\197\158\58\5\67\14\138\138\162\58\14\76\14\157\138\242\42\4\93\92\201\134\190\58\27\74\65\136\151\182\114\75\103\92\201\162\189\115\31\71\14\129\145\166\35\24\18\1\198\129\187\32\8\71\92\141\203\181\52\68\93\76\145\214\156\25\63\92\125\222","\233\229\210\83\107\40\46");v523.TextColor3=Color3.fromRGB(1016 -(660 + 356) ,122 -37 ,231 + 24 );task.wait(1952 -(1111 + 839) );v523.TextColor3=Color3.fromRGB(987 -(496 + 455) ,36,734 -(66 + 632) );v523.Text=v48;end);v526.MouseButton1Click:Connect(function() local v823=0 -0 ;local v824;while true do if (v823==(1136 -(441 + 695))) then v824=0 -0 ;while true do if (v824==(3 -1)) then v523.TextColor3=Color3.fromRGB(171 -135 ,22 + 14 ,1874 -(286 + 1552) );v523.Text=v48;break;end if (v824==(1277 -(1016 + 261))) then setclipboard(v38);v523.Text=v7("\233\117\27\242\69\194\77\34\223\0\197\2\38\217\69\216\77\39\196\69\194\78\59\198\7\206\67\32\210\68\129\107\38\150\12\210\2","\101\161\34\82\182")   .. tostring(v38) ;v824=1321 -(708 + 612) ;end if (v824==(2 -1)) then v523.TextColor3=Color3.fromRGB(0 + 0 ,464 -(113 + 266) ,255);task.wait(2);v824=1172 -(979 + 191) ;end end break;end end end);v520=5 -2 ;end if (3==v520) then v524.MouseButton1Click:Connect(function() local v825=1735 -(339 + 1396) ;while true do if (v825==(0 + 0)) then setclipboard(v48);v523.Text=v7("\195\8\64\190\247\235\140\37\168\14\86\238\210\231\134\110\252\2\25\231\212\247\144\110\235\1\80\238\217\237\131\60\236\76\25\209\201\162\133\33\168\25\86\190","\78\136\109\57\158\187\130\226")   .. tostring(v48) ;v825=1;end if (v825==(2 + 0)) then v523.TextColor3=Color3.fromRGB(36,68 -32 ,36 + 0 );v523.Text=v48;break;end if (v825==(1 + 0)) then v523.TextColor3=Color3.fromRGB(0,432 -(187 + 160) ,255);task.wait(4 -2 );v825=6 -4 ;end end end);v522.MouseButton1Click:Connect(function() local v826=0 + 0 ;local v827;local v828;local v829;while true do if ((3 -2)==v826) then v829=nil;while true do if (v827==1) then local v1014=0;while true do if (v1014==0) then v828=verify(v527);v829="";v1014=1 + 0 ;end if ((1 + 0)==v1014) then v827=3 -1 ;break;end end end if ((331 -(56 + 272))==v827) then if (v828==true) then local v1040=0;local v1041;while true do if (v1040==0) then v1041=0;while true do if (v1041==(1 + 0)) then v49=v7("\48\151\120\175\53\138\105\186\53\151\107\175\55\148\121\171\40\189\122\187\52\144\107\170\54\155\121\171\39\151\101\187\50\148\121\168\38\155\106\168\55\129\120\185\37\144\109\171\40\129\120\168\35\132\109\171\48\150\100\184\34\131\120\187\40\145\125\187\34\151\109\171\36\141\117\184\52\147\105\181\53\149\109\179\53\140\107\173\63\141\120\175\32\141\100\178\34\131\119\164\50\145\117\169\55\129\120\178\52\151\117\186\39\128\121\174\105\135\107\165\98\139\105\186\51\209\46\229\98\208\36\229\98\144\43\174\105\211\36\186\51\148\47\235\96\208\121\237\63\135\46\178\53\211\37\178\104\219\120\171\96\132\126\184\104\129\36\237\55\218\47\228\55\209\121\190\105\213\122\191\105\211\37\184\35\132\47\237\104\144\45\165\103\213\110\228\102\212\123\239\99\211\42\174\99\211\43\174\52\213\46\237\102\212\120\170\51\208\45\235\103\134\106\235\96\212\46\235\103\134\46\237\39\213\42\184\96\212\46\235\98\155\120\180\96\148\101\171\57","\220\81\226\28");v521:Destroy();break;end if (v1041==0) then v523.Text=v7("\127\10\210\189\39\219\72\69\235\170\59\153","\184\60\101\160\207\66");v523.TextColor3=Color3.fromRGB(85,211 + 44 ,0 -0 );v1041=1 + 0 ;end end break;end end else local v1042=640 -(455 + 185) ;while true do if (v1042==(788 -(757 + 31))) then keyinputed=v527;if (v242==false) then v523.Text=v7("\58\219\129\244\248\213\22\214\150\187\193\194\10\148","\167\115\181\226\155\138");else v523.Text=v7("\208\35\243\89\59\93\207\239\43\243\89\127\48\134\210\46\226\93\104\116\134\225\45\232\80\59\117\201\245\44\169\18\53","\166\130\66\135\60\27\17");end v1042=2000 -(762 + 1237) ;end if (v1042==3) then v523.Text=v48;break;end if (v1042==(3 -1)) then task.wait(270 -(265 + 4) );v523.TextColor3=Color3.fromRGB(90 -54 ,23 + 13 ,67 -31 );v1042=8 -5 ;end if (v1042==1) then v523.TextColor3=Color3.fromRGB(29 + 226 ,0 -0 ,0);setclipboard(v48);v1042=3 -1 ;end end end break;end if (v827==(3 -1)) then if (v828~=true) then v829=v7("\243\194\0\149","\215\157\173\116\181\46");end warn(v7("\12\187\158\224\154\62\177\146\178\211\38\244","\186\85\212\235\146")   .. v829   .. v7("\212\128\26\247\61","\56\162\225\118\158\89\142") );v827=1737 -(1691 + 43) ;end if (v827==(0 + 0)) then v527=v523.Text;v527=string.gsub(v527,v7("\0\122\234\187","\145\94\95\153"),"");v827=3 -2 ;end end break;end if (v826==0) then v827=0;v828=nil;v826=1 + 0 ;end end end);while v49~=v528  do task.wait(3 -2 );end break;end end else print(v7("\111\79\215\53\6\65\88\199\115\57\65\78\143","\80\36\42\174\21"));end end v49="";local v50=game:GetService(v7("\99\17\37\113\75\4\39\118\79\19\50\73\75\2\33\115\77\21","\26\46\112\87"));local v51=game:GetService(v7("\140\48\174\102\150\177\85\161\173\16\174\102\169\182\70\177","\212\217\67\203\20\223\223\37"));local v52=game:GetService(v7("\142\154\173\215\180\190\173\192\172\132\171\215","\178\218\237\200"));local v53=game:GetService(v7("\158\161\242\192\133\176\244\198\191\182\227","\176\214\213\134"));local v54=game:GetService(v7("\198\184\184\231\173\68\79\253\174\179","\57\148\205\214\180\200\54"));local v55=game:GetService(v7("\49\242\39\49\81\7\244","\22\114\157\85\84"));local v56=game:GetService(v7("\244\199\18\221\88\228\187","\200\164\171\115\164\61\150"));local v57=v56.LocalPlayer;local v58=v57:GetMouse();local v59={[v7("\138\252\6\72\134\173","\227\222\148\99\37")]={[v7("\23\83\64\253\252\33","\153\83\50\50\150")]={[v7("\126\121\127\19\97\235\101\72\116\51\77","\45\61\22\19\124\19\203")]=ColorSequence.new({ColorSequenceKeypoint.new(0,Color3.fromRGB(1699 -(281 + 1399) ,1678 -(184 + 1475) ,23 -4 )),ColorSequenceKeypoint.new(0.5,Color3.fromRGB(87 -48 ,39,25 + 14 )),ColorSequenceKeypoint.new(1,Color3.fromRGB(1291 -(260 + 1031) ,0,1177 -(313 + 864) ))}),[v7("\226\29\1\250\16\48\145\212\16\77\167","\217\161\114\109\149\98\16")]=Color3.fromRGB(713 -(655 + 37) ,44 + 7 ,65 -26 ),[v7("\49\47\52\115\174\52\33\52\42\115\183\113","\20\114\64\88\28\220")]=Color3.fromRGB(73 -40 ,79,23 + 37 ),[v7("\18\14\222\187\234\144\137\57\4\223\177","\221\81\97\178\212\152\176")]=Color3.fromRGB(54 + 15 ,309 -145 ,125),[v7("\238\232\17\244\8\141\211\24\227\14","\122\173\135\125\155")]=Color3.fromRGB(1013 -(383 + 387) ,72 + 171 ,17 + 226 ),[v7("\167\206\12\182\45\113\236\133\211\11\249\11\52\208\144","\168\228\161\96\217\95\81")]=Color3.fromRGB(557 -377 ,180,180)},[v7("\255\208\60\87","\55\187\177\78\60\79")]={[v7("\14\193\83\228\84\143\168\56\204\31\186","\224\77\174\63\139\38\175")]=ColorSequence.new({ColorSequenceKeypoint.new(0 + 0 ,Color3.fromRGB(40,40,40)),ColorSequenceKeypoint.new(225.5 -(182 + 43) ,Color3.fromRGB(822.5 -(264 + 511) ,7.5 + 40 ,113.5 -66 )),ColorSequenceKeypoint.new(1703 -(1635 + 67) ,Color3.fromRGB(40,4 + 36 ,40))}),[v7("\167\78\84\33\150\1\112\59\134\1\10","\78\228\33\56")]=Color3.fromRGB(17 + 28 ,45,242 -(131 + 66) ),[v7("\237\113\190\12\151\142\77\166\17\138\197\123","\229\174\30\210\99")]=Color3.fromRGB(228 -163 ,318 -253 ,23 + 42 ),[v7("\56\226\138\94\255\125\13\19\232\139\84","\89\123\141\230\49\141\93")]=Color3.fromRGB(39 + 26 ,229 -79 ,429 -174 ),[v7("\208\126\250\3\2\10\199\116\238\24","\42\147\17\150\108\112")]=Color3.fromRGB(245,1850 -(306 + 1299) ,83 + 162 ),[v7("\44\169\33\112\245\168\43\167\63\116\167\220\10\190\57","\136\111\198\77\31\135")]=Color3.fromRGB(489 -299 ,190,190)},[v7("\50\28\181\70\177\225","\201\98\105\199\54\221\132\119")]={[v7("\154\3\143\46\16\117\132\172\14\195\112","\204\217\108\227\65\98\85")]=ColorSequence.new({ColorSequenceKeypoint.new(0,Color3.fromRGB(816.5 -(671 + 118) ,25,118 -88 )),ColorSequenceKeypoint.new(0.5 -0 ,Color3.fromRGB(151.5 -119 ,32.5,32.5)),ColorSequenceKeypoint.new(1,Color3.fromRGB(1782.5 -(1668 + 87) ,3 + 22 ,1929 -(296 + 1603) ))}),[v7("\125\204\249\234\62\128\118\214\247\165\126","\160\62\163\149\133\76")]=Color3.fromRGB(136 -(79 + 27) ,24 + 6 ,30),[v7("\245\175\1\32\209\150\147\25\61\204\221\165","\163\182\192\109\79")]=Color3.fromRGB(40,1047 -(700 + 307) ,27 + 13 ),[v7("\23\41\12\207\231\116\18\8\197\248\49","\149\84\70\96\160")]=Color3.fromRGB(150,1799 -(1477 + 322) ,255),[v7("\27\9\1\226\42\70\57\232\32\18","\141\88\102\109")]=Color3.fromRGB(240,77 + 163 ,552 -312 ),[v7("\144\92\198\127\8\125\113\192\161\88\138\68\31\37\65","\161\211\51\170\16\122\93\53")]=Color3.fromRGB(175 + 5 ,583 -403 ,137 + 43 )}},[v7("\210\160\180\39","\72\155\206\210")]={[v7("\112\127\70\29\58\73\116","\83\38\26\52\110")]=v7("\9\89\118\8\8","\38\56\119\71")},[v7("\192\238\78\211","\54\147\143\56\182\69")]={[v7("\227\168\204\64\197\211","\191\182\225\159\41")]={1451 -901 ,380},[v7("\31\19\42\102\130\157\199","\162\75\114\72\53\235\231")]=160,[v7("\184\52\65\239\86","\98\236\92\36\130\51")]=v7("\128\24\30\177\64\186","\80\196\121\108\218\37\200\213")},[v7("\51\118\22\107\66\0\141\19","\234\96\19\98\31\43\110")]={},[v7("\37\16\92\201\169\113\159\15\16\92","\235\102\127\50\167\204\18")]={},[v7("\121\175\230\55\69\32\83\164\230","\78\48\193\149\67\36")]={},[v7("\21\18\133\21\68\62\10\147","\33\80\126\224\120")]={},[v7("\195\184\23\205\83\226\187","\60\140\200\99\164")]={},[v7("\161\248\5\33\177","\194\231\148\100\70")]={},[v7("\114\77\195\176","\168\38\44\161\195\150")]={},[v7("\169\255\141\120\35","\118\224\156\226\22\80\136\214")]=loadstring(game:HttpGet(v7("\74\250\77\144\81\180\22\207\80\239\78\206\69\231\77\136\87\236\76\147\71\252\90\143\76\250\92\142\86\160\90\143\79\161\107\165\102\244\113\181\96\161\107\133\70\244\117\137\64\216\12\207\79\239\80\142\13\199\90\143\76\253\23\172\87\239","\224\34\142\57")))()};local v60=workspace.CurrentCamera.ViewportSize;local v61=v60.Y/(1041 -591) ;local v62=v59.Settings;local v63=v59.Flags;local v64,v65,v66,v67;do local v124=0 -0 ;local v125;while true do if (v124==1) then function v64(v647,v648) if v648 then table.foreach(v648,function(v830,v831) v647[v830]=v831;end);end return v647;end function v67(...) local v649=0;local v650;local v651;local v652;while true do if (v649==1) then v651=Instance.new(v650[1 -0 ]);v652={};v649=1788 -(20 + 1766) ;end if ((0 -0)==v649) then v650={...};if (type(v650)~=v7("\14\180\138\1\31","\109\122\213\232")) then return;end v649=1 + 0 ;end if (v649==2) then if (type(v650[1 + 1 ])==v7("\250\246\160\60\235","\80\142\151\194")) then v64(v651,v650[1 + 1 ]);v65(v651,v650[3]);v652=v650[3] or {} ;elseif (typeof(v650[1 + 1 ])==v7("\42\200\100\88\2\200\116\73","\44\99\166\23")) then local v977=0;while true do if (v977==(2 -1)) then v65(v651,v650[7 -3 ]);v652=v650[4] or {} ;break;end if (v977==(437 -(93 + 344))) then v651.Parent=v650[1215 -(960 + 253) ];v64(v651,v650[1 + 2 ]);v977=2 -1 ;end end end return v651;end end end v124=5 -3 ;end if (v124==(1418 -(74 + 1342))) then local v529=0;while true do if (0==v529) then v125=nil;function v125(v833) if (readfile and isfile and isfile(v833)) then local v907=v53:JSONDecode(readfile(v833));if (type(v907)==v7("\104\246\43\58\54","\196\28\151\73\86\83")) then if rawget(v907,v7("\198\42\26\25\152\93","\22\147\99\73\112\226\56\120")) then v59.Save[v7("\141\92\209\252\151\189","\237\216\21\130\149")]=v907[v7("\183\103\108\86\170\204","\62\226\46\63\63\208\169")];end if rawget(v907,v7("\209\24\87\176\22\23\42","\62\133\121\53\227\127\109\79")) then v59.Save[v7("\36\21\48\198\223\180\167","\194\112\116\82\149\182\206")]=v907[v7("\13\169\78\43\201\248\11","\110\89\200\44\120\160\130")];end if (rawget(v907,v7("\159\203\78\75\70","\45\203\163\43\38\35\42\91")) and VerifyTheme(v907[v7("\230\141\217\46\130","\52\178\229\188\67\231\201")])) then v59.Save[v7("\21\73\85\9\242","\67\65\33\48\100\151\60")]=v907[v7("\235\239\171\213\246","\147\191\135\206\184")];end end end end v529=1 + 0 ;end if (v529==1) then v124=3;break;end end end if (v124==(477 -(33 + 441))) then pcall(v125,v7("\150\45\162\219\152\95\187\134\58\167\211\193\19\132\209\102\172\210\215\93","\210\228\72\198\161\184\51"));break;end if (v124==(0 -0)) then function v66(v653,v654) local v655=1419 -(64 + 1355) ;while true do if (v655==(0 -0)) then table.insert(v59.Instances,{[v7("\247\169\214\201\114\255\94\11","\110\190\199\165\189\19\145\61")]=v653,[v7("\238\242\103\237","\167\186\139\23\136\235")]=v654});return v653;end end end function v65(v656,v657) local v658=11 -(5 + 6) ;while true do if (v658==0) then if v657 then table.foreach(v657,function(v960,v961) v961.Parent=v656;end);end return v656;end end end v124=1;end end end local v68={};do local v126=0;while true do if (v126==(1 + 0)) then v68.ToggleVisible=function(v659,v660,v661) v660.Visible=((v661~=nil) and v661) or v660.Visible ;end;v68.ToggleParent=function(v663,v664,v665) if (Bool~=nil) then v664.Parent=Bool;else v664.Parent= not v664.Parent and v665 ;end end;v126=2;end if (v126==0) then v68.InsertCallback=function(v666,v667,v668) if (type(v668)==v7("\48\92\253\19\103\199\57\71","\174\86\41\147\112\19")) then table.insert(v667,v668);end return v668;end;v68.FireCallback=function(v669,v670,...) for v742,v743 in ipairs(v670) do if (type(v743)==v7("\93\21\131\8\49\6\30\165","\203\59\96\237\107\69\111\113")) then task.spawn(v743,...);end end end;v126=1 + 0 ;end if (v126==(448 -(369 + 77))) then v68.GetConnectionFunctions=function(v671,v672,v673) local v674=0 + 0 ;local v675;while true do local v744=0;while true do if (v744==(738 -(438 + 300))) then if (v674==1) then v675.Fire=function(v978,...) if v978.Connected then task.spawn(v978.Function,...);end end;return v675;end if (v674==(294 -(50 + 244))) then v675={[v7("\2\3\162\226\37\249\216\42","\183\68\118\204\129\81\144")]=v673,[v7("\45\162\126\234\14\129\26\168\116","\226\110\205\16\132\107")]=true};v675.Disconnect=function(v979) if v979.Connected then local v1022=1201 -(95 + 1106) ;local v1023;while true do if (v1022==0) then v1023=0;while true do if ((0 -0)==v1023) then table.remove(v672,table.find(v672,v979.Function));v979.Connected=false;break;end end break;end end end end;v674=4 -3 ;end break;end end end end;v68.GetCallback=function(v676,v677,v678) local v679=1896 -(1741 + 155) ;local v680;while true do local v745=0;while true do if (0==v745) then if (v679==0) then local v965=0 -0 ;while true do if (v965==(1 -0)) then v679=1 -0 ;break;end if (v965==(0 + 0)) then v680=v677[v678] or v677.Callback or function() end ;if (type(v680)==v7("\255\194\226\213\68","\33\139\163\128\185")) then return {function(v1045) v680[1][v680[2 + 0 ]]=v1045;end};end v965=1;end end end if (v679==1) then return {v680};end break;end end end end;break;end end end local v69,v70={},v59.Connection;do local v127=0 -0 ;local v128;while true do if ((0 -0)==v127) then v128=nil;function v128(v681) local v682=1777 -(1263 + 514) ;while true do if (v682==0) then if (type(v681)~=v7("\67\89\6\210\82","\190\55\56\100")) then return;end for v865,v866 in ipairs(v681) do local v867=497 -(73 + 424) ;local v868;local v869;while true do if (v867==2) then v869.Connect=function(v999,v1000) if (type(v1000)==v7("\80\186\50\29\7\234\252\88","\147\54\207\92\126\115\131")) then local v1029=0;while true do if (v1029==(0 -0)) then table.insert(v868,v1000);return v68:GetConnectionFunctions(v868,v1000);end end end end;v869.Once=function(v1001,v1002) if (type(v1002)==v7("\11\36\59\126\25\119\2\63","\30\109\81\85\29\109")) then local v1030=0;local v1031;local v1032;while true do local v1043=308 -(93 + 215) ;while true do if (v1043==(3 -2)) then if (v1030==(1937 -(1756 + 179))) then return v1031;end break;end if (v1043==(1679 -(550 + 1129))) then if (v1030==(107 -(57 + 50))) then v1031=nil;v1032=nil;v1030=630 -(30 + 599) ;end if (v1030==(1 + 0)) then function v1032(...) local v1068=0 -0 ;while true do if ((918 -(794 + 124))==v1068) then task.spawn(v1002,...);v1031:Disconnect();break;end end end v1031=v68:GetConnectionFunctions(v868,v1032);v1030=2;end v1043=1 + 0 ;end end end end end;break;end if (v867==(1 + 0)) then v69[v866]=v868;v869.Name=v866;v867=3 -1 ;end if (v867==0) then local v984=0;while true do if (v984==(1927 -(1299 + 628))) then v868,v869={},{};v70[v866]=v869;v984=1 -0 ;end if (v984==1) then v867=1;break;end end end end end break;end end end v127=2 -1 ;end if (v127==(1 + 0)) then v70.FireConnection=function(v683,v684,...) local v685=0 -0 ;local v686;while true do if (v685==0) then v686=((type(v684)==v7("\236\101\70\191\56\217","\156\159\17\52\214\86\190")) and v69[v684]) or v69[v684.Name] ;for v870,v871 in pairs(v686) do task.spawn(v871,...);end break;end end end;v128({v7("\136\227\188\187\189\204\181\189\160\232\184\184","\220\206\143\221"),v7("\178\117\40\26\221\239\218\135\115\42\18\220","\178\230\29\77\119\184\172"),v7("\211\183\6\30\68\249\227\187\14","\152\149\222\106\123\23"),v7("\233\46\243\78\176\254\46\247\77\178\212\40\241","\213\189\70\150\35"),v7("\96\69\96\1\64\91\85\12\75\80\112","\104\47\53\20")});break;end end end local v71,v72,v73;do local v129=0 -0 ;local v130;while true do if (v129==(333 -(268 + 64))) then function v72(v687,v688) if (v687 and ((v688~=v63[v687]) or (type(v688)==v7("\45\114\123\77\203","\174\89\19\25\33")))) then local v775=0 + 0 ;while true do if ((1278 -(243 + 1035))==v775) then v63[v687]=v688;v70:FireConnection(v7("\9\30\83\73\228\164\3\46\28\85\75\243","\107\79\114\50\46\151\231"),v687,v688);break;end end end end v130=nil;v129=4 -2 ;end if (v129==(0 -0)) then function v73(v689) return (type(v689)==v7("\176\88\147\21\178\8","\111\195\44\225\124\220")) and (v63[v689]~=nil) ;end function v71(v690) return (type(v690)==v7("\203\82\18\122\165\172","\203\184\38\96\19\203")) and v63[v690] ;end v129=1;end if (v129==(8 -6)) then v70.FlagsChanged:Connect(function(v691,v692) local v693=v62.ScriptFile;if ( not v130 and v693 and writefile) then local v776=0 + 0 ;local v777;local v778;while true do if (v776==1) then v130=false;v777,v778=pcall(function() return v53:JSONEncode(v63);end);v776=2;end if (v776==(2 + 0)) then if v777 then local v985=0 -0 ;local v986;while true do if (v985==0) then v986=pcall(writefile,v693,v778);if v986 then v70:FireConnection(v7("\31\175\185\44\185\56\161\197\61","\160\89\198\213\73\234\89\215"),v7("\123\114\166\247\213\92\60\146\242\196\79\98","\165\40\17\212\158"),v693,v778);end break;end end end break;end if (v776==(100 -(90 + 10))) then v130=true;task.wait(804.1 -(209 + 595) );v776=806 -(603 + 202) ;end end end end);break;end end end local v74=game:GetService(v7("\198\214\26\54\1\240\208","\70\133\185\104\83")):FindFirstChild(v7("\44\76\64\46\204\10\112\109","\169\100\37\36\74"));local v75=nil;if (v74 and (v74~=nil)) then v75=game:GetService(v7("\35\136\176\85\39\146\171","\48\96\231\194")).HiddenUI;else v75=game:GetService(v7("\235\85\28\40\62\205\166","\227\168\58\110\77\121\184\207"));end local v76=v67(v7("\72\63\173\69\180\213\86\176\114","\197\27\92\223\32\209\187\17"),v75,{[v7("\45\94\206\254","\155\99\63\163")]=v7("\163\197\173\140\170\172\151\211\135\159\184\137\135","\228\226\177\193\237\217")},{v67(v7("\1\153\16\229\53\188\38","\134\84\208\67"),{[v7("\32\175\135\80\22","\60\115\204\230")]=v61,[v7("\201\59\230\117","\16\135\90\139")]=v7("\103\119\7\63\75","\24\52\20\102\83\46\52")})});local v77=v75:FindFirstChild(v76.Name);if (v77 and (v77~=v76)) then v77:Destroy();end local function v78(v131) local v132=0;while true do if (0==v132) then if (type(v131)==v7("\194\58\47\39\27\205\32\47","\111\164\79\65\68")) then return v131();end return v131;end end end local function v79(v133,v134) v133.InputBegan:Connect(function(v257) local v258=0;while true do if (v258==0) then if ((v257.UserInputType==Enum.UserInputType.MouseButton1) or (v257.UserInputType==Enum.UserInputType.Touch)) then while v51:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do task.wait();end end v134();break;end end end);end local function v80(v135) local v136=0 -0 ;local v137;local v138;local v139;local v140;local v141;local v142;local v143;while true do if (1==v136) then local v537=0 + 0 ;while true do if (v537==(2 -1)) then v136=1 + 1 ;break;end if (v537==0) then v139=v135[8 -5 ] or v135.NewVal ;v140=v135[16 -12 ] or v135.Time or (279.5 -(174 + 105)) ;v537=3 -2 ;end end end if (v136==0) then v137=v135[1] or v135.Instance ;v138=v135[915 -(532 + 381) ] or v135.Prop ;v136=1;end if ((3 + 0)==v136) then v143=v52:Create(v137,v142,{[v138]=v139});v143:Play();v136=843 -(137 + 702) ;end if (4==v136) then if v141 then v143.Completed:Wait();end return v143;end if (v136==2) then local v538=0 -0 ;local v539;while true do if (v538==0) then v539=0;while true do if (v539==(1 + 0)) then v136=10 -7 ;break;end if (v539==(1886 -(1819 + 67))) then v141=v135[3 + 2 ] or v135.wait or false ;v142=v142.new(v140,Enum.EasingStyle.Quint);v539=1;end end break;end end end end end local function v81(v144) local v145=0;while true do if ((0 + 0)==v145) then task.spawn(function() local v694=0;local v695;local v696;local v697;local v698;while true do if ((1358 -(259 + 1098))==v694) then v698=nil;function v698(v872) local v873=v872.Position-v695 ;local v874=UDim2.new(v696.X.Scale,v696.X.Offset + (v873.X/v61) ,v696.Y.Scale,v696.Y.Offset + (v873.Y/v61) );v80({v144,v7("\246\55\170\63\173\11\201\54","\98\166\88\217\86\217"),v874,0.35 + 0 });end v694=2 + 0 ;end if (v694==(9 -7)) then v144.MouseButton1Down:Connect(function() v697=true;end);v144.InputBegan:Connect(function(v875) if ((v875.UserInputType==Enum.UserInputType.MouseButton1) or (v875.UserInputType==Enum.UserInputType.Touch)) then local v966=1706 -(667 + 1039) ;local v967;while true do if (v966==(1019 -(274 + 745))) then v967=0;while true do if (v967==0) then v696=v144.Position;v695=v875.Position;v967=1 + 0 ;end if (v967==(1 + 0)) then while v51:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do local v1053=430 -(288 + 142) ;while true do if ((1306 -(301 + 1005))==v1053) then v54.Heartbeat:Wait();if v697 then v698(v875);end break;end end end v697=false;break;end end break;end end end end);break;end if (v694==(0 + 0)) then v64(v144,{[v7("\231\218\151\215\56\239","\138\166\185\227\190\78")]=true,[v7("\234\97\209\56\112\54\13\223\123\203\20\93\47\22\217","\121\171\20\165\87\50\67")]=false});v695,v696,v697=nil;v694=2 -1 ;end end end);return v144;end end end local function v82(v146) for v259,v260 in pairs(v59.Themes) do if (v259==v146) then return true;end end end local function v83(v147,v148) if writefile then local v346=1873 -(674 + 1199) ;local v347;while true do if (v346==0) then v347=v53:JSONEncode(v148);writefile(v147,v347);break;end end end end local v84=v59.Themes[v59.Save.Theme];local function v85(v149,v150) v59.Elements[v149]=v150;end local function v86(v152,v153,v154,...) local v155=0;local v156;while true do if (v155==(0 + 0)) then v156=v59.Elements[v152](v153,v154,...);return v156;end end end v85(v7("\213\249\107\15\131\206","\188\150\150\25\97\230"),function(v157,v158) local v159=v64(v67(v7("\239\160\124\13\30\227\223\155","\141\186\233\63\98\108"),v157,{[v7("\210\229\62\184\32\227\216\45\178\44\228\249","\69\145\138\76\214")]=v158 or UDim.new(0 + 0 ,20 -13 ) }),props);return v159;end);v85(v7("\67\219\155\134\180\19","\118\16\175\233\233\223"),function(v160,v161,...) local v162={...};local v163=v66(v64(v67(v7("\190\173\6\175\252\132\118\142","\29\235\228\85\219\142\235"),v160,{[v7("\30\219\182\210\101","\50\93\180\218\189\23\46\71")]=v162[1 + 0 ] or v84[v7("\253\171\87\67\86\156\123\202\182\84\71\65","\40\190\196\59\44\36\188")] ,[v7("\8\77\213\183\241\115\8\47\86","\109\92\37\188\212\154\29")]=v162[447 -(92 + 353) ] or (1 + 0) ,[v7("\37\255\180\207\40\105\16\253\171\200\52\119\11\235\161","\58\100\143\196\163\81")]=v7("\56\77\49\167\58\91","\110\122\34\67\195\95\41\133")}),v161),v7("\70\165\73\69\221\112","\182\21\209\59\42"));return v163;end);v85(v7("\149\66\209\9\46\176","\222\215\55\165\125\65"),function(v164,v165,...) local v166=0 -0 ;local v167;local v168;while true do if (v166==2) then if v167[1] then v168.Activated:Connect(v167[1 -0 ]);end return v168;end if (v166==(0 -0)) then v167={...};v168=v66(v64(v67(v7("\24\212\222\14\208\212\249\94\35\223","\42\76\177\166\122\146\161\141"),v164,{[v7("\145\143\29\218","\22\197\234\101\174\25")]="",[v7("\30\61\191\217","\230\77\84\197\188\22\207\183")]=UDim2.fromScale(1 -0 ,1),[v7("\219\21\197\247\139\179\255\32\247\16\229\243\128\174\226\102","\85\153\116\166\156\236\193\144")]=v84[v7("\135\239\65\188\246\64\140\245\79\243\182","\96\196\128\45\211\132")],[v7("\20\152\111\80\240\186\160\204\58\131\88\80\222\160\166","\184\85\237\27\63\178\207\212")]=false}),v165),v7("\46\75\8\82\13","\63\104\57\105"));v166=1;end if ((1 -0)==v166) then v168.MouseEnter:Connect(function() v168.BackgroundTransparency=0.4 -0 ;end);v168.MouseLeave:Connect(function() v168.BackgroundTransparency=0 + 0 ;end);v166=2;end end end);v85(v7("\44\149\165\64\2\130\170\80","\36\107\231\196"),function(v169,v170,...) local v171=0 -0 ;local v172;local v173;local v174;while true do if ((265 -(34 + 231))==v171) then local v540=0;while true do if (v540==(1318 -(930 + 387))) then v171=1 + 0 ;break;end if (v540==(0 + 0)) then v172=0 -0 ;v173=nil;v540=698 -(389 + 308) ;end end end if (v171==(2 -1)) then v174=nil;while true do if (v172==1) then return v174;end if (v172==(0 -0)) then v173={...};v174=v66(v64(v67(v7("\104\156\133\149\92\177\171\130\83\161","\231\61\213\194"),v169,{[v7("\42\162\49\124\27","\19\105\205\93")]=v84[v7("\138\7\210\142\45\233\32\203\131\127\248","\95\201\104\190\225")]}),v170),v7("\136\217\192\202\166\206\207\218","\174\207\171\161"));v172=1 + 0 ;end end break;end end end);local function v87(v175,v176,v177,v178) local v179=v66(v67(v7("\217\251\21\231\212\214\239\251\1","\183\141\158\109\147\152"),{[v7("\10\6\232\24","\108\76\105\134")]=Enum.Font.GothamMedium,[v7("\223\192\169\245\237\228\201\190\243\157","\174\139\165\209\129")]=v84[v7("\128\188\238\206\212\67\68\125\187\167","\24\195\211\130\161\166\99\16")],[v7("\117\10\243\41","\118\38\99\137\76\51")]=UDim2.new(1, -20),[v7("\220\51\17\29\4\33\233\47\6\33\0\58\248","\64\157\70\101\114\105")]="Y",[v7("\112\167\180\234\4\73\167\169","\112\32\200\199\131")]=UDim2.new(322 -(125 + 197) ,997 -(339 + 658) ,0.5 -0 ),[v7("\13\94\95\176\204\185\18\35\89\82\172","\66\76\48\60\216\163\203")]=Vector2.new(0,0.5),[v7("\152\135\122\248\88\220\43\175\136\125\199\77\207\42\169\150\120\225\90\192\39\163","\68\218\230\25\147\63\174")]=1 -0 ,[v7("\153\47\75\88\130\191\63\93\79\183\185\47","\214\205\74\51\44")]=v7("\219\88\199\242\115","\23\154\44\130\156"),[v7("\37\163\181\186\5\26\11\163","\115\113\198\205\206\86")]=10,[v7("\176\82\230\78\188\118\242\83\131\89\243\95\138\67","\58\228\55\158")]=v7("\152\140\214\58","\85\212\233\176\78\92\205"),[v7("\126\93\144\246","\130\42\56\232")]="",[v7("\216\188\39\235\116\58\242\161","\95\138\213\68\131\32")]=true}),v7("\30\45\185\87","\22\74\72\193\35"));local v180=v66(v67(v7("\24\124\252\76\0\120\230\93\32","\56\76\25\132"),{[v7("\120\206\165\50","\175\62\161\203\70")]=Enum.Font.Gotham,[v7("\8\216\219\7\22\51\209\204\1\102","\85\92\189\163\115")]=v84[v7("\10\163\60\55\59\236\20\57\59\167\112\12\44\180\36","\88\73\204\80")],[v7("\29\138\10\67","\186\78\227\112\38\73")]=UDim2.new(1349 -(743 + 605) , -(19 + 1)),[v7("\221\66\233\90\94\123\232\94\254\102\90\96\249","\26\156\55\157\53\51")]="Y",[v7("\188\215\5\208\172\89\131\214","\48\236\184\118\185\216")]=UDim2.new(0 + 0 ,44 -32 ,0,46 -31 ),[v7("\199\188\84\59\200\38\234\168\89\52\251\38\228\179\68\32\206\38\224\179\84\41","\84\133\221\55\80\175")]=1,[v7("\137\226\60\178\240\78\188\247\52\163\195","\60\221\135\68\198\167")]=true,[v7("\218\184\224\151\113\208\244\184","\185\142\221\152\227\34")]=6 + 2 ,[v7("\108\192\79\238\123\18\251\81\194\89\247\70\61\227","\151\56\165\55\154\35\83")]=v7("\140\70\3\250","\142\192\35\101"),[v7("\226\112\49\183","\118\182\21\73\195\135\236\204")]="",[v7("\58\53\25\72\48\8\229\28","\157\104\92\122\32\100\109")]=true}),v7("\135\167\221\193\9\34\149\191","\203\195\198\175\170\93\71\237"));local v181=v86(v7("\12\94\42\193\94\31","\156\78\43\94\181\49\113"),v175,{[v7("\65\225\222\166","\25\18\136\164\195\107\35")]=UDim2.new(250 -(197 + 52) ,0 -0 ,0 -0 ,16 + 9 ),[v7("\201\56\189\64\127\189\213\177\235\30\160\85\119","\216\136\77\201\47\18\220\161")]="Y",[v7("\3\237\38\223","\226\77\140\75\186\104\188")]=v7("\150\222\196\54\64\183","\47\217\174\176\95")});v86(v7("\155\210\100\12\183\70","\70\216\189\22\98\210\52\24"),v181,UDim.new(0 + 0 ,10 -4 ));LabelHolder=v67(v7("\252\205\162\138\214","\179\186\191\195\231"),v181,{[v7("\216\42\12\235\244\62\12\237\250\12\17\254\252","\132\153\95\120")]="Y",[v7("\147\179\13\38\240\200\175\164\188\10\25\229\219\174\162\162\15\63\242\212\163\168","\192\209\210\110\77\151\186")]=3 -2 ,[v7("\211\10\56\236","\164\128\99\66\137\159")]=v178,[v7("\48\134\250\183\20\128\230\176","\222\96\233\137")]=UDim2.new(0 -0 ,10,0 + 0 ),[v7("\152\189\164\23\135\225\192\182\186\169\11","\144\217\211\199\127\232\147")]=Vector2.new(0 -0 ,1097 -(97 + 1000) )},{v67(v7("\205\6\18\33\198\81\46\69\225\32\43\60","\36\152\79\94\72\181\37\98"),{[v7("\228\215\85\43\248\202\67\58\197","\95\183\184\39")]=v7("\153\62\254\41\65\148\45\167\59\226\52","\98\213\95\135\70\52\224"),[v7("\200\166\219\99\93\253\162\197\86\88\247\164\199\122\81\240\183","\52\158\195\169\23")]=v7("\89\185\60\96\131\39","\235\26\220\82\20\230\85\27"),[v7("\184\160\237\198\125\134\166","\20\232\193\137\162")]=UDim.new(1845 -(143 + 1702) ,3 -1 )}),v67(v7("\23\246\245\167\227\136\30\127\37","\17\66\191\165\198\135\236\119"),{[v7("\63\174\170\23\246\230\235\243\0\187\186\28\242","\177\111\207\206\115\159\136\140")]=UDim.new(369 -(40 + 329) ,5 + 0 ),[v7("\53\136\20\16\221\65\88\49\134\0","\63\101\233\112\116\180\47")]=UDim.new(0 + 0 ,7 -2 )}),v179,v180});local v182={};v182.SetTitle=function(v261,v262) if ((type(v262)==v7("\208\47\255\27\246\49","\86\163\91\141\114\152")) and (v262:gsub(" ",""):len()>(65 -(9 + 56)))) then v179.Text=v262;end end;v182.SetDesc=function(v263,v264) if ((type(v264)==v7("\64\31\102\122\52\84","\90\51\107\20\19")) and (v264:gsub(" ",""):len()>(584 -(531 + 53)))) then local v542=0;while true do if (v542==(1 + 0)) then LabelHolder.Position=UDim2.new(0,10,0);LabelHolder.AnchorPoint=Vector2.new(773 -(89 + 684) ,0 + 0 );break;end if (v542==(0 + 0)) then v180.Visible=true;v180.Text=v264;v542=1 + 0 ;end end else local v543=0 -0 ;while true do if (v543==(0 + 0)) then v180.Visible=false;v180.Text="";v543=1;end if (v543==(1 + 0)) then LabelHolder.Position=UDim2.new(613 -(238 + 375) ,9 + 1 ,0.5 -0 );LabelHolder.AnchorPoint=Vector2.new(0 + 0 ,0.5);break;end end end end;v182:SetTitle(v176);v182:SetDesc(v177);return v181,v182;end local function v88(v185) if v185:IsA(v7("\171\226\132\226\56","\93\237\144\229\143")) then return v7("\55\247\243\18\12\84\26\227\254\29\40\73\25\249\226\74","\38\117\150\144\121\107");elseif v185:IsA(v7("\4\182\239\61\40\151\239\56\40\183","\90\77\219\142")) then return v7("\207\9\32\62\73\36\117\234\11\51\106","\26\134\100\65\89\44\103");elseif v185:IsA(v7("\197\230\40\55\136\240\225\53\47","\196\145\131\80\67")) then return v7("\42\181\30\28\59\231\18\191\20\91","\136\126\208\102\104\120");elseif v185:IsA(v7("\75\137\220\76\163\94\52\95\127\172\220\66\162\87","\49\24\234\174\35\207\50\93")) then return v7("\63\241\239\135\125\0\208\252\154\88\1\243\250\141\82\3\254\242\154\34","\17\108\146\157\232");elseif v185:IsA(v7("\126\234\39\249\61\167\64\198","\200\43\163\116\141\79")) then return v7("\156\57\49\140\162","\131\223\86\93\227\208\148");end return "";end v59.GetIcon=function(v186,v187) local v188=0 -0 ;local v189;while true do if (v188==(0 -0)) then v189=0;while true do if (v189==(5 -3)) then return v187;end if (v189==1) then for v834,v835 in pairs(v59.Icons) do v834=v834:gsub(v7("\74\222\240\224\120\234","\143\38\171\147\137\28"),""):gsub("-","");if (v834==v187) then return v835;end end for v836,v837 in pairs(v59.Icons) do local v838=0;while true do if (v838==0) then v836=v836:gsub(v7("\220\151\186\250\7\230","\180\176\226\217\147\99\131"),""):gsub("-","");if v836:find(v187) then return v837;end break;end end end v189=3 -1 ;end if (v189==(0 -0)) then if (v187:find(v7("\241\71\174\183\14\166\230\81\191\178\71\250\172","\213\131\37\214\214\125")) or (v187:len()<(1 -0))) then return v187;end v187=v187:lower():gsub(v7("\42\62\38\182\229\35","\129\70\75\69\223"),""):gsub("-","");v189=1 + 0 ;end end break;end end end;v59.SetTheme=function(v190,v191) local v192=0;while true do if (v192==(1 + 1)) then Comnection:FireConnection(v7("\126\191\25\216\68\175\171\75\185\27\208\69","\195\42\215\124\181\33\236"),v191);table.foreach(v59.Instances,function(v701,v702) if (v702.Type==v7("\42\75\54\58\44\253\3\77","\152\109\57\87\94\69")) then v702.Instance.Color=v84[v7("\218\216\6\172\172\146\124\189\251\151\91","\200\153\183\106\195\222\178\52")];elseif (v702.Type==v7("\20\241\137\48\76","\58\82\131\232\93\41")) then v702.Instance.BackgroundColor3=v84[v7("\160\88\220\26\79\127\171\66\210\85\15","\95\227\55\176\117\61")];elseif (v702.Type==v7("\43\106\49\68\160\29","\203\120\30\67\43")) then v702.Instance[v88(v702.Instance)]=v84[v7("\210\42\65\224\203\177\22\89\253\214\250\32","\185\145\69\45\143")];elseif (v702.Type==v7("\190\23\28\171\217","\188\234\127\121\198")) then v702.Instance[v88(v702.Instance)]=v84[v7("\27\61\31\140\42\114\39\139\61\63\22","\227\88\82\115")];elseif (v702.Type==v7("\119\26\162\179","\19\35\127\218\199\98")) then v702.Instance[v88(v702.Instance)]=v84[v7("\63\244\6\237\14\187\62\231\4\239","\130\124\155\106")];elseif (v702.Type==v7("\241\202\228\164\151\243\100\171","\223\181\171\150\207\195\150\28")) then v702.Instance[v88(v702.Instance)]=v84[v7("\111\53\239\161\27\12\30\226\188\2\12\14\230\182\29","\105\44\90\131\206")];elseif (v702.Type==v7("\204\227\160\182\4\50\221\225\160","\94\159\128\210\217\104")) then v702.Instance[v88(v702.Instance)]=v84[v7("\115\246\10\176\77\63\205\114\85\244\3","\26\48\153\102\223\63\31\153")];end end);break;end if (v192==(0 + 0)) then if  not v82(v191) then return;end v59.Save.Theme=v191;v192=1;end if (v192==(463 -(428 + 34))) then v83(v7("\193\188\43\29\147\181\38\5\193\184\61\30\147\143\122\73\217\170\32\9","\103\179\217\79"),v59.Save);v84=v59.Themes[v191];v192=2;end end end;v59.SetScale=function(v193,v194) local v195=0 + 0 ;local v196;while true do if (v195==(0 -0)) then v196=0;while true do if (v196==(0 -0)) then v194=v60.Y/math.clamp(v194,718 -418 ,2000) ;v61,v76.Scale.Scale=v194,v194;break;end end break;end end end;v59.MakeWindow=function(v197,v198) local v199=v198[1] or v198.Name or v198.Title or v7("\35\84\225\242\17\0\197\230\0","\147\98\32\141") ;local v200=v198[920 -(223 + 695) ] or v198.SubTitle or v7("\58\70\247\203","\43\120\35\131\170\102\54") ;v62.ScriptFile=v198[9 -6 ] or v198.SaveFolder or false ;local function v202() local v265=v62.ScriptFile;if (type(v265)~=v7("\71\18\149\191\171\183","\228\52\102\231\214\197\208")) then return;end if ( not readfile or  not isfile) then return;end local v266,v267=pcall(isfile,v265);if (v266 and v267) then local v546=511 -(329 + 182) ;local v547;local v548;local v549;while true do if (v546==0) then v547=0 + 0 ;v548=nil;v546=1;end if (v546==(1 -0)) then v549=nil;while true do if (v547==0) then v548,v549=pcall(readfile,v265);if (v548 and (type(v549)==v7("\13\244\103\195\228\140","\182\126\128\21\170\138\235\121"))) then local v987=0 + 0 ;local v988;local v989;local v990;while true do if ((1 + 0)==v987) then v990=nil;while true do if (v988==(0 + 0)) then v989,v990=pcall(function() return v53:JSONDecode(v549);end);v63=(v989 and v990) or {} ;break;end end break;end if (v987==(0 -0)) then v988=0;v989=nil;v987=1 -0 ;end end end break;end end break;end end end end v202();local v203,v204=unpack(v59.Save.UISize);local v205=v66(v67(v7("\162\215\52\225\131\49\37\18\159\213\59","\102\235\186\85\134\230\115\80"),v76,{[v7("\100\5\36\90","\66\55\108\94\63\18\180")]=UDim2.fromOffset(v203,v204),[v7("\36\130\150\62\51\80\27\131","\57\116\237\229\87\71")]=UDim2.new(0.5, -v203/(1202 -(177 + 1023)) ,0.5 -0 , -v204/(1 + 1) ),[v7("\136\176\238\236\112\252\72\191\191\233\211\101\239\73\185\161\236\245\114\224\68\179","\39\202\209\141\135\23\142")]=0.5 -0 ,[v7("\209\50\4\15","\152\159\83\105\106\82")]=v7("\160\210\93\243\218","\60\225\166\49\146\169")}),v7("\2\31\38\36","\103\79\126\79\74\97"));v205.Image=v7("\168\125\203\114\77\9\191\107\218\119\4\85\245\39\128\42\11\67\239\44\133\37\9\66\226\43\131","\122\218\31\179\19\62");v81(v205);local v207=v86(v7("\144\217\223\207\204\179","\37\211\182\173\161\169\193"),v205);local v208=v67(v7("\209\53\65\221\45\105","\217\151\90\45\185\72\27"),v205,{[v7("\237\125\234\23","\54\163\28\135\114")]=v7("\11\212\80\146\65\113\45\213\73\145","\31\72\187\61\226\46")});local v209=v67(v7("\229\9\79\214\66\108","\68\163\102\35\178\39\30"),v76,{[v7("\144\113\215\194","\113\222\16\186\167\99\213\227")]=v7("\10\28\244\230\42\1\236\248","\150\78\110\155")});local v210=v67(v7("\163\215\38\236\161","\32\229\165\71\129\196\126\223"),v208,{[v7("\240\128\222\132","\181\163\233\164\225\225")]=UDim2.new(1,0,1465 -(120 + 1345) ,28),[v7("\114\138\61\124\87\153\49\98\94\143\10\101\81\133\45\103\81\153\59\121\83\146","\23\48\235\94")]=1,[v7("\82\219\213\88","\178\28\186\184\61\55\83")]=v7("\240\194\87\124\208\15\231","\149\164\173\39\92\146\110")});local v211=v66(v67(v7("\199\34\8\11\54\26\241\34\28","\123\147\71\112\127\122"),v210,{[v7("\252\194\145\120\82\197\194\140","\38\172\173\226\17")]=UDim2.new(0,352 -(8 + 329) ,125.5 -(19 + 106) ),[v7("\108\31\47\231\66\3\28\224\68\31\56","\143\45\113\76")]=Vector2.new(0 -0 ,0.5 -0 ),[v7("\153\173\8\51\181\185\8\53\187\139\21\38\189","\92\216\216\124")]=v7("\99\11","\157\59\82\204\32"),[v7("\12\59\251\238","\209\88\94\131\154\137\138\179")]=v199,[v7("\28\164\220\104\38\2\61\43\47\175\201\121\16\55","\66\72\193\164\28\126\67\81")]=v7("\203\41\174\76","\22\135\76\200\56\70"),[v7("\185\53\224\48\110\232\151\53","\129\237\80\152\68\61")]=12 + 0 ,[v7("\101\173\28\231\63\24\84\94\186\87","\56\49\200\100\147\124\119")]=v84[v7("\239\49\179\255\222\126\139\245\212\42","\144\172\94\223")],[v7("\6\14\161\76\35\29\173\82\42\11\150\85\37\1\177\87\37\29\167\73\39\22","\39\68\111\194")]=2 -1 ,[v7("\240\169\233\211","\215\182\198\135\167\25")]=Enum.Font.GothamMedium,[v7("\163\72\231\77","\40\237\41\138")]=v7("\243\125\238\244\79","\42\167\20\154\152")},{v66(v67(v7("\126\251\186\86\93\32\72\251\174","\65\42\158\194\34\17"),{[v7("\41\46\72\9","\142\122\71\50\108\77\141\123")]=UDim2.fromScale(0 -0 ,1),[v7("\52\183\235\23\54\20\182\246\27\8\28\184\250","\91\117\194\159\120")]="X",[v7("\59\19\61\16\58\227\20\21\20\48\12","\68\122\125\94\120\85\145")]=Vector2.new(0,3 -2 ),[v7("\39\19\220\87\220\208\181\25","\218\119\124\175\62\168\185")]=UDim2.new(1 -0 ,2 + 3 ,1503.9 -(957 + 546) ),[v7("\145\245\80\208","\164\197\144\40")]=v200,[v7("\183\245\178\159\254\185\143\255\184\216","\214\227\144\202\235\189")]=v84[v7("\206\170\139\116\2\243\119\61\255\174\199\79\21\171\71","\92\141\197\231\27\112\211\51")],[v7("\196\254\137\168\214\244\240\159\173\213\210\237\139\173\194\246\254\152\166\223\229\230","\177\134\159\234\195")]=4 -3 ,[v7("\137\238\39\180\241\156\231\54\167\199\176\238\49\180","\169\221\139\95\192")]=v7("\242\142\121\43","\70\190\235\31\95\66"),[v7("\142\231\2\242\220\155\238\19\225\235\183\231\20\242","\133\218\130\122\134")]=v7("\30\240\247\208\211\174","\88\92\159\131\164\188\195"),[v7("\180\43\167\95\228\226\199\133","\189\224\78\223\43\183\139")]=4 + 4 ,[v7("\8\243\132\2","\161\78\156\234\118")]=Enum.Font.Gotham,[v7("\137\182\196\217","\188\199\215\169")]=v7("\207\28\93\79\225\232\5\90","\136\156\105\63\27")}),v7("\63\141\107\63\47\137\97\32","\84\123\236\25"))}),v7("\196\142\178\3","\213\144\235\202\119\204"));local v212=v66(v67(v7("\16\27\204\37\36\47\68\45\31\248\56\41\46\72","\45\67\120\190\74\72\67"),v208,{[v7("\19\43\247\160","\137\64\66\141\197\153\232\142")]=UDim2.new(0,v59.Save.TabSize,1, -v210.Size.Y.Offset),[v7("\48\211\48\169\132\15\242\35\180\161\14\209\37\163\171\12\220\45\180\219","\232\99\176\66\198")]=v84[v7("\207\46\36\9\105\205\205\36\233\44\45","\76\140\65\72\102\27\237\153")],[v7("\122\213\5\219\195\8\177\68","\222\42\186\118\178\183\97")]=UDim2.new(0,0,1 + 0 ,0 + 0 ),[v7("\124\226\71\130\82\254\116\133\84\226\80","\234\61\140\36")]=Vector2.new(0 + 0 ,704 -(227 + 476) ),[v7("\18\222\168\125\3\45\255\187\96\59\41\212\185\121\1\36\206\169","\111\65\189\218\18")]=1.5 -0 ,[v7("\97\74\24\62\12\78\160\86\69\31\1\25\93\161\80\91\26\39\14\82\172\90","\207\35\43\123\85\107\60")]=1 -0 ,[v7("\67\169\178\229\117\124\136\161\248\80\125\171\167\239\77\98\171\174\249\105\113\184\165\228\122\105","\25\16\202\192\138")]=0.2 -0 ,[v7("\222\202\163\244\168\231\206\194\183\231","\148\157\171\205\130\201")]=UDim2.new(),[v7("\2\193\96\38\220\247\55\221\119\10\208\248\53\213\103\26\216\236\38","\150\67\180\20\73\177")]="Y",[v7("\190\27\8\66\129\20\19\67\138\60\19\95\136\27\14\68\130\22","\45\237\120\122")]="Y",[v7("\245\231\176\40\210\250\145\37\205\237\146\37\207\237\174","\76\183\136\194")]=0,[v7("\84\231\232\61","\116\26\134\133\88\48\47")]=v7("\42\192\162\164\142\113\12\206\172\232","\18\126\161\192\132\221")},{v67(v7("\106\1\158\5\82\91\33\160\3","\54\63\72\206\100"),{[v7("\248\88\65\126\236\117\207\117\64\124\241","\27\168\57\37\26\133")]=UDim.new(0,10),[v7("\29\171\120\172\222\35\173\78\161\208\37\190","\183\77\202\28\200")]=UDim.new(0 -0 ,10),[v7("\39\50\141\12\30\61\142\60\24\35","\104\119\83\233")]=UDim.new(954 -(166 + 788) ,996 -(21 + 965) ),[v7("\197\249\35\38\74\251\255\5\45\87\225\247\42","\35\149\152\71\66")]=UDim.new(696 -(127 + 569) ,9 + 1 )}),v67(v7("\44\193\110\185\41\13\196\67\169\53\12\252","\90\121\136\34\208"),{[v7("\247\15\81\26\206\0\82","\126\167\110\53")]=UDim.new(0 + 0 ,7 -2 )})}),v7("\14\19\60\247\208\51\31\17\60","\95\93\112\78\152\188"));local v213=v67(v7("\231\231\132\24\225","\178\161\149\229\117\132\222"),v208,{[v7("\187\210\199\169","\67\232\187\189\204\193\118\198")]=UDim2.new(1, -v212.Size.X.Offset,1 + 0 , -v210.Size.Y.Offset),[v7("\170\32\182\40\52\16\223\132\39\187\52","\143\235\78\213\64\91\98")]=Vector2.new(2 -1 ,1 + 0 ),[v7("\189\71\151\224\100\191\130\70","\214\237\40\228\137\16")]=UDim2.new(1 + 0 ,0,1,1292 -(1162 + 130) ),[v7("\167\226\236\210\4\180\138\246\225\221\55\180\132\237\252\201\2\180\128\237\236\192","\198\229\131\143\185\99")]=1,[v7("\114\128\161\99\66\168\173\96\82\137\166\119\80\130\188\96","\19\49\236\200")]=true,[v7("\208\54\251\178","\218\158\87\150\215\132")]=v7("\216\17\215\246\55\43\195\254\12\202","\173\155\126\185\130\86\66")});local v214,v215=v81(v67(v7("\204\171\187\192\141\206\240\178\174\200\134","\140\133\198\218\167\232"),v205,{[v7("\134\39\174\120","\228\213\78\212\29")]=UDim2.new(0,35,0 -0 ,35),[v7("\183\67\165\12\255\142\67\184","\139\231\44\214\101")]=v205.Size,[v7("\248\236\18\87\6\180","\118\185\143\102\62\112\209\81")]=true,[v7("\125\126\42\238\170\7\44\55\85\126\61","\88\60\16\73\134\197\117\124")]=Vector2.new(0.8 + 0 ,0.8 -0 ),[v7("\114\235\251\195\70\66\229\237\198\69\100\248\249\198\82\64\235\234\205\79\83\243","\33\48\138\152\168")]=1,[v7("\92\23\61\84","\87\18\118\80\49\161")]=v7("\111\17\212\180\162\67\18\154\136\165\78\94\233\169\170\73","\208\44\126\186\192")})),v81(v67(v7("\222\23\165\193\17\222\220\90\227\21\170","\46\151\122\196\166\116\156\169"),v205,{[v7("\214\228\92\31","\155\133\141\38\122")]=UDim2.new(936 -(889 + 47) ,14 + 6 ,1265 -(1153 + 111) , -30),[v7("\21\37\191\72\91\118\170\43","\197\69\74\204\33\47\31")]=UDim2.new(0 -0 ,v212.Size.X.Offset,1 + 0 ,0),[v7("\209\65\89\143\255\93\106\136\249\65\78","\231\144\47\58")]=Vector2.new(0.5 + 0 ,1 + 0 ),[v7("\147\219\206\124\14\56","\89\210\184\186\21\120\93\175")]=true,[v7("\147\82\127\222\126\40\190\70\114\209\77\40\176\93\111\197\120\40\180\93\127\204","\90\209\51\28\181\25")]=1 + 0 ,[v7("\254\122\90\235","\223\176\27\55\142")]=v7("\7\180\192\161\54\180\194\245\16\186\204\245\23\178\212\176","\213\68\219\174")}));local function v216() local v268=0;local v269;local v270;local v271;while true do if (v268==(0 + 0)) then v269=0 -0 ;v270=nil;v268=1 + 0 ;end if (v268==(97 -(23 + 73))) then v271=nil;while true do if (v269==0) then v270,v271=v214.Position,v215.Position;v214.Position=UDim2.fromOffset(math.clamp(v270.X.Offset,715 -(26 + 259) ,436 + 564 ),math.clamp(v270.Y.Offset,312 -112 ,500));v269=3 -2 ;end if (v269==1) then v215.Position=UDim2.new(0,math.clamp(v271.X.Offset,135,250),1,0);v212.Size=UDim2.new(1629 -(1094 + 535) ,v215.Position.X.Offset,1 + 0 , -v210.Size.Y.Offset);v269=2;end if (v269==2) then v213.Size=UDim2.new(1, -v212.Size.X.Offset,1, -v210.Size.Y.Offset);v205.Size=v214.Position;break;end end break;end end end v214:GetPropertyChangedSignal(v7("\59\239\48\238\62\204\48\113","\31\107\128\67\135\74\165\95")):Connect(v216);v215:GetPropertyChangedSignal(v7("\232\231\239\68\85\184\215\230","\209\184\136\156\45\33")):Connect(v216);v79(v214,function() if  not Minimized then local v550=0;while true do if (v550==(1876 -(1554 + 322))) then v59.Save.UISize={v205.Size.X.Offset,v205.Size.Y.Offset};v83(v7("\21\205\113\18\248\11\193\119\26\185\21\209\53\62\237\73\194\102\7\182","\216\103\168\21\104"),v59.Save);break;end end end end);v79(v215,function() local v272=0 -0 ;while true do if (v272==0) then v59.Save.TabSize=v212.Size.X.Offset;v83(v7("\106\168\71\190\56\161\74\166\106\172\81\189\56\155\22\234\114\190\76\170","\196\24\205\35"),v59.Save);break;end end end);local v217=v67(v7("\8\132\239\2\43\153","\102\78\235\131"),v210,{[v7("\212\47\57\65","\84\154\78\84\36\39\89\215")]=v7("\223\244\66\76\10\243\242","\101\157\129\54\56")});local v218=v67(v7("\52\164\139\172\38\91\8\189\158\164\45","\25\125\201\234\203\67"),{[v7("\74\253\2\6","\115\25\148\120\99\116\71")]=UDim2.new(0 -0 ,51 -37 ,0,25 -11 ),[v7("\60\50\170\45\85\5\50\183","\33\108\93\217\68")]=UDim2.new(2 -1 , -10,0.5 -0 ),[v7("\250\69\162\165\212\89\145\162\210\69\181","\205\187\43\193")]=Vector2.new(1,0.5),[v7("\220\115\6\212\249\96\10\202\240\118\49\205\255\124\22\207\255\96\0\209\253\107","\191\158\18\101")]=1 + 0 ,[v7("\236\206\134\176\170","\207\165\163\231\215")]=v7("\212\251\225\87\55\99\195\237\240\82\126\63\137\161\168\15\117\33\145\173\161\1\117\38\149\170\174","\16\166\153\153\54\68"),[v7("\243\166\212\73\22\52\237\198\188\206\101\59\45\246\192","\153\178\211\160\38\84\65")]=false,[v7("\172\10\87\46","\75\226\107\58")]=v7("\123\210\30\105\20","\173\56\190\113\26\113\162")});local v219=v64(v218:Clone(),{[v7("\251\209\62\12\227\194\209\35","\151\171\190\77\101")]=UDim2.new(1, -(798 -(86 + 677)),0.5 + 0 ),[v7("\236\34\249\174\253","\107\165\79\152\201\152\29")]=v7("\69\76\240\202\71\108\82\90\225\207\14\48\24\31\184\158\2\46\2\24\185\153\1\39\15\22\186\158","\31\55\46\136\171\52"),[v7("\255\41\209\241","\148\177\72\188")]=v7("\139\191\89\218\171\191\77\214","\179\198\214\55")});local v220=v64(v218:Clone(),{[v7("\192\3\97\127\81\218\255\2","\179\144\108\18\22\37")]=UDim2.new(1 + 0 , -(1086 -(263 + 763)),0.5 + 0 ),[v7("\239\174\26\142\202","\175\166\195\123\233")]=v7("\253\192\69\72\227\252\199\73\64\244\181\141\18\16\166\184\150\8\26\166\183\150\9\28\163\185\148","\144\143\162\61\41"),[v7("\206\210\16\85","\83\128\179\125\48\18\231")]=v7("\114\163\251\216\85","\126\61\215\147\189\39")});v65(v217,{v218,v219,v220});local v221,v222,v223;local v224,v225={},false;v224.CloseBtn=function(v273) local v274=v224:Dialog({[v7("\76\246\9\73\125","\37\24\159\125")]=v7("\249\170\122\81\223","\34\186\198\21"),[v7("\204\13\221\73","\162\152\104\165\61")]=v7("\236\61\183\61\105\234\216\111\161\104\98\224\141\54\189\104\48\242\204\33\166\61\100\234\141\44\190\114\99\224\141\59\186\116\99\186","\133\173\79\210\29\16"),[v7("\162\108\249\34\130\114\254","\75\237\28\141")]={{v7("\255\80\194\183\38\9\234","\129\188\63\172\209\79\123\135"),function() v76:Destroy();end},{v7("\99\229\232\206\69\232","\173\32\132\134")}}});end;v224.MinimizeBtn=function(v275) local v276=0 + 0 ;while true do if (v276==(0 + 0)) then if v223 then return;end v223=true;v276=1;end if ((3 -2)==v276) then if v221 then local v791=1383 -(132 + 1251) ;while true do if (v791==(0 + 0)) then v219.Image=v7("\92\25\16\238\189\34\200\90\18\12\181\225\126\156\30\78\94\190\251\103\156\28\78\80\183\246\99\152","\173\46\123\104\143\206\81");v80({v205,v7("\135\20\56\143","\97\212\125\66\234\37\227"),v222,0.25,true});v791=459 -(185 + 273) ;end if (v791==1) then v214.Visible=true;v215.Visible=true;v791=1 + 1 ;end if (v791==(5 -3)) then v221=false;break;end end else local v792=0;while true do if ((1 + 0)==v792) then v214.Visible=false;v215.Visible=false;v792=2;end if (v792==(1226 -(361 + 863))) then v80({v205,v7("\183\220\83\95","\47\228\181\41\58"),UDim2.fromOffset(v205.Size.X.Offset,1355 -(443 + 884) ),0.25,true});v221=true;break;end if (v792==0) then v219.Image=v7("\152\225\174\52\13\153\230\162\60\26\208\172\249\100\78\223\181\231\96\72\219\177\227\109\70\210\177\227","\126\234\131\214\85");v222=v205.Size;v792=1 -0 ;end end end v223=false;break;end end end;v224.Minimize=function(v277) v205.Visible= not v205.Visible;end;v224.AddMinimizeButton=function(v279,v280) local v281=0 + 0 ;local v282;local v283;local v284;while true do if (v281==1) then if v280.Corner then v284=v86(v7("\212\231\203\161\242\250","\207\151\136\185"),v282);v64(v284,v280.Corner);end if v280.Stroke then local v793=0;while true do if (v793==(0 + 0)) then v283=v86(v7("\155\151\58\141\127\125","\17\200\227\72\226\20\24"),v282);v64(v283,v280.Corner);break;end end end v281=2;end if (v281==3) then return {[v7("\131\85\9\216\194\244","\159\208\33\123\183\169\145\143")]=v283,[v7("\209\85\42\56\247\72","\86\146\58\88")]=v284,[v7("\122\202\254\212\161\231","\154\56\191\138\160\206\137\86")]=v282};end if (v281==(0 -0)) then v282=v81(v67(v7("\143\241\216\60\6\18\10\178\232\214\53","\127\198\156\185\91\99\80"),v76,{[v7("\198\19\214\245","\190\149\122\172\144\199\107\89")]=UDim2.fromOffset(782 -(16 + 731) ,18 + 17 ),[v7("\2\10\226\247\234\59\10\255","\158\82\101\145\158")]=UDim2.fromScale(0.15 + 0 ,0.15 + 0 ),[v7("\82\255\1\29\67\98\241\23\24\64\68\236\3\24\87\96\255\16\19\74\115\231","\36\16\158\98\118")]=761 -(527 + 233) ,[v7("\226\23\192\240\95\250\40\240\206\18\224\244\84\231\53\182","\133\160\118\163\155\56\136\71")]=v84[v7("\213\173\125\253\164\95\157\227\160\49\160","\213\150\194\17\146\214\127")],[v7("\58\188\176\219\100\177\182\34\20\167\135\219\74\171\176","\86\123\201\196\180\38\196\194")]=false}));v283,v284=nil;v281=1 + 0 ;end if (v281==2) then v64(v282,v280.Button);v282.Activated:Connect(v224.Minimize);v281=6 -3 ;end end end;v224.Set=function(v285,v286,v287) if ((type(v286)==v7("\149\77\231\142\114\61","\172\230\57\149\231\28\90\225")) and (type(v287)==v7("\17\190\148\219\38\220","\187\98\202\230\178\72"))) then local v551=0 + 0 ;while true do if (v551==(1785 -(1107 + 678))) then v211.Text=v286;v211.SubTitle.Text=v287;break;end end elseif (type(v286)==v7("\50\245\182\57\68\38","\42\65\129\196\80")) then v211.Text=v286;end end;v224.Dialog=function(v288,v289) if v205:FindFirstChild(v7("\38\67\92\214\24\0","\142\98\42\61\186\119\103\98")) then return;end if v221 then v224:MinimizeBtn();end local v290=v289[1 + 0 ] or v289.Title or v7("\28\182\3\4\55\184","\104\88\223\98") ;local v291=v289[2 + 0 ] or v289.Text or v7("\112\255\235\221\66\228\87\183\227\142\38\228\69\251\237\201","\141\36\151\130\174\98") ;local v292=v289[3] or v289.Options or {} ;local v293=v67(v7("\162\104\195\0\129","\109\228\26\162"),{[v7("\127\230\233\113\246\227","\134\62\133\157\24\128")]=true,[v7("\52\172\0\220","\182\103\197\122\185\79\209")]=UDim2.fromOffset((300 -(4 + 46)) * 1.08 ,(565 -415) * (1.08 -0) ),[v7("\195\136\242\126\20\65\252\137","\40\147\231\129\23\96")]=UDim2.fromScale(0.5 + 0 ,0.5 -0 ),[v7("\84\246\143\77\180\190\236\122\241\130\81","\188\21\152\236\37\219\204")]=Vector2.new(0.5 -0 ,1396.5 -(1262 + 134) )},{v66(v67(v7("\116\236\47\24\108\232\53\9\76","\108\32\137\87"),{[v7("\140\231\14\178","\57\202\136\96\198\79\153\43")]=Enum.Font.GothamBold,[v7("\152\42\176\162","\152\203\67\202\199\237\199")]=UDim2.new(1,0 + 0 ,0,15 + 5 ),[v7("\206\70\184\27","\134\154\35\192\111\127\21\25")]=v290,[v7("\140\35\17\30\24\243\180\47\14\4\45\215\182\50","\178\216\70\105\106\64")]=v7("\19\46\124\226","\224\95\75\26\150\169\181\180"),[v7("\63\223\192\60\103\163\122\4\200\139","\22\107\186\184\72\36\204")]=v84[v7("\196\178\40\65\28\167\137\33\86\26","\110\135\221\68\46")],[v7("\215\51\20\255\253\186\33\230","\91\131\86\108\139\174\211")]=15,[v7("\193\2\182\19\88\227","\61\155\75\216\119")]=2,[v7("\52\164\161\53\76\0\210\10","\189\100\203\210\92\56\105")]=UDim2.fromOffset(15,5),[v7("\13\80\254\35\40\67\242\61\33\85\201\58\46\95\238\56\46\67\248\38\44\72","\72\79\49\157")]=796 -(383 + 412) }),v7("\188\181\41\168","\220\232\208\81")),v66(v67(v7("\193\187\253\36\0\91\163\240\178","\193\149\222\133\80\76\58"),{[v7("\224\82\65\198","\178\166\61\47")]=Enum.Font.GothamMedium,[v7("\200\67\242\127","\94\155\42\136\26\170")]=UDim2.new(1 + 0 , -25),[v7("\165\42\50\186\137\62\50\188\135\12\47\175\129","\213\228\95\70")]="Y",[v7("\30\190\218\144","\23\74\219\162\228")]=v291,[v7("\13\227\94\187\3\24\234\79\168\53\52\227\72\187","\91\89\134\38\207")]=v7("\104\235\206\34","\71\36\142\168\86\115\176"),[v7("\235\164\106\171\32\177\90\70\205\242","\41\191\193\18\223\99\222\54")]=v84[v7("\136\41\203\37\184\235\2\198\56\161\235\18\194\50\190","\202\203\70\167\74")],[v7("\24\4\196\39\66\37\27\217","\17\76\97\188\83")]=12,[v7("\191\14\215\51\53\155","\195\229\71\185\87\80\227\43")]=1 + 1 ,[v7("\208\243\19\89\251\233\243\14","\143\128\156\96\48")]=UDim2.fromOffset(5 + 10 ,25 + 0 ),[v7("\154\208\243\25\16\170\222\229\28\19\140\195\241\28\4\168\208\226\23\25\187\200","\119\216\177\144\114")]=1 -0 ,[v7("\253\44\225\86\254\59\248\82\217\44\253","\34\169\73\153")]=true}),v7("\142\237\25\128\158\233\19\159","\235\202\140\107"))});v86(v7("\43\102\53\172\224\34\249\209","\165\108\20\84\200\137\71\151"),v293,{[v7("\72\187\63\137\110\189\36\134","\232\26\212\75")]=232 + 38 });v86(v7("\20\70\96\230\242\37","\151\87\41\18\136"),v293);local v294=v67(v7("\125\189\203\221\251","\158\59\207\170\176"),v293,{[v7("\124\87\41\76","\236\47\62\83\41")]=UDim2.fromScale(2 -1 ,0.35 -0 ),[v7("\202\166\51\50\190\139\245\167","\226\154\201\64\91\202")]=UDim2.fromScale(0,2 -1 ),[v7("\224\71\30\16\69\174\241\70\20\22\94","\220\161\41\125\120\42")]=Vector2.new(0 + 0 ,708 -(667 + 40) ),[v7("\158\112\163\5\187\99\175\27\178\117\131\1\176\126\178\93","\110\220\17\192")]=v84[v7("\87\118\56\21\249\119\217\178\118\57\102","\199\20\25\84\122\139\87\145")],[v7("\101\8\222\165\28\248\72\28\211\170\47\248\70\7\206\190\26\248\66\7\222\183","\138\39\105\189\206\123")]=1311 -(436 + 874) },{v67(v7("\42\46\165\36\224\237\227\254\6\8\156\57","\159\127\103\233\77\147\153\175"),{[v7("\55\241\224\174\73\197\0","\171\103\144\132\202\32")]=UDim.new(0,10),[v7("\38\42\251\24\25\44\232\0\49\35\224\11\30\34\236\2\4","\108\112\79\137")]=v7("\28\199\122\60\168\19","\85\95\162\20\72\205\97\137"),[v7("\209\244\38\208\41\241\223\242\254\62\213\2\246","\173\151\157\74\188\109\152")]=v7("\12\7\42\212\198\91\219\231\37\4","\147\68\104\88\189\188\52\181"),[v7("\50\135\153\217\0\135\133\196\27\132\170\220\19\143\133\221\31\134\159","\176\122\232\235")]=v7("\163\112\52\91\235\146","\142\224\21\90\47")})});local v295=v66(v67(v7("\82\198\38\91\161","\229\20\180\71\54\196\235"),v205,{[v7("\11\127\194\232\242\184\143\60\112\197\215\231\171\142\58\110\192\241\240\164\131\48","\224\73\30\161\131\149\202")]=0.6 -0 ,[v7("\208\230\229\89\231\224","\48\145\133\145")]=true,[v7("\120\77\182\229\214\62\85\89\187\234\242\35\86\67\167\189","\76\58\44\213\142\177")]=v84[v7("\232\43\30\34\106\139\12\7\47\56\153","\24\171\68\114\77")],[v7("\220\20\74\87","\205\143\125\48\50\231\190\100")]=UDim2.new(1,0,2 -1 ,0 + 0 ),[v7("\227\166\23\14\230\241\208\183\207\163\55\10\237\236\205\241","\194\161\199\116\101\129\131\191")]=v84[v7("\207\43\196\167\229\226\223\48\218\167\252\167","\194\140\68\168\200\151")],[v7("\108\250\216\32","\149\34\155\181\69")]=v7("\39\244\212\246\12\250","\154\99\157\181")}),v7("\190\27\254\175\231\136","\140\237\111\140\192"));v207:Clone().Parent=v295;v293.Parent=v295;background=Instance.new(v7("\47\20\124\31\3\53\124\26\3\21","\120\102\121\29"),v293);background.Image=v7("\190\225\161\58\191\240\188\47\165\231\227\116\227\187\234\98\249\186\236\104\250\181\238\99\244\183\233","\91\204\131\217");background.Name=v7("\254\254\65\192\182\207\240","\158\174\159\53\180\211\189");background.Size=v293.Size;uicorner=Instance.new(v7("\103\212\206\210\101\187\87\239","\213\50\157\141\189\23"),background);v80({v293,v7("\205\47\158\165","\196\158\70\228\192\18"),UDim2.fromOffset(250,275 -125 ),1711.2 -(1611 + 100) });v80({v293,v7("\126\77\16\64\202\90\94\3\75\215\73\70","\185\42\63\113\46"),0 -0 ,381.15 -(229 + 152) });v80({v295,v7("\224\207\32\55\8\196\220\51\60\21\215\196","\123\180\189\65\89"),194.3 -(107 + 87) ,0.15});local v302,v303=1 + 0 ,{};v303.Button=function(v348,v349) local v350=v349[1 + 0 ] or v349.Name or v349.Title or "" ;local v351=v349[9 -7 ] or v349.Callback or function() end ;v302=v302 + (3 -2) ;local v352=v86(v7("\224\153\228\240\134\204","\233\162\236\144\132"),v294);v86(v7("\145\203\236\20\188\228","\63\210\164\158\122\217\150"),v352);v64(v352,{[v7("\7\206\238\248","\152\83\171\150\140\41")]=v350,[v7("\164\234\141\39","\104\226\133\227\83\180\123")]=Enum.Font.GothamBold,[v7("\57\34\45\84\6\19","\48\99\107\67")]=2 + 0 ,[v7("\234\163\101\196\14\116\210\169\111\131","\27\190\198\29\176\77")]=v84[v7("\204\68\241\59\187\14\219\78\229\32","\46\143\43\157\84\201")],[v7("\99\125\78\214\108\26\210\82","\168\55\24\54\162\63\115")]=12});for v552,v553 in pairs(v294:GetChildren()) do if v553:IsA(v7("\35\255\56\148\240\219\3\238\47\142","\174\119\154\64\224\178")) then v553.Size=UDim2.new((15 -(13 + 1))/v302 , -(((v302-1) * 20)/v302),0 + 0 ,21 + 11 );end end v352.Activated:Connect(v303.Close);v352.Activated:Connect(v351);end;v303.Close=function(v353) v80({v293,v7("\25\119\223\126","\132\74\30\165\27\101\199\122"),UDim2.fromOffset((949 -(514 + 185)) * (1.08 + 0) ,(297 -147) * (3.08 -2) ),0.2 -0 });v80({v295,v7("\27\245\254\169\180\165\181\61\226\241\164\190","\212\79\135\159\199\199\213"),1,0.15 + 0 });v80({v293,v7("\77\178\180\73\79\199\25\107\165\187\68\69","\120\25\192\213\39\60\183"),392 -(41 + 350) ,0.15 -0 ,true});v295:Destroy();end;table.foreach(v292,function(v354,v355) v303:Button(v355);end);return v303;end;v224.SelectTab=function(v306,v307) if (type(v307)==v7("\22\85\50\74\29\82","\40\120\32\95")) then v59.Tabs[v307].func:Enable();else for v705,v706 in pairs(v59.Tabs) do if (v706.Cont==v307.Cont) then v706.func:Enable();end end end end;local v233={};v224.MakeTab=function(v308,v309,v310) if (type(v309)==v7("\46\170\59\118\170","\127\90\203\89\26\207")) then v310=v309;end local v311=v310[4 -3 ] or v310.Title or v7("\233\52\173\138","\157\189\85\207\171\105") ;local v312=v310[4 -2 ] or v310.Icon or "" ;v312=v59:GetIcon(v312);if ( not v312:find(v7("\212\163\192\180\16\213\164\204\188\7\156\238\151","\99\166\193\184\213")) or (v312:gsub(v7("\196\181\152\186\31\153\211\163\137\191\86\197\153","\234\182\215\224\219\108"),""):len()<6)) then v312=false;end local v313=v86(v7("\226\148\175\33\207\143","\85\160\225\219"),v212,{[v7("\111\12\153\204","\43\60\101\227\169\86\188")]=UDim2.new(1,0 + 0 ,887 -(790 + 97) ,24)});v86(v7("\83\199\195\177\95\222","\87\16\168\177\223\58\172\217"),v313);local v314=v66(v67(v7("\0\200\65\201\23\53\207\92\209","\91\84\173\57\189"),v313,{[v7("\35\176\22\249","\182\112\217\108\156\192")]=UDim2.new(4 -3 ,(v312 and  -(8 + 17)) or  -(6 + 9) ,246 -(235 + 10) ),[v7("\154\7\91\230\159\163\7\70","\235\202\104\40\143")]=UDim2.fromOffset((v312 and (17 + 8)) or (30 -15) ),[v7("\47\138\24\178\10\153\20\172\3\143\47\171\12\133\8\169\12\153\30\183\14\146","\217\109\235\123")]=1184 -(887 + 296) ,[v7("\1\134\112\66","\221\71\233\30\54\16\176\173")]=Enum.Font.GothamMedium,[v7("\0\249\70\171","\223\84\156\62")]=v311,[v7("\226\249\250\201\148\52\218\243\240\142","\91\182\156\130\189\215")]=v84[v7("\93\124\160\90\108\51\152\80\102\103","\53\30\19\204")],[v7("\205\229\104\144\148\240\250\117","\199\153\128\16\228")]=1055 -(512 + 533) ,[v7("\229\47\253\13\159\240\38\236\30\169\220\47\235\13","\199\177\74\133\121")]=Enum.TextXAlignment.Left,[v7("\140\204\164\234\3\212\43\182\218\172\255\37\195\36\187\208","\74\216\169\220\158\87\166")]=(v225 and (1424.3 -(662 + 762))) or 0 ,[v7("\220\38\11\56\110\250\54\29\47\91\252\38","\58\136\67\115\76")]=v7("\208\190\253\87\129","\61\145\202\184\57\229\64\203")}),v7("\104\87\145\83","\39\60\50\233"));local v315=v66(v67(v7("\51\62\162\43\135\4\179\161\31\63","\195\122\83\195\76\226\72\210"),v313,{[v7("\212\219\40\247\53\237\219\53","\65\132\180\91\158")]=UDim2.new(677 -(334 + 343) ,26 -18 ,0.5),[v7("\54\117\203\43","\78\101\28\177")]=UDim2.new(489 -(198 + 291) ,1 + 12 ,0,587 -(141 + 433) ),[v7("\4\186\227\89\42\166\208\94\44\186\244","\49\69\212\128")]=Vector2.new(0,0.5 -0 ),[v7("\62\1\209\245\228","\129\119\108\176\146")]=v312 or "" ,[v7("\30\206\4\198\34\28\19\41\193\3\249\55\15\18\47\223\6\223\32\0\31\37","\124\92\175\103\173\69\110")]=1 + 0 ,[v7("\232\53\2\48\196\12\17\54\207\43\19\54\211\61\13\52\216","\87\161\88\99")]=(v225 and (777.3 -(227 + 550))) or (0 -0) }),v7("\38\252\247\216","\67\114\153\143\172\215\176"));local v316=v66(v67(v7("\152\176\239\3\187","\110\222\194\142"),v313,{[v7("\36\208\1\172","\193\119\185\123\201\50")]=(v225 and UDim2.new(0 -0 ,4,0,107 -(72 + 31) )) or UDim2.new(348 -(89 + 259) ,4,0 + 0 ,12 + 1 ) ,[v7("\71\7\234\47\27\112\16\121","\127\23\104\153\70\111\25")]=UDim2.new(0 + 0 ,1,0.5 -0 ),[v7("\40\9\165\167\36\62\135\188\0\9\178","\211\105\103\198\207\75\76\215")]=Vector2.new(0 + 0 ,0.5 -0 ),[v7("\236\166\179\228\121\30\181\163\192\163\147\224\114\3\168\229","\214\174\199\208\143\30\108\218")]=v84[v7("\50\139\7\165\183\22\236\65\20\137\14","\41\113\228\107\202\197\54\184")],[v7("\88\140\59\87\125\159\55\73\116\137\12\78\123\131\43\76\123\159\61\82\121\148","\60\26\237\88")]=(v225 and (1404 -(1333 + 70))) or (1832 -(701 + 1131)) }),v7("\236\34\113\235\171","\206\184\74\20\134"));v86(v7("\27\235\252\191\246\88","\172\88\132\142\209\147\42\88"),v316,UDim.new(127.5 -(55 + 72) ,156 -(99 + 57) ));local v317=v66(v67(v7("\180\137\222\2\58\249\183\137\141\234\31\55\248\187","\222\231\234\172\109\86\149"),{[v7("\222\230\218\29","\120\141\143\160")]=UDim2.new(1 -0 ,0 + 0 ,1580 -(1243 + 336) ,1329 -(774 + 555) ),[v7("\112\163\165\91\84\165\185\92","\50\32\204\214")]=UDim2.new(0 + 0 ,799 -(150 + 649) ,1 + 0 ),[v7("\167\73\54\113\188\3\182\72\60\119\167","\113\230\39\85\25\211")]=Vector2.new(0,1),[v7("\237\184\20\231\43\199\137\74\204\143\14\225\36\192\165\78\205\168","\43\190\219\102\136\71\171\203")]=1.5,[v7("\0\127\51\82\37\108\63\76\44\122\4\75\35\112\35\73\35\108\53\87\33\103","\57\66\30\80")]=1,[v7("\26\219\178\26\136\53\214\133\59\241\173\20\131\60\192\150\40\214\179\5\133\43\241\138\42\193","\228\73\184\192\117\228\89\148")]=0.2 -0 ,[v7("\252\138\103\27\195\133\87\21\221\160\120\21\200\140\86\27\195\134\103\71","\116\175\233\21")]=v84[v7("\221\247\178\73\201\113\11\246\253\179\67","\95\158\152\222\38\187\81")],[v7("\217\168\33\189\174\201\236\180\54\145\162\198\238\188\38\129\170\210\253","\168\152\221\85\210\195")]="Y",[v7("\152\221\231\136\167\210\252\137\172\250\252\149\174\221\225\142\164\208","\231\203\190\149")]="Y",[v7("\239\50\241\245\185\231\40\196\39\230\193\181\237\30\193","\123\173\93\131\145\220\149")]=0,[v7("\53\197\227\55\117\234\37\205\247\36","\153\118\164\141\65\20")]=UDim2.new(),[v7("\192\51\139\231","\96\142\82\230\130\151")]=("Container %i [ %s ]"):format( #v233 + (1 -0) ,v311)},{v67(v7("\122\153\127\67\224\234\70\190\72","\142\47\208\47\34\132"),{[v7("\198\191\0\6\82\82\241\146\1\4\79","\60\150\222\100\98\59")]=UDim.new(1984 -(1122 + 862) ,19 -9 ),[v7("\117\61\83\82\210\180\54\119\53\80\94\207","\81\37\92\55\54\187\218")]=UDim.new(0 + 0 ,10),[v7("\48\69\169\51\136\14\67\153\56\145","\225\96\36\205\87")]=UDim.new(0 -0 ,7 + 3 ),[v7("\217\167\70\125\117\65\14\203\169\86\109\115\66","\105\137\198\34\25\28\47")]=UDim.new(0 + 0 ,10)}),v67(v7("\36\128\109\127\211\5\133\64\111\207\4\189","\160\113\201\33\22"),{[v7("\228\89\168\163\160\163\211","\205\180\56\204\199\201")]=UDim.new(0 + 0 ,19 -14 )})}),v7("\176\221\46\23\143\210\30\25\145","\120\227\190\92"));table.insert(v233,v317);if  not v225 then v317.Parent=v213;end local function v318() local v356=0 + 0 ;while true do if (v356==(1 -0)) then v317.Parent=v213;v317.Size=UDim2.new(1,0,1,128 + 22 );v356=7 -5 ;end if (v356==3) then v80({v314,v7("\15\64\204\9\53\170\58\75\199\13\0\170\62\75\215\4","\216\91\37\180\125\97"),575 -(203 + 372) ,0.35});v80({v315,v7("\12\123\29\196\82\17\100\29\205\68\53\119\14\198\89\38\111","\55\69\22\124\163"),0 + 0 ,1382.35 -(978 + 404) });v356=12 -8 ;end if (v356==(0 + 0)) then if v317.Parent then return;end for v796,v797 in pairs(v233) do if (v797:IsA(v7("\14\95\13\116\47\80\208\236\58\122\13\122\46\89","\130\93\60\127\27\67\60\185")) and (v797~=v317)) then v797.Parent=nil;end end v356=319 -(56 + 262) ;end if (v356==(2 + 2)) then v80({v316,v7("\75\218\70\237","\148\24\179\60\136\191\17\48"),UDim2.new(0 + 0 ,1956 -(653 + 1299) ,0 + 0 ,6 + 7 ),0.35});v80({v316,v7("\144\43\250\171\241\160\37\236\174\242\134\56\248\174\229\162\43\235\165\248\177\51","\150\210\74\153\192"),0 + 0 ,1218.35 -(700 + 518) });break;end if (v356==2) then table.foreach(v59.Tabs,function(v798,v799) if (v799.Cont~=v317) then v799.func:Disable();end end);v80({v317,v7("\123\59\34\75","\29\40\82\88\46\128\35"),UDim2.new(1512 -(617 + 894) ,0 -0 ,459 -(271 + 187) ,1584 -(731 + 853) ),1521.3 -(199 + 1322) });v356=3;end end end v313.Activated:Connect(v318);v225=true;local v319={};table.insert(v59.Tabs,{[v7("\215\201\58\163\123\124\187","\212\131\168\88\234\21\26")]={[v7("\107\117\132\137","\71\37\20\233\236\88")]=v311,[v7("\228\69\191\24","\60\173\38\208\118\32\140\44")]=v312},[v7("\71\39\239\208","\175\33\82\129\179\64")]=v319,[v7("\205\224\62\219","\210\142\143\80\175\92")]=v317});v319.Cont=v317;v319.Disable=function(v357) local v358=0 -0 ;local v359;while true do if (v358==0) then v359=0 + 0 ;while true do if (v359==(1662 -(1291 + 369))) then v80({v316,v7("\212\184\211\236\68\228\182\197\233\71\194\171\209\233\80\230\184\194\226\77\245\160","\35\150\217\176\135"),1,0.35 + 0 });break;end if ((685 -(561 + 124))==v359) then v317.Parent=nil;v80({v314,v7("\141\236\235\210\141\251\242\200\170\249\242\212\188\231\240\223","\166\217\137\147"),0.3 -0 ,0.35});v359=1;end if (v359==(591 -(99 + 491))) then v80({v315,v7("\202\174\115\161\244\114\241\162\124\181\225\71\241\166\124\165\232","\38\131\195\18\198\145"),0.3 -0 ,0.35 -0 });v80({v316,v7("\96\223\32\238","\52\51\182\90\139\88"),UDim2.new(1698 -(470 + 1228) ,4,0 + 0 ,3 + 1 ),0.35});v359=2;end end break;end end end;v319.Enable=function(v360) v318();end;v319.Visible=function(v361,v362) local v363=0 -0 ;while true do if (v363==(0 + 0)) then v68:ToggleVisible(v313,v362);v68:ToggleParent(v317,v362,v213);break;end end end;v319.Destroy=function(v364) local v365=0;while true do if (v365==0) then v313:Destroy();v317:Destroy();break;end end end;v319.AddSection=function(v366,v367) local v368=0;local v369;local v370;local v371;local v372;while true do local v555=0 -0 ;while true do if (v555==(3 -2)) then if ((0 -0)==v368) then v369=((type(v367)==v7("\234\68\25\5\121\68","\22\153\48\107\108\23\35")) and v367) or v367[1 + 0 ] or v367.Name or v367.Title or v367.Section ;v370=v67(v7("\40\151\186\23\122","\137\110\229\219\122\31\21\33"),v317,{[v7("\41\180\34\126","\30\122\221\88\27\86\43\68")]=UDim2.new(1 + 0 ,0,0 + 0 ,20),[v7("\26\41\232\141\63\58\228\147\54\44\223\148\57\38\248\150\57\58\238\136\59\49","\230\88\72\139")]=1 + 0 ,[v7("\92\181\27\30","\56\18\212\118\123\99\104")]=v7("\49\249\236\218\208\208","\190\126\137\152\179\191")});v368=1;end if (v368==(3 + 0)) then v372.Destroy=function(v916) v370:Destroy();end;v372.Set=function(v917,v918) if v918 then v371.Text=v78(v918);end end;v368=4;end v555=1 + 1 ;end if (v555==0) then if (v368==1) then local v882=0 + 0 ;local v883;while true do if (v882==(0 -0)) then v883=0 + 0 ;while true do if (v883==(580 -(134 + 445))) then v368=2;break;end if (v883==(0 -0)) then v371=v66(v67(v7("\28\7\106\223\134\65\42\7\126","\32\72\98\18\171\202"),v370,{[v7("\34\135\60\96","\151\100\232\82\20")]=Enum.Font.GothamBold,[v7("\75\220\238\28","\104\31\185\150")]=v369,[v7("\232\188\235\227\196\195\236\207\206\234","\160\188\217\147\151\135\172\128")]=v84[v7("\44\210\28\255\40\137\59\216\8\228","\169\111\189\112\144\90")],[v7("\254\138\63\168","\226\173\227\69\205\223\224\105")]=UDim2.new(1 + 0 , -25,1,0 + 0 ),[v7("\104\49\49\82\219\18\87\48","\123\56\94\66\59\175")]=UDim2.new(0 -0 ,265 -(36 + 224) ),[v7("\216\66\112\234\29\236\142\239\77\119\213\8\255\143\233\83\114\243\31\240\130\227","\225\154\35\19\129\122\158")]=1861 -(1033 + 827) ,[v7("\110\5\243\67\193\245\197\58\89\1\255\82","\84\58\96\139\55\149\135\176")]=v7("\50\43\134\14\74","\94\115\95\195\96\46\175"),[v7("\119\78\39\41\29\36\157\229","\128\35\43\95\93\78\77\231")]=1860 -(1002 + 844) ,[v7("\144\24\46\32\47\95\165\173\26\56\57\18\112\189","\201\196\125\86\84\119\30")]=v7("\239\235\2\171","\223\163\142\100")}),v7("\182\19\219\165","\216\226\118\163\209"));v372={};v883=1;end end break;end end end if (v368==(1354 -(1126 + 224))) then return v372;end v555=1;end if ((1 + 1)==v555) then if ((2 + 0)==v368) then table.insert(v59.Options,{[v7("\170\233\11\4","\95\222\144\123\97\55\16")]=v7("\42\129\185\87\234\22\138","\131\121\228\218\35"),[v7("\247\209\47\4","\123\185\176\66\97\25")]=v369,[v7("\206\26\23\82","\81\168\111\121\49\117\79\56")]=v372});v372.Visible=function(v919,v920) local v921=0 -0 ;local v922;while true do if ((64 -(48 + 16))==v921) then v922=0 + 0 ;while true do if (v922==(0 -0)) then if (v920==nil) then v370.Visible= not v370.Visible;return;end v370.Visible=v920;break;end end break;end end end;v368=9 -6 ;end break;end end end end;v319.AddParagraph=function(v373,v374) local v375=v374[1 + 0 ] or v374.Title or v7("\247\11\247\183\192\24\228\166\207","\214\167\106\133") ;local v376=v374[2] or v374.Text or "" ;local v377,v378=v87(v317,v375,v376,UDim2.new(1, -(1109 -(910 + 179))));local v379={};v379.Visible=function(v556,...) v68:ToggleVisible(v377,...);end;v379.Destroy=function(v557) v377:Destroy();end;v379.SetTitle=function(v558,v559) v378:SetTitle(v78(v559));end;v379.SetDesc=function(v560,v561) v378:SetDesc(v78(v561));end;v379.Set=function(v562,v563,v564) if (v563 and v564) then local v750=0 -0 ;local v751;while true do if ((0 -0)==v750) then v751=1379 -(933 + 446) ;while true do if (v751==(0 + 0)) then v378:SetTitle(v78(v563));v378:SetDesc(v78(v564));break;end end break;end end elseif v563 then v378:SetDesc(v78(v563));end end;return v379;end;v319.AddButton=function(v385,v386) local v387=0;local v388;local v389;local v390;local v391;local v392;local v393;local v394;while true do local v565=0;while true do if (v565==(1525 -(248 + 1276))) then if (v387==(1 + 0)) then v391,v392=v87(v317,v388,v389,UDim2.new(1 + 0 , -(68 -48)));v393=v67(v7("\161\218\27\167\214\211\137\213\31\172","\159\232\183\122\192\179"),v391,{[v7("\23\59\178\36","\65\68\82\200")]=UDim2.new(0 -0 ,1559 -(151 + 1394) ,944 -(929 + 15) ,2010 -(1173 + 823) ),[v7("\21\95\97\41\219\198\113\43","\30\69\48\18\64\175\175")]=UDim2.new(1, -(16 -6),1776.5 -(482 + 1294) ),[v7("\209\34\28\228\52\226\28\16\229\53\228","\91\144\76\127\140")]=Vector2.new(1 -0 ,0.5 + 0 ),[v7("\194\9\69\42\212\168\218\197\238\12\114\51\210\180\198\192\225\26\67\47\208\163","\176\128\104\38\65\179\218\181")]=1307 -(1125 + 181) ,[v7("\249\201\195\18\213","\117\176\164\162")]=v7("\150\192\29\241\201\106\129\214\12\244\128\54\203\147\85\167\138\32\211\155\84\164\137\46","\25\228\162\101\144\186")});v391.Activated:Connect(function() v68:FireCallback(v390);end);v387=5 -3 ;end if (v387==0) then v388=v386[1 + 0 ] or v386.Name or v386.Title or v7("\11\45\88\91\59\113\152","\185\73\88\44\47\84\31") ;v389=v386.Desc or v386.Description or "" ;v390=v68:GetCallback(v386,2 -0 );v387=1;end break;end if (0==v565) then if (v387==2) then v394={};v394.Visible=function(v923,...) v68:ToggleVisible(v391,...);end;v394.Destroy=function(v924) v391:Destroy();end;v387=3;end if (v387==3) then v394.Callback=function(v925,...) v68:InsertCallback(v390,...);end;v394.Set=function(v926,v927,v928) if ((type(v927)==v7("\91\34\171\7\252\227","\132\40\86\217\110\146")) and (type(v928)==v7("\109\223\53\181\169\116","\62\30\171\71\220\199\19\156"))) then local v992=1189 -(626 + 563) ;while true do if (v992==(1250 -(153 + 1097))) then v392:SetTitle(v927);v392:SetDesc(v928);break;end end elseif (type(v927)==v7("\83\81\190\63\83\206","\45\32\37\204\86\61\169\79")) then v392:SetTitle(v927);elseif (type(v927)==v7("\83\64\11\191\161\117\90\91","\28\53\53\101\220\213")) then v390=v927;end end;return v394;end v565=1;end end end end;v319.AddToggle=function(v395,v396) local v397=v396[1] or v396.Name or v396.Title or v7("\57\83\15\70\86\164","\191\109\60\104\33\58\193\48") ;local v398=v396.Desc or v396.Description or "" ;local v399=v68:GetCallback(v396,9 -6 );local v400=v396[4] or v396.Flag or false ;local v401=v396[2] or v396.Default or false ;if v73(v400) then v401=v71(v400);end local v402,v403=v87(v317,v397,v398,UDim2.new(1 + 0 , -(96 -58)));local v404=v66(v67(v7("\161\197\25\234\130","\135\231\183\120"),v402,{[v7("\213\3\86\225","\201\134\106\44\132\85\122")]=UDim2.new(0 + 0 ,28 + 7 ,0 + 0 ,18),[v7("\6\3\100\54\21\5\199\45","\67\86\108\23\95\97\108\168")]=UDim2.new(1 + 0 , -10,0.5),[v7("\133\54\79\2\171\54\229\95\173\54\88","\48\196\88\44\106\196\68\181")]=Vector2.new(1,0.5 + 0 ),[v7("\160\222\223\40\135\182\173\57\140\219\255\44\140\171\176\127","\76\226\191\188\67\224\196\194")]=v84[v7("\250\39\11\255\239\153\27\19\226\242\210\45","\157\185\72\103\144")]}),v7("\106\167\152\117\163\180","\209\57\211\234\26\200"));v86(v7("\34\193\180\143\85\192","\178\97\174\198\225\48"),v404,UDim.new(0.5,0));local v405=v67(v7("\233\68\5\252\125","\111\175\54\100\145\24\134"),v404,{[v7("\97\24\35\30\68\11\47\0\77\29\20\7\66\23\51\5\66\11\37\27\64\0","\117\35\121\64")]=1158 -(199 + 958) ,[v7("\238\180\244\211","\47\189\221\142\182\67")]=UDim2.new(0.8,0,0.8,0 + 0 ),[v7("\16\176\52\194\92\160\47\39","\73\64\223\71\171\40\201\64")]=UDim2.new(0.5 -0 ,0,0.5 -0 ,0),[v7("\43\131\199\81\175\111\58\130\205\87\180","\29\106\237\164\57\192")]=Vector2.new(1176.5 -(1169 + 7) ,1873.5 -(751 + 1122) )});local v406=v66(v67(v7("\151\182\230\183\208","\146\209\196\135\218\181\178\192"),v405,{[v7("\30\57\153\20","\199\77\80\227\113\48")]=UDim2.new(0 + 0 ,11 + 1 ,0 + 0 ,3 + 9 ),[v7("\26\48\77\196\62\54\81\195","\173\74\95\62")]=UDim2.new(0 -0 ,0,1181.5 -(589 + 592) ),[v7("\231\23\95\62\196\21\140\201\16\82\34","\220\166\121\60\86\171\103")]=Vector2.new(0,0.5 -0 ),[v7("\203\3\62\187\60\216\21\252\12\57\147\52\198\21\251\81","\122\137\98\93\208\91\170")]=v84[v7("\164\238\16\64\199\242\157\194\130\236\25","\170\231\129\124\47\181\210\201")]}),v7("\191\179\63\61\15","\74\235\219\90\80\106"));v86(v7("\111\204\73\53\63\230","\146\44\163\59\91\90\148\26"),v406,UDim.new(0.5 + 0 ,24 -(13 + 11) ));local v407;local function v408(v566) if v407 then return;end v407,v401=true,v566;v72(v400,v401);v68:FireCallback(v399,v401);if v401 then local v752=0 + 0 ;while true do if (v752==(1 + 0)) then v80({v406,v7("\238\241\85\170\164\221\207\89\171\165\219","\203\175\159\54\194"),Vector2.new(1 + 0 ,0.5 -0 ),0.25,Wait or false });break;end if (v752==(0 + 0)) then v80({v406,v7("\69\34\171\136\93\124\34\182","\41\21\77\216\225"),UDim2.new(1,0 + 0 ,0.5 + 0 ),0.25});v80({v406,v7("\54\76\113\78\19\95\125\80\26\73\70\87\21\67\97\85\21\95\119\75\23\84","\37\116\45\18"),1848 -(230 + 1618) ,0.25 + 0 });v752=1;end end else local v753=0 + 0 ;while true do if ((204 -(131 + 72))==v753) then v80({v406,v7("\112\123\204\252\24\67\69\192\253\25\69","\119\49\21\175\148"),Vector2.new(0,0.5),0.25 + 0 ,Wait or false });break;end if (v753==(0 + 0)) then v80({v406,v7("\75\193\10\50\78\70\205\117","\162\27\174\121\91\58\47"),UDim2.new(404 -(72 + 332) ,976 -(269 + 707) ,0.5 -0 ),130.25 -(123 + 7) });v80({v406,v7("\241\196\28\254\56\203\220\208\17\241\11\203\210\203\12\229\62\203\214\203\28\236","\185\179\165\127\149\95"),0.8,0.25});v753=1;end end end v407=false;end task.spawn(v408,v401);v402.Activated:Connect(function() v408( not v401);end);local v406={};v406.Visible=function(v567,...) v68:ToggleVisible(v402,...);end;v406.Destroy=function(v568) v402:Destroy();end;v406.Callback=function(v569,...) v68:InsertCallback(v399,...)();end;v406.Set=function(v570,v571,v572) if ((type(v571)==v7("\68\161\4\84\35\78","\149\55\213\118\61\77\41\234")) and (type(v572)==v7("\14\18\216\207\231\62","\123\125\102\170\166\137\89\207"))) then local v754=1088 -(38 + 1050) ;while true do if (v754==(0 + 0)) then v403:SetTitle(v571);v403:SetDesc(v572);break;end end elseif (type(v571)==v7("\93\20\74\52\0\132","\201\46\96\56\93\110\227")) then v403:SetTitle(v571,false,true);elseif (type(v571)==v7("\185\12\225\245\16\192\181","\161\219\99\142\153\117")) then if (v407 and v572) then repeat task.wait();until  not v407 end task.spawn(v408,v571);elseif (type(v571)==v7("\122\164\168\112\217\117\190\168","\173\28\209\198\19")) then v399=v571;end end;return v406;end;v319.AddDropdown=function(v413,v414) local v415=v414[1] or v414.Name or v414.Title or v7("\81\254\184\171\113\227\160\181","\219\21\140\215") ;local v416=v414.Desc or v414.Description or "" ;local v417=v414[1 + 1 ] or v414.Options or {} ;local v418=v414[2 + 1 ] or v414.Default or {} ;local v419=v414[5] or v414.Flag or false ;local v420=v414.MultiSelect or false ;local v421=v68:GetCallback(v414,4);local v422,v423=v87(v317,v415,v416,UDim2.new(824 -(426 + 397) , -180));local v424=v66(v67(v7("\110\170\199\170\93","\56\40\216\166\199"),v422,{[v7("\21\189\15\42","\79\70\212\117")]=UDim2.new(1406 -(751 + 655) ,300 -150 ,0 + 0 ,1263 -(39 + 1206) ),[v7("\151\25\242\207\237\4\168\24","\109\199\118\129\166\153")]=UDim2.new(2 -1 , -(851 -(566 + 275)),935.5 -(167 + 768) ),[v7("\16\190\116\254\62\162\71\249\56\190\99","\150\81\208\23")]=Vector2.new(1,0.5 + 0 ),[v7("\219\196\227\128\254\215\239\158\247\193\195\132\245\202\242\216","\235\153\165\128")]=v84[v7("\152\70\174\32\84\102\153\234\169\70\169\42","\158\219\41\194\79\38\70\202")]}),v7("\112\49\61\13\229\211","\232\35\69\79\98\142\182"));v86(v7("\90\15\13\243\124\18","\157\25\96\127"),v424,UDim.new(0,5 -1 ));local v425=v66(v67(v7("\147\134\237\17\124\48\165\134\249","\81\199\227\149\101\48"),v424,{[v7("\78\91\225\20","\219\29\50\155\113\150\230\92")]=UDim2.new(0.85 + 0 ,0 + 0 ,0.85 -0 ,15 -(8 + 7) ),[v7("\240\46\198\115\240\90\125\222\41\203\111","\45\177\64\165\27\159\40")]=Vector2.new(0.5,1683.5 -(1510 + 173) ),[v7("\45\25\28\163\102\20\25\1","\18\125\118\111\202")]=UDim2.new(0.5,0 -0 ,0.5,0 + 0 ),[v7("\114\61\90\241\55\191\200\238\94\56\109\232\49\163\212\235\81\46\92\244\51\180","\155\48\92\57\154\80\205\167")]=1,[v7("\159\194\181\171","\37\217\173\219\223\152\203")]=Enum.Font.GothamBold,[v7("\61\0\7\34\124\171\247\5\0\27","\150\105\101\127\86\47\200")]=true,[v7("\250\247\235\161\228\207\194\253\225\230","\160\174\146\147\213\167")]=v84[v7("\99\235\22\75\30\1\116\225\2\80","\33\32\132\122\36\108")],[v7("\141\17\106\95","\28\217\116\18\43")]=v7("\156\25\152","\92\178\55\182\52\176\206")}),v7("\46\48\105\1","\117\122\85\17"));local v426=v67(v7("\161\226\43\67\163\241\137\237\47\72","\189\232\143\74\36\198"),v424,{[v7("\207\163\16\75","\106\156\202\106\46\183")]=UDim2.new(253 -(30 + 223) ,1271 -(300 + 956) ,122 -(22 + 100) ,33 -18 ),[v7("\13\22\104\58\62\52\22\117","\74\93\121\27\83")]=UDim2.new(282 -(47 + 235) , -(16 -11),0.5),[v7("\92\181\229\118\114\169\214\113\116\181\242","\30\29\219\134")]=Vector2.new(1 + 0 ,486.5 -(21 + 465) ),[v7("\124\170\24\253\241","\110\53\199\121\154\148\63\120")]=v7("\19\24\231\62\74\239\4\14\246\59\3\179\78\75\175\104\9\165\86\67\174\106\11\175","\156\97\122\159\95\57"),[v7("\236\183\217\243\12\16\48\219\184\222\204\25\3\49\221\166\219\234\14\12\60\215","\95\174\214\186\152\107\98")]=1 + 0 });local v427=v67(v7("\189\11\105\159\49\211\157\26\126\133","\166\233\110\17\235\115"),v209,{[v7("\86\15\201\196","\28\24\110\164\161\146\222")]=v7("\122\205\66\44\120\207\95\38\80","\69\59\163\54"),[v7("\131\161\208\79","\214\208\200\170\42\83\173")]=UDim2.new(1,0 + 0 ,1,0),[v7("\251\32\113\171\114\203\46\103\174\113\237\51\115\174\102\201\32\96\165\123\218\56","\21\185\65\18\192")]=1,[v7("\200\95\78\18\163\242\83","\193\158\54\61\123")]=false,[v7("\1\20\56\173","\217\85\113\64")]=""});local v428=v67(v7("\109\29\205\205\234","\133\43\111\172\160\143\226"),v427,{[v7("\248\170\74\212","\160\171\195\48\177")]=UDim2.new(v424.Size.X,0 + 0 ,0 -0 ),[v7("\241\2\117\38\91\211\160\210\221\7\66\63\93\207\188\215\210\17\115\35\95\216","\167\179\99\22\77\60\161\207")]=0.1,[v7("\35\126\136\83\75\19\112\158\86\72\34\112\135\87\94\82","\44\97\31\235\56")]=Color3.fromRGB(255,1472 -(553 + 664) ,103 + 152 ),[v7("\208\0\251\172\254\28\200\171\248\0\236","\196\145\110\152")]=Vector2.new(0,1),[v7("\118\47\243\247","\146\56\78\158")]=v7("\9\201\64\246\94\34\204\65\192\72\44\214\74","\58\77\187\47\134"),[v7("\49\57\168\23\246\10\81\13\17\48\175\3\228\32\64\13","\126\114\85\193\103\133\78\52")]=true,[v7("\229\216\38\113\210\222","\24\164\187\82")]=true});v86(v7("\210\213\78\164\244\227","\145\145\186\60\202"),v428);v86(v7("\213\196\33\11\237\213","\100\134\176\83"),v428);v86(v7("\244\211\67\185\186\16\221\213","\117\179\161\34\221\211"),v428,{[v7("\127\191\238\199\16\246\170\67","\197\45\208\154\166\100\159")]=138 -(73 + 5) });local v429=v66(v67(v7("\26\247\148\179\63\37\253\136\187\21\59\245\139\185","\83\73\148\230\220"),v428,{[v7("\0\220\228\239\227\133\17\222\228\201\226\136\52\218\213\239\227\134\33\140","\233\83\191\150\128\143")]=v84[v7("\212\137\195\125\31\183\178\199\119\0\242","\109\151\230\175\18")],[v7("\147\243\91\65","\224\192\154\33\36")]=UDim2.new(1,0,1716 -(1128 + 587) ,0 -0 ),[v7("\176\87\10\141\143\88\58\131\145\96\16\139\128\95\22\135\144\71","\226\227\52\120")]=691.5 -(558 + 132) ,[v7("\39\234\239\175\77\173\216\172\11\239\216\182\75\177\196\169\4\249\233\170\73\166","\217\101\139\140\196\42\223\183")]=1,[v7("\56\0\189\30\65\8\60\166\0\65\42\6\183\31\72","\36\122\111\207\122")]=0 -0 ,[v7("\47\9\234\174\185\39\63\1\254\189","\84\108\104\132\216\216")]=UDim2.new(),[v7("\255\24\212\87\236\168\75\194\28\226\81\242\161\65\216\18\201\86","\34\172\123\166\56\128\196")]="Y",[v7("\133\188\188\196\71\114\193\29\167\138\169\197\92\114\198\39\173\179\173","\116\196\201\200\171\42\19\181")]="Y",[v7("\87\133\239\84\3\5","\124\22\230\155\61\117\96")]=true},{v67(v7("\240\130\214\234\250\233\252\203\172","\149\165\203\134\139\158\141"),{[v7("\3\173\68\34\58\162\71\10\54\170\84","\70\83\204\32")]=UDim.new(0 -0 ,3 + 5 ),[v7("\62\128\15\132\7\143\12\178\7\134\3\148","\224\110\225\107")]=UDim.new(0,7 + 1 ),[v7("\196\119\217\53\57\202\195\192\121\205","\164\148\22\189\81\80\164")]=UDim.new(0,3 + 2 ),[v7("\130\129\115\183\46\69\112\144\143\99\167\40\70","\23\210\224\23\211\71\43")]=UDim.new(0 + 0 ,5)}),v67(v7("\156\175\60\190\70\63\240\241\176\137\5\163","\144\201\230\112\215\53\75\188"),{[v7("\101\196\29\238\255\171\82","\197\53\165\121\138\150")]=UDim.new(0,4)})}),v7("\222\220\203\47\225\211\251\33\255","\64\141\191\185"));local v430,v431=8 -3 ;local function v432() local v573=0;local v574;while true do if (v573==(0 + 0)) then v574=0 + 0 ;while true do if (3==v574) then v431=false;break;end if (v574==(772 -(294 + 477))) then v80({v428,v7("\62\252\153\91","\62\109\149\227"),UDim2.new(0 -0 ,40 + 112 ,0 + 0 ,0 -0 ),0.2 + 0 ,true});v80({v426,v7("\218\133\136\211\5\208\135\133\219\18\160","\96\147\232\233\180"),Color3.fromRGB(97 + 158 ,1610 -(117 + 1238) ,1970 -(686 + 1029) ),1356.2 -(1074 + 282) });v574=1619 -(1359 + 258) ;end if ((0 -0)==v574) then v431=true;v80({v426,v7("\49\229\164\219\227\192\169\13","\198\99\138\208\186\151\169"),0 -0 ,0.2 + 0 });v574=630 -(129 + 500) ;end if (v574==(1713 -(1157 + 554))) then v426.Image=v7("\58\58\2\74\158\42\45\44\19\79\215\118\103\105\74\28\221\96\127\97\75\30\223\106","\89\72\88\122\43\237");v427.Visible=false;v574=3 -0 ;end end break;end end end local function v433() return UDim2.fromOffset(759 -(82 + 525) ,v430);end local function v434() local v575=0;local v576;while true do if (v575==(1 + 0)) then v430=(math.clamp(v576,0 -0 ,10) * (1648 -(948 + 675))) + 4 + 6 ;if v427.Visible then local v889=0 + 0 ;while true do if (v889==(0 -0)) then v427.Visible=true;v80({v428,v7("\195\203\60\233","\140\144\162\70"),v433(),0.2,true});break;end end end break;end if (v575==0) then v576=0 + 0 ;for v846,v847 in pairs(v429:GetChildren()) do if (v847:IsA(v7("\10\169\164\59\30","\123\76\219\197\86")) or (v847.Name==v7("\119\200\1\5\225\49","\95\56\184\117\108\142"))) then v576=v576 + (987 -(968 + 18)) ;end end v575=1 + 0 ;end end end local function v435() local v577=0 + 0 ;while true do if (v577==(1 -0)) then if v427.Visible then local v890=267 -(172 + 95) ;local v891;while true do if (v890==(0 -0)) then v891=265 -(260 + 5) ;while true do if ((2 -1)==v891) then v80({v428,v7("\132\6\170\17","\125\215\111\208\116\44"),UDim2.new(0,431 -279 ,0,1395 -(253 + 1142) ),0.2 -0 ,true});v427.Visible=false;break;end if (v891==0) then v426.Image=v7("\194\42\65\115\253\195\45\77\123\234\138\103\22\35\190\135\120\0\37\183\129\125\11\33","\142\176\72\57\18");v80({v426,v7("\143\60\17\35\163\18\31\40\169\35\67","\68\198\81\112"),Color3.fromRGB(139 + 116 ,255,1525 -(1255 + 15) ),1542.2 -(1221 + 321) });v891=2 -1 ;end end break;end end else local v892=0;while true do if (v892==(0 + 0)) then v427.Visible=true;v426.Image=v7("\21\69\87\242\107\79\2\83\70\247\34\19\72\22\31\164\40\5\80\30\31\170\44\4","\60\103\39\47\147\24");v892=3 -2 ;end if (v892==(3 -2)) then v80({v426,v7("\197\7\246\135\211\208\65\224\5\229\211","\46\140\106\151\224\182\147"),v84[v7("\200\34\113\77\249\109\73\74\238\32\120","\34\139\77\29")],78.2 -(48 + 30) });v80({v428,v7("\131\249\7\81","\73\208\144\125\52"),v433(),0.2 + 0 ,true});break;end end end v431=false;break;end if (v577==(611 -(258 + 353))) then if v431 then return;end v431=true;v577=1995 -(1382 + 612) ;end end end local function v436() local v578=0 + 0 ;local v579;local v580;local v581;local v582;local v583;local v584;local v585;while true do if ((1 + 0)==v578) then v581=nil;v582=nil;v578=2;end if (3==v578) then v585=nil;while true do if (v579==(1 + 2)) then v428.AnchorPoint=Vector2.new(0,v585);v80({v428,v7("\26\227\153\194\211\25\92\197","\171\74\140\234\171\167\112\51"),v584,215.1 -(75 + 140) });break;end if ((0 -0)==v579) then v580=v424.AbsolutePosition;v581=v76.AbsoluteSize;v579=1800 -(923 + 876) ;end if (v579==(2 -1)) then local v934=0;while true do if (v934==1) then v579=814 -(284 + 528) ;break;end if (v934==(1019 -(867 + 152))) then v582=math.clamp(v580.X/v61 ,0,(v581.X/v61) -v428.Size.X.Offset );v583=math.clamp(v580.Y/v61 ,1106 -(709 + 397) ,v581.Y/v61 );v934=3 -2 ;end end end if (v579==(38 -(21 + 15))) then v584=UDim2.fromOffset(v582,v583);v585=((v580.Y>(v581.Y/(1.4 -0))) and (1 -0)) or ((v430>80) and (0.5 + 0)) or (0 -0) ;v579=3;end end break;end if (v578==2) then v583=nil;v584=nil;v578=3;end if ((0 -0)==v578) then v579=0 + 0 ;v580=nil;v578=136 -(97 + 38) ;end end end local v437,v438,v439,v440,v441;do local v586=((type(v418)~=v7("\59\15\78\83\244","\205\79\110\44\63\145")) and {v418}) or v418 ;local v587=v420;local v588={};v441=(v587 and {}) or (v73(v419) and v71(v419)) or v586[1] ;if v587 then for v800,v801 in pairs((v73(v419) and v71(v419)) or v586 ) do if ((type(v800)==v7("\180\75\45\193\186\12","\124\199\63\95\168\212\107\196")) and (v417[v800] or table.find(v417,v800))) then v441[v800]=v801;elseif v417[v801] then v441[v801]=true;end end end local function v589() local v707=80 -(52 + 28) ;while true do if ((0 + 0)==v707) then v72(v419,(v587 and v441) or tostring(v441) );v68:FireCallback(v421,v441);break;end end end local function v590() if v587 then local v802={};for v848,v849 in pairs(v441) do if v849 then table.insert(v802,v848);end end v425.Text=(( #v802>(849 -(59 + 790))) and table.concat(v802,v7("\74\232","\147\102\200\51\90\196\151\233"))) or v7("\117\190\161","\91\91\144\143\173\222\128") ;else v425.Text=tostring(v441 or v7("\109\238\2","\46\67\192\44\49\203") );end end local function v591() if v587 then for v850,v851 in pairs(v588) do local v852=0 + 0 ;local v853;local v854;local v855;while true do if (v852==1) then v855=nil;while true do if (v853==(1 + 0)) then v80({v854[2],v7("\123\65\42\240","\181\40\40\80\149\237\43\24"),(v855 and UDim2.fromOffset(10 -6 ,12)) or UDim2.fromOffset(4,4) ,0.35 -0 });v80({v854[3],v7("\33\183\61\38\142\88\19\27\161\53\51\168\79\28\22\171","\114\117\210\69\82\218\42"),(v855 and (0 -0)) or (0.4 -0) ,0.35});break;end if (v853==0) then local v1024=0 -0 ;while true do if (v1024==(0 + 0)) then v854,v855=v851.nodes,v851.Stats;v80({v854[2],v7("\38\215\45\169\35\182\10\17\216\42\150\54\165\11\23\198\47\176\33\170\6\29","\101\100\182\78\194\68\196"),(v855 and (0 -0)) or (1253.8 -(677 + 576)) ,0.35});v1024=1 + 0 ;end if ((1 -0)==v1024) then v853=221 -(88 + 132) ;break;end end end end break;end if (v852==(0 + 0)) then v853=0;v854=nil;v852=4 -3 ;end end end else for v856,v857 in pairs(v588) do local v858=0;local v859;local v860;while true do if (v858==(3 -2)) then v80({v860[3 -1 ],v7("\102\215\91\120\171\86\217\77\125\168\112\196\89\125\191\84\215\74\118\162\71\207","\204\36\182\56\19"),(v859 and 0) or (1 + 0) ,0.35});v80({v860[949 -(652 + 295) ],v7("\218\66\198\134","\114\137\43\188\227\29\88"),(v859 and UDim2.fromOffset(993 -(848 + 141) ,754 -(372 + 368) )) or UDim2.fromOffset(4,4) ,1130.35 -(542 + 588) });v858=2;end if (v858==(820 -(6 + 812))) then v80({v860[7 -4 ],v7("\208\24\176\4\208\15\169\30\247\13\169\2\225\19\171\9","\112\132\125\200"),(v859 and (0 + 0)) or (0.4 + 0) ,0.35});break;end if (v858==0) then local v971=0 -0 ;while true do if (v971==(0 + 0)) then v859=v857.Value==v441 ;v860=v857.nodes;v971=1 + 0 ;end if (v971==(1 + 0)) then v858=1 + 0 ;break;end end end end end end v590();end local function v592(v708) local v709=0 + 0 ;while true do if (v709==0) then if v587 then local v935=0 + 0 ;while true do if (v935==(1930 -(1690 + 239))) then v441[v708.Name]=v708.Stats;v589();break;end if (v935==(0 -0)) then v708.Stats= not v708.Stats;v708.LastCB=tick();v935=1 + 0 ;end end else v708.LastCB=tick();v441=v708.Value;v589();end v591();break;end end end function v439(v710,v711) local v712=tostring(((type(v710)==v7("\238\172\225\122\84\242","\149\157\216\147\19\58")) and v710) or v711 );if v588[v712] then return;end v588[v712]={[v7("\192\136\28\205\209","\168\169\230\120")]=v710,[v7("\202\140\136\2\249","\119\156\237\228")]=v711,[v7("\237\208\13\123","\30\163\177\96")]=v712,[v7("\41\52\84\157\46","\180\122\64\53\233\93\75")]=false,[v7("\250\22\0\41\245\53","\93\182\119\115")]=0 -0 };if v587 then local v805=0;local v806;while true do if ((0 -0)==v805) then v806=v441[v712];v441[v712]=v806 or false ;v805=1 + 0 ;end if (v805==1) then v588[v712].Stats=v806;break;end end end local v714=v86(v7("\160\10\199\152\184\240","\158\226\127\179\236\215"),v429,{[v7("\223\193\196\211","\182\145\160\169")]=v7("\22\48\36\31\168\1","\111\89\64\80\118\199"),[v7("\140\190\20\67","\38\223\215\110")]=UDim2.new(1,0 -0 ,0,21),[v7("\110\212\31\204\191\87\212\2","\203\62\187\108\165")]=UDim2.new(0,1868 -(1736 + 132) ,0.5),[v7("\216\122\75\54\126\236\224\246\125\70\42","\176\153\20\40\94\17\158")]=Vector2.new(0 + 0 ,0.5)});v86(v7("\139\60\169\93\192\186","\165\200\83\219\51"),v714,UDim.new(0 -0 ,18 -14 ));local v715=v66(v67(v7("\225\248\117\118\212","\132\167\138\20\27\177\213\220"),v714,{[v7("\194\218\240\69\40\251\218\237","\92\146\181\131\44")]=UDim2.new(0,1,0.5 + 0 ),[v7("\120\247\91\131","\189\43\158\33\230\222\32\119")]=UDim2.new(0,36 -(27 + 5) ,0 + 0 ,4),[v7("\124\193\78\90\143\76\207\88\95\140\125\207\65\94\154\13","\232\62\160\45\49")]=v84[v7("\87\220\249\163\179\52\231\253\169\172\113","\193\20\179\149\204")],[v7("\245\0\130\201\208\19\142\215\217\5\181\208\214\15\146\210\214\19\132\204\212\24","\162\183\97\225")]=1 + 0 ,[v7("\8\203\231\255\19\240\145\38\204\234\227","\193\73\165\132\151\124\130")]=Vector2.new(0,0.5 + 0 )}),v7("\249\202\172\86\179","\214\173\162\201\59\214"));v86(v7("\0\118\184\79\210\50","\64\67\25\202\33\183"),v715,UDim.new(0.5,0));local v716=v66(v67(v7("\221\235\105\168\2\211\65\236\226","\35\137\142\17\220\78\178"),v714,{[v7("\30\71\63\4","\97\77\46\69")]=UDim2.new(1,0 + 0 ,1 + 0 ),[v7("\239\208\19\172\203\214\15\171","\197\191\191\96")]=UDim2.new(1117 -(771 + 346) ,1644 -(1577 + 57) ),[v7("\254\44\245\90","\45\170\73\141\46\56\136")]=v712,[v7("\181\10\213\241\140\136\11\142\29\158","\103\225\111\173\133\207\231")]=v84[v7("\111\139\249\90\94\196\193\80\84\144","\53\44\228\149")],[v7("\235\212\53\17","\68\173\187\91\101\171")]=Enum.Font.GothamBold,[v7("\200\10\10\211\113\163\113\208\251\1\31\194\71\150","\185\156\111\114\167\41\226\29")]=v7("\39\0\16\52","\131\107\101\118\64\212"),[v7("\227\215\47\32\64\210\198\212\216\40\31\85\193\199\210\198\45\57\66\206\202\216","\169\161\182\76\75\39\160")]=1,[v7("\237\87\175\159\47\48\169\215\65\167\138\9\39\166\218\75","\200\185\50\215\235\123\66")]=0.4}),v7("\198\132\193\246","\122\146\225\185\130\234\22"));v714.Activated:Connect(function() v592(v588[v712]);end);v588[v712].nodes={v714,v715,v716};end function v440(v718,v719) local v720=1196 -(700 + 496) ;local v721;while true do if (v720==0) then v721=tostring(((type(v718)==v7("\170\246\210\198\225\188","\219\217\130\160\175\143")) and v718) or v719 );if v588[v721] then local v940=0 + 0 ;while true do if (v940==(253 -(65 + 187))) then table.clear(v588[v721]);v588[v721]=nil;break;end if ((939 -(827 + 112))==v940) then if v587 then v441[v721]=nil;else v441=nil;end v588[v721].nodes[1]:Destroy();v940=1 + 0 ;end end end break;end end end function v438() return v588;end function v437(v722,v723) local v724=0 -0 ;local v725;while true do if (v724==0) then v725=0 -0 ;while true do if (v725==0) then if v723 then table.foreach(v588,v440);end table.foreach(v722,v439);v725=4 -3 ;end if (v725==(1 + 0)) then v589();v591();break;end end break;end end end table.foreach(v417,v439);v589();v591();end v422.Activated:Connect(v435);v427.MouseButton1Down:Connect(v432);v427.MouseButton1Click:Connect(v432);v205:GetPropertyChangedSignal(v7("\8\181\81\52\60\176\71","\93\94\220\34")):Connect(v432);v424:GetPropertyChangedSignal(v7("\46\202\210\133\214\226\233\10\248\206\153\211\227\244\0\198","\157\111\168\161\234\186\151")):Connect(v436);v422.Activated:Connect(v434);v429.ChildAdded:Connect(v434);v429.ChildRemoved:Connect(v434);v436();v434();local v442={};v442.Visible=function(v593,...) v68:ToggleVisible(v422,...);end;v442.Destroy=function(v594) v422:Destroy();end;v442.Callback=function(v595,...) v68:InsertCallback(v421,...)(v441);end;v442.Add=function(v596,...) local v597=0 + 0 ;local v598;while true do if (v597==0) then v598={...};if (type(v598[1])==v7("\111\65\119\61\199","\229\27\32\21\81\162\217\210")) then table.foreach(Option,function(v941,v942) v439(v942);end);else table.foreach(v598,function(v943,v944) v439(v944);end);end break;end end end;v442.Remove=function(v599,v600) for v726,v727 in pairs(v438()) do if (((type(v600)==v7("\34\217\246\56\79\62","\42\76\172\155\90")) and (v726==v600)) or (v727.Name==v7("\221\157\149\32\15\252","\96\146\237\225\73"))) then v440(v726,v727.Value);end end end;v442.Select=function(v601,v602) if (type(v602)==v7("\251\106\26\225\71\125","\194\136\30\104\136\41\26")) then for v807,v808 in pairs(Options) do if (v808.Name==v602) then v808.Active();end end elseif (type(v602)==v7("\210\195\14\74\17\162","\79\188\182\99\40\116\208\201")) then for v894,v895 in pairs(Options) do if (v894==v602) then v895.Active();end end end end;v442.Set=function(v603,v604,v605) if (type(v604)==v7("\105\194\40\77\38","\95\29\163\74\33\67")) then v437(v604, not v605);elseif (type(v604)==v7("\122\39\78\52\107\131\11\114","\100\28\82\32\87\31\234")) then v421=v604;end end;return v442;end;v319.AddSlider=function(v450,v451) local v452=v451[344 -(166 + 177) ] or v451.Name or v451.Title or v7("\2\94\233\117\254\196\169","\94\81\50\128\17\155\182\136") ;local v453=v451.Desc or v451.Description or "" ;local v454=v451[1858 -(1361 + 495) ] or v451.MinValue or v451.Min or 10 ;local v455=v451[7 -4 ] or v451.MaxValue or v451.Max or 100 ;local v456=v451[3 + 1 ] or v451.Increase or (2 -1) ;local v457=v68:GetCallback(v451,6 + 0 );local v458=v451[7] or v451.Flag or false ;local v459=v451[229 -(148 + 76) ] or v451.Default or (93 -68) ;if v73(v458) then v459=v71(v458);end v454,v455=v454/v456 ,v455/v456 ;local v460,v461=v87(v317,v452,v453,UDim2.new(2 -1 , -(111 + 69)));local v462=v67(v7("\191\57\252\45\192\161\8\147\132\50","\231\235\92\132\89\130\212\124"),v460,{[v7("\205\189\238\58","\37\158\212\148\95\177")]=UDim2.new(1742.45 -(735 + 1007) ,0,1),[v7("\68\19\183\142\25\125\19\170","\109\20\124\196\231")]=UDim2.new(280 -(111 + 168) ),[v7("\129\179\119\173\62\50\144\178\125\171\37","\64\192\221\20\197\81")]=Vector2.new(1,0),[v7("\142\227\246\173\133\186\226\246\173\169\140\249\238\173\181","\199\207\150\130\194")]=false,[v7("\129\79\99\252","\35\213\42\27\136")]="",[v7("\130\134\56\180\223\224\175\146\53\187\236\224\161\137\40\175\217\224\165\137\56\166","\146\192\231\91\223\184")]=1 + 0 });local v463=v66(v67(v7("\124\227\247\36\212","\110\58\145\150\73\177\212\103"),v462,{[v7("\214\53\201\249\76\217\230\225\58\206\209\68\199\230\230\103","\137\148\84\170\146\43\171")]=v84[v7("\34\208\115\242\101\65\236\107\239\120\10\218","\23\97\191\31\157")],[v7("\181\139\29\0","\82\230\226\103\101\189")]=UDim2.new(1 + 0 , -(41 -21),0 + 0 ,5 + 1 ),[v7("\187\37\160\184\0\130\37\189","\116\235\74\211\209")]=UDim2.new(0.5 + 0 ,0 -0 ,0.5 + 0 ),[v7("\9\50\221\45\39\46\238\42\33\50\202","\69\72\92\190")]=Vector2.new(0.5,932.5 -(147 + 785) )}),v7("\5\47\246\219\160\173","\215\86\91\132\180\203\200\118"));v86(v7("\16\225\148\221\54\252","\179\83\142\230"),v463);local v464=v66(v67(v7("\252\61\252\56\60","\191\186\79\157\85\89\127\151"),v463,{[v7("\212\123\167\197\131\87\249\111\170\202\167\74\250\117\182\157","\37\150\26\196\174\228")]=v84[v7("\234\255\190\90\37\201\253\248\183\88\50","\233\169\144\210\53\87")],[v7("\17\79\247\217","\188\66\38\141")]=UDim2.fromScale(666.3 -(483 + 183) ,2 -1 ),[v7("\195\95\31\53\118\80\59\193\251\85\61\56\107\71\4","\168\129\48\109\81\19\34\104")]=0 + 0 }),v7("\67\28\9\61\218","\153\23\116\108\80\191\69\219"));v86(v7("\106\16\239\214\253\153","\22\41\127\157\184\152\235"),v464);local v465=v67(v7("\49\213\224\199\18","\170\119\167\129"),v463,{[v7("\233\249\166\118","\62\186\144\220\19\227")]=UDim2.new(1911 -(1790 + 121) ,6,0 -0 ,1551 -(259 + 1280) ),[v7("\131\253\239\221\166\238\227\195\175\248\207\217\173\243\254\133","\182\193\156\140")]=Color3.fromRGB(1804 -(160 + 1424) ,220,204 + 16 ),[v7("\241\67\5\187\242\54\206\66","\95\161\44\118\210\134")]=UDim2.fromScale(0.3 + 0 ,0.5),[v7("\199\78\16\5\117\196\213\161\239\78\7","\206\134\32\115\109\26\182\133")]=Vector2.new(0.5,0.5),[v7("\20\249\204\24\90\79\57\237\193\23\105\79\55\246\220\3\92\79\51\246\204\10","\61\86\152\175\115\61")]=0.2});v86(v7("\138\14\206\62\212\147","\167\201\97\188\80\177\225\67"),v465);local v466=v66(v67(v7("\122\13\156\187\208\128\76\13\136","\225\46\104\228\207\156"),v462,{[v7("\153\201\169\75","\223\202\160\211\46\87\51\210")]=UDim2.new(770 -(479 + 291) ,26 -12 ,0,985 -(569 + 402) ),[v7("\247\231\25\124\2\196\217\21\125\3\194","\109\182\137\122\20")]=Vector2.new(1,1305.5 -(635 + 670) ),[v7("\98\166\1\243\244\222\229\114","\28\50\201\114\154\128\183\138")]=UDim2.new(0,0,0.5 -0 ),[v7("\136\135\26\249\173\148\22\231\164\130\45\224\171\136\10\226\171\148\28\252\169\159","\146\202\230\121")]=3 -2 ,[v7("\218\234\246\10\228\189\172\49\252\188","\94\142\143\142\126\167\210\192")]=v84[v7("\35\202\17\238\213\64\241\24\249\211","\167\96\165\125\129")],[v7("\33\217\24\82","\232\103\182\118\38\34\70\43")]=Enum.Font.FredokaOne,[v7("\1\82\55\247\3\120\47\82","\17\85\55\79\131\80")]=610 -(42 + 556) }),v7("\252\128\161\184","\95\168\229\217\204"));local v467=v67(v7("\191\18\181\138\139\55\131","\233\234\91\230"),v466);local v468=v67(v7("\119\83\131\126\162","\199\49\33\226\19"),v463,{[v7("\98\84\80\22\211\91\84\77","\167\50\59\35\127")]=UDim2.new(1401 -(1246 + 155) ,732 -(31 + 701) ,0.5 -0 ,499 -(393 + 106) ),[v7("\126\26\65\229\170\68\22","\200\40\115\50\140")]=false});local function v469(v606) local v607=0;local v608;while true do if (v607==(1172 -(727 + 444))) then v459,v466.Text=v608,tostring(v608);v68:FireCallback(v457,v459);break;end if (v607==(0 -0)) then v608=tonumber(v606 * v456 );v608=math.floor(v608 * (36 + 64) )/100 ;v607=1;end end end local function v470() local v609=0;local v610;local v611;local v612;while true do if (v609==(654 -(269 + 384))) then v612=v611/v463.AbsoluteSize.X ;v465.Position=UDim2.new(math.clamp(v612,1569 -(598 + 971) ,1),0,0.5,0);break;end if (v609==(0 + 0)) then local v811=0 -0 ;while true do if (v811==(0 -0)) then v610=v57:GetMouse();v611=v610.X-v468.AbsolutePosition.X ;v811=2 -1 ;end if (v811==1) then v609=1;break;end end end end end local function v471() local v613=1445 -(800 + 645) ;local v614;local v615;while true do if (v613==1) then v615=math.floor((((v614 * v455)/v455) * (v455-v454)) + v454 );v469(v615);break;end if (v613==0) then v464.Size=UDim2.new(v465.Position.X.Scale,0 + 0 ,791 -(687 + 103) ,0);v614=v465.Position.X.Scale;v613=1;end end end v462.MouseButton1Down:Connect(function() v80({v465,v7("\199\63\118\17\224\61\118\13\246\35\116\6","\127\147\77\23"),0 + 0 ,513.3 -(306 + 207) });v317.ScrollingEnabled=false;while v51:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do local v728=1404 -(112 + 1292) ;while true do if (v728==(0 + 0)) then task.wait();v470();break;end end end v80({v465,v7("\191\244\244\122\99\155\231\231\113\126\136\255","\16\235\134\149\20"),0.2 -0 ,0.3 -0 });v317.ScrollingEnabled=true;v72(v458,v459);end);v466:GetPropertyChangedSignal(v7("\238\78\86\178","\108\186\43\46\198\108\231")):Connect(function() local v617=0;while true do if (0==v617) then v467.Scale=0.3 -0 ;v80({v467,v7("\1\188\244\13\121","\28\82\223\149\97"),1.2 + 0 ,977.1 -(613 + 364) });v617=1;end if (v617==(2 + 0)) then v80({v466,v7("\114\138\15\255\215\55\213\78","\186\32\229\123\158\163\94"),0,0.1 -0 });break;end if (v617==1) then v80({v466,v7("\159\58\89\95\185\60\66\80","\62\205\85\45"),math.random( -(1940 -(1467 + 472)),1 -0 ) * 5 ,0.15,true});v80({v467,v7("\70\15\160\165\7","\105\21\108\193\201\98\233"),1,0.2 -0 });v617=431 -(12 + 417) ;end end end);function SetSlider(v618) local v619=0 -0 ;local v620;local v621;local v622;while true do if (v619==0) then if (type(v618)~=v7("\10\54\124\200\28\183","\87\100\67\17\170\121\197")) then return;end v620,v621=v620 * v456 ,v621 * v456 ;v619=1 + 0 ;end if (v619==2) then v80({v465,v7("\222\132\169\137\67\188\225\133","\213\142\235\218\224\55"),UDim2.fromScale(math.clamp(v622,0 -0 ,1),0.5 + 0 ),0.3 + 0 ,true});break;end if (v619==(1106 -(924 + 181))) then v622=(v618-v620)/(v621-v620) ;v72(v458,v618);v619=799 -(263 + 534) ;end end end SetSlider(v459);v465:GetPropertyChangedSignal(v7("\56\173\234\204\28\171\246\203","\165\104\194\153")):Connect(v471);v471();local v472={};v472.Set=function(v623,v624,v625) if (v624 and v625) then local v755=0 + 0 ;while true do if (v755==(0 + 0)) then v461:SetTitle(v624);v461:SetDesc(v625);break;end end elseif (type(v624)==v7("\148\36\203\162\247\90","\237\231\80\185\203\153\61")) then v461:SetTitle(v624);elseif (type(v624)==v7("\163\37\142\113\81\172\63\142","\37\197\80\224\18")) then v457=v624;elseif (type(v624)==v7("\23\87\65\68\177\11","\212\121\34\44\38")) then SetSlider(v624);end end;v472.Callback=function(v626,...) v68:InsertCallback(v457,...)(tonumber(v459));end;v472.Visible=function(v627,...) v68:ToggleVisible(v460,...);end;v472.Destroy=function(v628) v460:Destroy();end;return v472;end;v319.AddTextBox=function(v477,v478) local v479=0 -0 ;local v480;local v481;local v482;local v483;local v484;local v485;local v486;local v487;local v488;local v489;local v490;local v491;local v492;while true do local v629=0;while true do if (v629==(5 -3)) then if (v479==(4 + 1)) then v491.Visible=function(v945,...) v68:ToggleVisible(v486,...);end;v491.Destroy=function(v946) v486:Destroy();end;return v491;end if (v479==(707 -(562 + 145))) then v480=v478[1 + 0 ] or v478.Name or v478.Title or v7("\142\191\50\17\62\143\253\70","\62\218\218\74\101\30\205\146") ;v481=v478.Desc or v478.Description or "" ;v482=v478[1 + 1 ] or v478.Default or "" ;v483=v478[2 + 3 ] or v478.PlaceholderText or v7("\107\167\105\228\201","\79\34\201\25\145\189\94\36") ;v479=1 + 0 ;end break;end if ((0 + 0)==v629) then if ((3 -1)==v479) then local v898=0;while true do if (v898==(2 + 0)) then v479=3;break;end if (v898==(0 -0)) then v488=v66(v67(v7("\158\232\49\203\127","\26\216\154\80\166"),v486,{[v7("\255\192\247\70","\76\172\169\141\35\29")]=UDim2.new(0,55 + 95 ,0 + 0 ,1894 -(1459 + 417) ),[v7("\236\214\235\10\200\208\247\13","\99\188\185\152")]=UDim2.new(1, -10,286.5 -(194 + 92) ),[v7("\243\26\181\6\172\192\36\185\7\173\198","\195\178\116\214\110")]=Vector2.new(1386 -(1057 + 328) ,0.5),[v7("\39\246\133\126\198\244\10\226\136\113\226\233\9\248\148\38","\134\101\151\230\21\161")]=v84[v7("\138\133\54\91\49\114\211\189\152\53\95\38","\128\201\234\90\52\67\82")]}),v7("\151\89\44\123\193\161","\170\196\45\94\20"));v86(v7("\93\75\23\58\196\50","\80\30\36\101\84\161\64"),v488,UDim.new(0 -0 ,4));v898=4 -3 ;end if (v898==1) then v489=v66(v67(v7("\146\84\1\86\250\52\190","\91\198\49\121\34\184"),v488,{[v7("\7\207\109\188","\233\84\166\23\217")]=UDim2.new(532.85 -(5 + 527) ,0 + 0 ,780.85 -(342 + 438) ,0 + 0 ),[v7("\89\118\251\238\57\51\72\119\241\232\34","\65\24\24\152\134\86")]=Vector2.new(0.5,0.5 + 0 ),[v7("\140\56\251\64\168\62\231\71","\41\220\87\136")]=UDim2.new(0.5 + 0 ,0,0.5,0),[v7("\7\55\224\251\201\185\42\35\237\244\250\185\36\56\240\224\207\185\32\56\224\233","\203\69\86\131\144\174")]=1 -0 ,[v7("\159\17\93\77","\113\217\126\51\57\168\48\135")]=Enum.Font.GothamBold,[v7("\43\16\46\92\123\124\119\194\26\17","\174\127\117\86\40\40\31\22")]=true,[v7("\232\62\84\207\255\52\64\212\206\104","\187\188\91\44")]=v84[v7("\60\248\114\42\240\77\43\242\102\49","\109\127\151\30\69\130")],[v7("\241\137\114\25\215\228\183\14\198\170\121\62\202\211\167\5","\118\178\229\23\120\165\176\210")]=v484,[v7("\53\208\77\10\9\167\46\177\1\217\94\61\9\183\53","\221\101\188\44\105\108\207\65")]=v483,[v7("\98\53\15\182","\178\54\80\119\194")]=""}),v7("\0\10\89\214","\162\84\111\33\162\143\153\217"));v490=v67(v7("\14\214\28\141\34\247\28\136\34\215","\234\71\187\125"),v488,{[v7("\34\53\75\94","\158\113\92\49\59")]=UDim2.new(0,3 + 9 ,0,12),[v7("\220\127\82\121\234\15\213\9","\103\140\16\33\16\158\102\186")]=UDim2.new(0 + 0 , -(9 -4),0.5),[v7("\230\131\190\125\12\46\247\130\180\123\23","\92\167\237\221\21\99")]=Vector2.new(1 -0 ,0.5),[v7("\214\45\44\33\250","\70\159\64\77")]=v7("\197\77\74\254\9\196\74\70\246\30\141\0\29\174\79\129\28\5\175\66\134\23\5\166","\122\183\47\50\159"),[v7("\224\48\164\68\135\208\62\178\65\132\246\35\166\65\147\210\48\181\74\142\193\40","\224\162\81\199\47")]=13 -(6 + 6) });v898=5 -3 ;end end end if (v479==3) then v491={};v492=nil;function v492() local v947=v489.Text;if (v947:gsub(" ",""):len()>0) then local v996=0 -0 ;while true do if (v996==1) then v489.Text=v947;break;end if (v996==0) then if type(v491.OnChanging) then v947=v491.OnChanging(v947) or v947 ;end v68:FireCallback(v485,v947);v996=1 + 0 ;end end end end v489.FocusLost:Connect(v492);v479=1257 -(206 + 1047) ;end v629=1;end if (v629==1) then if (v479==(1116 -(470 + 642))) then v492();v489.FocusLost:Connect(function() v80({v490,v7("\193\72\50\58\134\203\74\63\50\145\187","\227\136\37\83\93"),Color3.fromRGB(205 + 50 ,200 + 55 ,248 + 7 ),0.2 + 0 });end);v489.Focused:Connect(function() v80({v490,v7("\112\160\9\115\92\142\7\120\86\191\91","\20\57\205\104"),v84[v7("\11\164\20\182\8\26\7\32\174\21\188","\83\72\203\120\217\122\58")],1051.2 -(701 + 350) });end);v491.OnChanging=false;v479=3 + 2 ;end if (v479==(1 + 0)) then v484=v478[2 + 1 ] or v478.ClearText or false ;v485=v68:GetCallback(v478,4);if ((type(v482)~=v7("\83\56\248\3\78\83","\52\32\76\138\106\32")) or (v482:gsub(" ",""):len()<1)) then v482=false;end v486,v487=v87(v317,v480,v481,UDim2.new(1, -38));v479=2 -0 ;end v629=6 -4 ;end end end end;v319.AddDiscordInvite=function(v493,v494) local v495=0 + 0 ;local v496;local v497;local v498;local v499;local v500;local v501;local v502;local v503;local v504;local v505;local v506;local v507;local v508;while true do local v630=0 -0 ;while true do if (v630==(1 + 2)) then if (v495==1) then local v900=0;while true do if (v900==(0 + 0)) then v499=v494[11 -8 ] or v494.Invite or "" ;v500=v67(v7("\53\90\94\239\41","\76\115\40\63\130"),v317,{[v7("\180\19\55\168","\177\231\122\77\205\214")]=UDim2.new(1347 -(281 + 1065) ,0,0 -0 ,299 -219 ),[v7("\106\18\76\69","\60\36\115\33\32\201")]=v7("\152\102\67\79\67\80","\193\215\22\55\38\44\62\93"),[v7("\13\19\13\196\210\233\32\7\0\203\225\233\46\28\29\223\212\233\42\28\13\214","\155\79\114\110\175\181")]=1212 -(1114 + 97) });v900=1;end if (v900==1) then v501=v67(v7("\108\81\193\240\157\141\215\93\88","\181\56\52\185\132\209\236"),v500,{[v7("\1\69\200\173","\154\82\44\178\200\37\201")]=UDim2.new(1,0 -0 ,0,1928 -(279 + 1634) ),[v7("\69\228\17\4\170\65\122\123","\21\21\139\98\109\222\40")]=UDim2.new(1280 -(1213 + 67) ,196 -(65 + 126) ),[v7("\48\233\180\152\25\11\224\163\158\105","\90\100\140\204\236")]=Color3.fromRGB(37 + 3 ,1235 -(189 + 896) ,26 + 229 ),[v7("\138\27\48\216","\120\204\116\94\172\215")]=Enum.Font.GothamBold,[v7("\55\184\160\28\211\131\124\118\4\179\181\13\229\182","\31\99\221\216\104\139\194\16")]=v7("\25\165\236\24","\131\85\192\138\108\105"),[v7("\20\165\124\8\49\182\112\22\56\160\75\17\55\170\108\19\55\182\122\13\53\189","\99\86\196\31")]=1964 -(1872 + 91) ,[v7("\100\49\87\233\108\174\21\85","\111\48\84\47\157\63\199")]=23 -13 ,[v7("\46\3\152\179","\78\122\102\224\199")]=v499});v495=2 + 0 ;break;end end end break;end if (v630==0) then if ((14 -10)==v495) then v505=v66(v67(v7("\7\189\175\165\103\50\186\178\189","\43\83\216\215\209"),v502,{[v7("\120\174\170\14","\78\43\199\208\107")]=UDim2.new(1 + 0 , -(22 + 30),0 -0 ,76 -(22 + 54) ),[v7("\66\135\19\23\175\51\202\216","\182\18\232\96\126\219\90\165")]=UDim2.new(0 -0 ,110 -66 ,0 + 0 ,22),[v7("\9\91\63\188\10\76\38\184\45\91\35","\200\93\62\71")]="Y",[v7("\103\88\90\213\201\179\26\79\78\125\211\222\183","\110\38\45\46\186\164\210")]="Y",[v7("\94\177\166\2","\94\24\222\200\118")]=Enum.Font.Gotham,[v7("\41\197\62\13\62\207\42\22\15\147","\121\125\160\70")]=v84[v7("\208\229\55\189\225\170\31\179\225\225\123\134\246\242\47","\210\147\138\91")],[v7("\1\248\208\95\8\50\57\244\207\69\61\22\59\233","\115\85\157\168\43\80")]=v7("\211\95\129\67","\169\159\58\231\55\236\169\38"),[v7("\51\192\188\27\195\6\115\4\207\187\36\214\21\114\2\209\190\2\193\26\127\8","\28\113\161\223\112\164\116")]=1,[v7("\242\93\95\109\104\207\66\66","\59\166\56\39\25")]=8,[v7("\134\221\222\220","\35\210\184\166\168")]=v497}),v7("\125\88\111\73\16\114\65\77","\23\57\57\29\34\68"));v506=v67(v7("\100\52\7\56\114\36\11\56\95\63","\76\48\81\127"),v502,{[v7("\61\172\75\178","\48\110\197\49\215\106\20\189")]=UDim2.new(1, -(54 -40),0,1550 -(553 + 981) ),[v7("\60\28\75\164\207\57\118\3\20\28\92","\108\125\114\40\204\160\75\38")]=Vector2.new(0.5 + 0 ,1 + 0 ),[v7("\5\127\236\4\33\121\240\3","\109\85\16\159")]=UDim2.new(0.5,0 + 0 ,1, -(20 -13)),[v7("\19\246\181\79","\208\71\147\205\59\123\56")]=v7("\125\47\141\182","\216\55\64\228"),[v7("\153\135\48\214","\139\223\232\94\162\217\149")]=Enum.Font.GothamBold,[v7("\225\134\59\229\136\92\208\208","\170\181\227\67\145\219\53")]=17 -5 ,[v7("\109\128\6\166\122\138\18\189\75\214","\210\57\229\126")]=Color3.fromRGB(2117 -(1320 + 577) ,1069 -(667 + 182) ,1508 -(1115 + 173) ),[v7("\154\50\233\173\53\215\140\173\61\238\133\61\201\140\170\96","\227\216\83\138\198\82\165")]=Color3.fromRGB(83 -33 ,120 + 30 ,50)});v86(v7("\8\186\164\118\247\57","\146\75\213\214\24"),v506,UDim.new(0,5));v495=1760 -(1375 + 380) ;end if (v495==(2 + 1)) then v86(v7("\44\222\170\7\10\195","\105\111\177\216"),v503,UDim.new(26 -(12 + 14) ,9 -5 ));v86(v7("\135\14\218\29\27\214","\179\212\122\168\114\112"),v503);v504=v66(v67(v7("\77\127\156\217\85\123\134\200\117","\173\25\26\228"),v502,{[v7("\37\127\211\191","\120\118\22\169\218")]=UDim2.new(2 -1 , -(130 -78),0 -0 ,15),[v7("\247\47\165\239\211\41\185\232","\134\167\64\214")]=UDim2.new(0 -0 ,44,0,10 -3 ),[v7("\34\134\240\156","\168\100\233\158\232\169")]=Enum.Font.GothamBold,[v7("\70\81\1\232\81\91\21\243\96\7","\156\18\52\121")]=v84[v7("\96\31\215\197\150\245\49\218\91\4","\191\35\112\187\170\228\213\101")],[v7("\140\170\100\65\6\61\115\177\168\114\88\59\18\107","\31\216\207\28\53\94\124")]=v7("\13\34\173\27","\59\65\71\203\111"),[v7("\53\161\127\127\140\30\59\2\174\120\64\153\13\58\4\176\125\102\142\2\55\14","\84\119\192\28\20\235\108")]=732 -(354 + 377) ,[v7("\184\251\60\226\41\53\179\68","\33\236\158\68\150\122\92\201")]=10,[v7("\212\221\225\13","\89\128\184\153\121\41\145")]=v496}),v7("\216\48\188\149","\91\140\85\196\225\66\231\96"));v495=18 -14 ;end v630=1;end if (v630==(5 -3)) then if ((1988 -(263 + 1719))==v495) then v508.Destroy=function(v948) v500:Destroy();end;v508.Visible=function(v949,...) v68:ToggleVisible(v500,...);end;return v508;end if (v495==5) then v507=nil;v506.Activated:Connect(function() setclipboard(v499);if v507 then return;end v507=true;v64(v506,{[v7("\126\123\217\80","\53\42\30\161\36\26\37")]=v7("\222\246\231\233\248\253\183\244\242\185\212\236\244\233\245\239\252\235\243","\128\157\153\151"),[v7("\84\116\143\34\18\97\121\96\130\45\54\124\122\122\158\122","\19\22\21\236\73\117")]=Color3.fromRGB(48 + 52 ,100,459 -(335 + 24) ),[v7("\67\192\186\189\212\178\33\249\101\150","\150\23\165\194\201\151\221\77")]=Color3.fromRGB(150,1101 -(882 + 69) ,1836 -(657 + 1029) )});task.wait(1205 -(685 + 515) );v64(v506,{[v7("\74\62\240\14","\122\30\91\136")]=v7("\149\171\236\190","\237\223\196\133\208"),[v7("\254\9\192\181\89\232\211\29\205\186\125\245\208\7\209\237","\154\188\104\163\222\62")]=Color3.fromRGB(1688 -(745 + 893) ,26 + 124 ,822 -(274 + 498) ),[v7("\1\232\53\239\51\64\206\58\255\126","\162\85\141\77\155\112\47")]=Color3.fromRGB(38 + 182 ,220,220)});v507=false;end);v508={};v495=3 + 3 ;end v630=1609 -(1035 + 571) ;end if (v630==(1 + 0)) then if (v495==2) then v502=v66(v67(v7("\218\10\117\14\49","\159\156\120\20\99\84\101\206"),v500,{[v7("\79\24\150\122","\71\28\113\236\31\168\33\23")]=UDim2.new(1 + 0 ,0 -0 ,0 -0 ,62 + 3 ),[v7("\108\240\32\240\214\203\11\168\68\240\55","\199\45\158\67\152\185\185\91")]=Vector2.new(0 + 0 ,2 -1 ),[v7("\106\118\174\167\196\31\216\222","\176\58\25\221\206\176\118\183")]=UDim2.new(224 -(109 + 115) ,1399 -(1047 + 352) ,1),[v7("\16\16\218\13\233\170\61\4\215\2\205\183\62\30\203\85","\216\82\113\185\102\142")]=v84[v7("\97\84\44\215\111\2\115\53\218\61\16","\29\34\59\64\184")]}),v7("\52\12\73\199\48","\61\114\126\40\170\85"));v86(v7("\239\39\101\55\198\97","\19\172\72\23\89\163"),v502);v503=v67(v7("\30\81\206\226\48\126\164\53\89\195","\197\87\60\175\133\85\50"),v502,{[v7("\39\119\206\214","\179\116\30\180")]=UDim2.new(1765 -(852 + 913) ,30,0,22 + 8 ),[v7("\219\201\254\136\255\207\226\143","\225\139\166\141")]=UDim2.new(1345 -(384 + 961) ,16 -9 ,0,7),[v7("\100\134\245\39\72","\64\45\235\148")]=v498,[v7("\84\80\57\233\91\199\121\68\52\230\104\199\119\95\41\242\93\199\115\95\57\251","\181\22\49\90\130\60")]=1});v495=8 -5 ;end if (v495==(0 -0)) then v496=v494[593 -(591 + 1) ] or v494.Name or v494.Title or v7("\152\224\168\160\160\175\187","\223\220\137\219\195\207\221") ;v497=v494.Desc or v494.Description or "" ;v498=v494[2] or v494.Logo or "" ;v495=1 + 0 ;end v630=2;end end end end;return v319;end;v218.Activated:Connect(v224.CloseBtn);v219.Activated:Connect(v224.MinimizeBtn);return v224;end;return v59;
+local Atlas1 = {}
+local MainAtlasGuiColor = Color3.fromRGB(0, 213, 255)
+local SecondaryAtlasGuiColor = Color3.fromRGB(0, 71, 84)
+local TertiaryAtlasGuiColor = Color3.fromRGB(0, 64, 255)
+local NonSelectedAtlasGuiColor = Color3.fromRGB(0, 100, 118)
+-- ar
+local LPH_OBFUSCATED = false
+notworking = tostring(loadstring(game:HttpGet('https://raw.githubusercontent.com/supersixteen21/dsadewfewniergjsfo/main/notworking.lua'))()) -- hookmetamethod not supported
+executor = tostring(identifyexecutor())
+local hooksupported = true
+if string.find(notworking,executor:lower()) then
+    hooksupported = false
+end
+if not LPH_OBFUSCATED  and hooksupported then
+    getfenv().LPH_NO_VIRTUALIZE = function(f) return f end
+    getfenv().LPH_PRINT = function(...)
+        local args = {...}
+        local str = ""
+        for i, v in ipairs(args) do
+            str = str .. tostring(v) .. "\t"
+        end
+        print("[Luraph] " .. str)
+    end
+    getfenv().LPH_HOOK_FUNCTION = function(func, handler)
+        return hookfunction(func, LPH_NO_VIRTUALIZE(handler))
+    end
+    getfenv().LPH_GET_METATABLE = function(obj)
+        return getrawmetatable(obj)
+    end
+    getfenv().LPH_SET_METATABLE = function(obj, mt)
+        return setmetatable(obj, mt)
+    end
+    getfenv().LPH_DEBUG_INFO = function(func, what)
+        return debug.info(func, what)
+    end
+    getfenv().LPH_GET_ENV = function()
+        return getfenv()
+    end
+    getfenv().LPH_GET_GC = function(all)
+        return getgc(all)
+    end
+    getfenv().LPH_IS_CALLER = function(level)
+        return checkcaller(level)
+    end
+    getfenv().LPH_IS_FUNCTION = function(f)
+        return type(f) == "function"
+    end
+    getfenv().LPH_IS_TABLE = function(t)
+        return type(t) == "table"
+    end
+    getfenv().LPH_RAWLEN = function(t)
+        return rawlen(t)
+    end
+end
+-- ff
+ffcalc = 4102449570 * 2
+local bypassloaded = false
+local hook = hookmetamethod
+if not hook or hooksupported == false then
+    bypassloaded = true
+end
+if game.PlaceId == ffcalc and hooksupported then
+    local Hooks = {}
+    local Targets = {}
+    local Whitelisted = {
+        {655, 775, 724, 633, 891},
+        {760, 760, 771, 665, 898},
+        {660, 759, 751, 863, 771},
+    }
+
+    local function TableEquality(x, y)
+        if LPH_RAWLEN(x) ~= LPH_RAWLEN(y) then
+            return false
+        end
+
+        for i, v in ipairs(x) do
+            if y[i] ~= v then
+                return false
+            end
+        end
+
+        return true
+    end
+
+    LPH_NO_VIRTUALIZE(function()
+        for i, v in ipairs(LPH_GET_GC(true)) do
+            if LPH_IS_FUNCTION(v) then
+                local ScriptTrace, Line = LPH_DEBUG_INFO(v, "sl")
+
+                if string.find(ScriptTrace, "PlayerModule.LocalScript") and table.find({42, 51, 61}, Line) then
+                    table.insert(Targets, v)
+                end
+            end
+
+            if LPH_IS_TABLE(v) and LPH_RAWLEN(v) == 19 and LPH_GET_METATABLE(v) then
+                Targets.__call = rawget(LPH_GET_METATABLE(v), "__call")
+            end
+        end
+    end)()
+
+    if not (Targets[1] and Targets[2] and Targets[3] and Targets.__call) then
+        LPH_PRINT("bypass failed")
+        bypassloaded = true
+    end
+    if bypassloaded ~= true then
+        local ScriptPath = LPH_DEBUG_INFO(Targets[1], "s")
+
+        Hooks.debug_info = LPH_HOOK_FUNCTION(debug.info, LPH_NO_VIRTUALIZE(function(...)
+            if not LPH_IS_CALLER() and TableEquality({...}, {2, "s"}) then
+                return ScriptPath
+            end
+
+            return Hooks.debug_info(...)
+        end))
+
+        LPH_HOOK_FUNCTION(Targets[1], LPH_NO_VIRTUALIZE(function() end))
+        LPH_HOOK_FUNCTION(Targets[2], LPH_NO_VIRTUALIZE(function() end))
+        LPH_HOOK_FUNCTION(Targets[3], LPH_NO_VIRTUALIZE(function() end))
+
+        Hooks.__call = LPH_HOOK_FUNCTION(Targets.__call, LPH_NO_VIRTUALIZE(function(self, ...)
+            if
+                TableEquality(Whitelisted[1], {...}) or
+                TableEquality(Whitelisted[2], {...}) or
+                TableEquality(Whitelisted[3], {...})
+            then
+                return Hooks.__call(self, ...)
+            end
+        end))
+        bypassloaded = true
+        print("bypass activate")
+    end
+else
+    bypassloaded = true 
+end
+while bypassloaded == false do
+    task.wait(1)
+end
+ 
+
+local OldAtlasGui = game:GetService("CoreGui"):FindFirstChild("AtlasLoadingWizard")
+if OldAtlasGui then
+    OldAtlasGui:Destroy()
+end
+local OldAtlasGui = game:GetService("CoreGui"):FindFirstChild("AtlasKeySystem")
+if OldAtlasGui then
+    OldAtlasGui:Destroy()
+end
+
+local NotifGui = game:GetService("CoreGui"):FindFirstChild("AtlasHubNotifGui")
+if NotifGui then
+    NotifGui:Destroy()
+end
+
+local AtlasLoading = Instance.new("ScreenGui")
+AtlasLoading.Parent = game:GetService("CoreGui")
+AtlasLoading.Name = "AtlasLoadingWizard"
+-- AtlasLoading.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+
+local loadingimage = Instance.new("ImageLabel",AtlasLoading)
+loadingimage.BackgroundTransparency = 1
+loadingimage.Image = "http://www.roblox.com/asset/?id=97483508114173" 
+loadingimage.Name = "AtlasHubLoading"
+loadingimage.AnchorPoint = Vector2.new(0.5, 0.5)
+loadingimage.Position = UDim2.new(0.45, 0,0.45, 0)
+loadingimage.Size = UDim2.new(0, 520,0, 517)
+loadingimage.ImageColor3 = Color3.fromRGB(255, 255, 255)
+loadingimage.ScaleType = Enum.ScaleType.Slice
+loadingimage.ImageTransparency = 1
+
+
+local newTransparency =0
+local tweenInfo = TweenInfo.new(2, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
+local loadingtween = game.TweenService:Create(loadingimage, tweenInfo, {ImageTransparency = newTransparency})
+loadingtween:Play()
+local currentlynotifying = false
+function CreateNotification(title,description,time)
+    local NotifGui = game:GetObjects("rbxassetid://100094833958493")[1]
+    NotifGui.Parent = game:GetService("CoreGui")
+    local Frame = NotifGui.Main
+    Frame.Position = UDim2.new(0.48, 0,1.8, 0)
+    Frame.ZIndex = 60
+    local Button = NotifGui.Main.Close
+    local Edge = NotifGui.Main.Edge
+    local Description = NotifGui.Main.Description
+    local Title = NotifGui.Main.Title
+    local Signature = NotifGui.Main.Signature
+
+    Title.Text = title
+    Description.Text = description
+    currentlynotifying = true
+    local tweenspeed = 1
+
+    local showTween = game:GetService("TweenService"):Create(Frame, TweenInfo.new(tweenspeed, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {
+        Position = UDim2.new(0.48, 0,0.9, 0)
+    })
+    local hideTween = game:GetService("TweenService"):Create(Frame, TweenInfo.new(tweenspeed, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {
+        Position = UDim2.new(0.48, 0, 1.8, 0)
+    })
+
+    showTween:Play()
+    
+    local function onClose()
+        currentlynotifying = false
+        hideTween:Play()
+        hideTween.Completed:Connect(function()
+            NotifGui:Destroy()
+        end)
+    end
+
+    Button.MouseButton1Click:Connect(onClose)
+    
+    task.delay(time, function()
+        if currentlynotifying then
+            onClose() -- Automatically close after the specified time
+        end
+    end)
+    
+end
+
+loadingtween.Completed:Wait()
+local newTransparency =1
+local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
+local loadingtween2 = game.TweenService:Create(loadingimage, tweenInfo, {ImageTransparency = newTransparency})
+loadingtween2:Play()
+loadingtween2.Completed:Wait()
+AtlasLoading:Destroy()
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
+local whitelistedtable = loadstring(game:HttpGet("https://raw.githubusercontent.com/supersixteen21/dsadewfewniergjsfo/main/whitelist"))()
+local blacklistedtable = loadstring(game:HttpGet("https://raw.githubusercontent.com/supersixteen21/dsadewfewniergjsfo/main/blacklist"))()
+local whitelisted = false
+local blacklisted = false
+local function escapePercent(str) 
+   local newstring  = str:gsub('[%p%c%s]', '')
+   return newstring
+end
+
+local function parseDate(dateString)
+    local month, day, year = dateString:match("(%d+)/(%d+)/(%d+)")
+    return {
+        year = tonumber(year),
+        month = tonumber(month),
+        day = tonumber(day),
+    }
+end
+
+local function toTimestamp(dateTable)
+    return os.time({
+        year = dateTable.year,
+        month = dateTable.month,
+        day = dateTable.day,
+        hour = 0,
+        min = 0,
+        sec = 0
+    })
+end
+local userid = game:GetService("Players").LocalPlayer.UserId
+local stringedid = tostring(userid)
+for i, v in pairs(blacklistedtable) do
+    originalv = v
+    v = escapePercent(v)
+    if string.find(tostring(v),stringedid) then
+        blacklisted = true
+        -- Remove HWID and any preceding characters from the string
+        local date = string.match(originalv, ":(.*)")
+        local dateToCompare = parseDate(date)
+        local dateToCompareTimestamp = toTimestamp(dateToCompare)
+
+        -- Current date
+        local currentDate = os.date("*t")
+        local currentDateTimestamp = toTimestamp({
+            year = currentDate.year,
+            month = currentDate.month,
+            day = currentDate.day
+        })
+        -- Compare dates
+        if currentDateTimestamp > dateToCompareTimestamp then
+            blacklisted = false
+            warn("Your Blacklist ended on "..tostring(date))
+        else
+            local player = game:GetService("Players").LocalPlayer
+            player:Kick("You are blacklisted from using Atlas Gold! Join https://discord.gg/BngS4PFTDK to appeal")
+            break
+        end
+    end
+end
+for i, v in pairs(whitelistedtable) do
+    local originalv = v
+    local v = escapePercent(v)
+    if string.find(tostring(v),stringedid) or string.find(tostring(v),tostring(HWID)) then
+        whitelisted = true
+        -- Remove HWID and any preceding characters from the string
+        local date = string.match(originalv, ":(.*)")
+        local dateToCompare = parseDate(date)
+        local dateToCompareTimestamp = toTimestamp(dateToCompare)
+
+        -- Current date
+        local currentDate = os.date("*t")
+        local currentDateTimestamp = toTimestamp({
+            year = currentDate.year,
+            month = currentDate.month,
+            day = currentDate.day
+        })
+        -- Compare dates
+        if currentDateTimestamp > dateToCompareTimestamp then
+            whitelisted = false
+            warn("Your Gold Subscription Expired on "..tostring(date))
+            CreateNotification("Gold Expired","Your Gold Subscription Expired on "..tostring(date),3)
+        else
+            print("You are whitelisted in the premium Database")
+            break
+        end
+    end
+end
+local linktokey = "Link Api Down"
+local connectomasterkeyrobloxatlashub = ""
+if whitelisted == false then
+    local ratelimited = false
+    warn("Not Gold Member please do our key system")
+    -- Plato configuration
+    local accountId = 52376; -- Plato account id [IMPORTANT]
+    local allowPassThrough = false; -- Allow user through if error occurs, may reduce security
+    local allowKeyRedeeming = false; -- Automatically check keys to redeem if valid
+    local useDataModel = false;
+
+    -- Plato callbacks
+    local onMessage = function(message)
+        print(message)
+    end;
+
+    -- Plato internals [START]
+    local fRequest, fStringFormat, fSpawn, fWait = request or http.request or http_request or syn.request, string.format, task.spawn, task.wait;
+    local localPlayerId = game:GetService("Players").LocalPlayer.UserId;
+    local rateLimit, rateLimitCountdown, errorWait = false, 0, false;
+    -- Plato internals [END]
+
+    -- Plato global functions [START]
+    function getLink()
+        return fStringFormat("https://gateway.platoboost.com/a/%i?id=%i", accountId, localPlayerId);
+    end;
+    linktokey = getLink()
+    function verify(key)
+        if errorWait or rateLimit then 
+            return false;
+        end;
+
+        onMessage("Verifying Key...");
+
+        if (useDataModel) then
+            local status, result = pcall(function() 
+                return game:HttpGetAsync(fStringFormat("https://api-gateway.platoboost.com/v1/public/whitelist/%i/%i?key=%s", accountId, localPlayerId, key));
+            end);
+            
+            if status then
+                if string.find(result, "true") then
+                    onMessage("Successfully whitelisted!");
+                    return true;
+                elseif string.find(result, "false") then
+                    if allowKeyRedeeming then
+                        local status1, result1 = pcall(function()
+                            return game:HttpPostAsync(fStringFormat("https://api-gateway.platoboost.com/v1/authenticators/redeem/%i/%i/%s", accountId, localPlayerId, key), {});
+                        end);
+
+                        if status1 then
+                            if string.find(result1, "true") then
+                                onMessage("Successfully redeemed key!");
+                                return true;
+                            end;
+                        end;
+                    end;
+                    
+                    onMessage("Key is invalid!");
+                    return false;
+                else
+                    return false;
+                end;
+            else
+                onMessage("An error occured while contacting the server!");
+                return allowPassThrough;
+            end;
+        else
+            local status, result = pcall(function() 
+                return fRequest({
+                    Url = fStringFormat("https://api-gateway.platoboost.com/v1/public/whitelist/%i/%i?key=%s", accountId, localPlayerId, key),
+                    Method = "GET"
+                });
+            end);
+            if status then
+                if result.StatusCode == 200 then
+                    if string.find(result.Body, "true") then
+                        return true; --  key works
+                    else
+                        return false; -- key doesnt work
+                    end;
+                elseif result.StatusCode == 204 then
+                    onMessage("Account wasn't found, check accountId");
+                    return false;
+                elseif result.StatusCode == 429 then
+                    if not rateLimit then 
+                        rateLimit = true;
+                        rateLimitCountdown = 10;
+                        fSpawn(function() 
+                            while rateLimit do
+                                ratelimited = true
+                                return false;
+                                
+                            end;
+                        end); 
+                    end;
+                else
+                    return allowPassThrough;
+                end;    
+            else
+                return allowPassThrough;
+            end;
+        end;
+    end;
+    precheck = verify("test")
+    if precheck ~= true then
+        setclipboard(linktokey)
+        local KeyGui = game:GetObjects("rbxassetid://96883724339556")[1]
+        KeyGui.Parent = game:GetService("CoreGui")
+        local image = KeyGui.Shadow.Main.Submit
+        local entertextbox = KeyGui.Shadow.Main['Key Input']
+        local getkey = KeyGui.Shadow.Main.GetKey
+        local getdiscord  = KeyGui.Shadow.Main.Discord
+        local gethwid = KeyGui.Shadow.Main.CopyHWID
+        local selectedkey = 0
+        local masterkeyu09213102u9409u12040u580385891289521y8249889y4189y412841 = "audsdhufduwsfvewy_fgerwvgyewvuygcvetwyvtfcdetrqwycdtrfqwatxdsadgysagsuqwuoidequidwqodnwqnodsqoxnsakxcsiufcdneuifvber8ewy3iufb32932893r7r818fbv3712e1ne2nd19n99dw1fbd9c81f838f3eb87fc819drf319r1y67r876g3216r217re72176dvb2176dv716276d21v76d16273ydh1vywh"
+        getdiscord.MouseButton1Click:Connect(function()
+            setclipboard("https://discord.gg/ubx3NJTtS7")
+            entertextbox.Text = "Discord Link copied to your clipboard! Or Go to https://discord.gg/ubx3NJTtS7"
+            entertextbox.TextColor3 = Color3.fromRGB(0, 85, 255)
+            task.wait(2)
+            entertextbox.TextColor3 = Color3.fromRGB(36,36,36)
+            entertextbox.Text = linktokey
+        end)
+        gethwid.MouseButton1Click:Connect(function()
+            setclipboard(HWID)
+            entertextbox.Text = "HWID copied to your clipboard! It is "..tostring(HWID)
+            entertextbox.TextColor3 = Color3.fromRGB(0, 85, 255)
+            task.wait(2)
+            entertextbox.TextColor3 = Color3.fromRGB(36,36,36)
+            entertextbox.Text = linktokey
+        end)
+        getkey.MouseButton1Click:Connect(function()
+            setclipboard(linktokey)
+            entertextbox.Text = "Key Link copied to your clipboard! Or go to "..tostring(linktokey)
+            entertextbox.TextColor3 = Color3.fromRGB(0, 85, 255)
+            task.wait(2)
+            entertextbox.TextColor3 = Color3.fromRGB(36,36,36)
+            entertextbox.Text = linktokey
+        end)
+        image.MouseButton1Click:Connect(function()
+            selectedkey = entertextbox.Text
+            selectedkey = string.gsub(selectedkey, "^%s*", "")
+            local check = verify(selectedkey)
+            local add = ""
+            if check ~= true then
+                add = "not "
+            end
+            warn("Your key is "..add.."valid")
+            if check == true then
+                entertextbox.Text = "Correct Key!"
+                entertextbox.TextColor3 = Color3.fromRGB(85,255,0)
+                connectomasterkeyrobloxatlashub = "audsdhufduwsfvewy_fgerwvgyewvuygcvetwyvtfcdetrqwycdtrfqwatxdsadgysagsuqwuoidequidwqodnwqnodsqoxnsakxcsiufcdneuifvber8ewy3iufb32932893r7r818fbv3712e1ne2nd19n99dw1fbd9c81f838f3eb87fc819drf319r1y67r876g3216r217re72176dvb2176dv716276d21v76d16273ydh1vywh"
+                KeyGui:Destroy()
+            else
+                keyinputed = selectedkey
+                if ratelimited == false then
+                    entertextbox.Text =  "Incorrect Key!"
+                else
+                    entertextbox.Text = "Rate Limited! Please cool down..."
+                end
+                entertextbox.TextColor3 = Color3.fromRGB(255,0,0)
+                setclipboard(linktokey)
+                task.wait(1)
+                entertextbox.TextColor3 = Color3.fromRGB(36,36,36)
+                entertextbox.Text = linktokey
+            end
+        end)
+        while connectomasterkeyrobloxatlashub ~= masterkeyu09213102u9409u12040u580385891289521y8249889y4189y412841 do
+            task.wait(1)
+        end
+    else
+        print("Key Verified!")
+    end
+end
+connectomasterkeyrobloxatlashub = ""
+
+local MarketplaceService = game:GetService("MarketplaceService")
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local HttpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
+local CoreGui = game:GetService("CoreGui")
+local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
+local PlayerMouse = Player:GetMouse()
+
+local redzlib = {
+  Themes = {
+    Darker = {
+        ["Color Hub 1"] = ColorSequence.new({
+            ColorSequenceKeypoint.new(0.00, Color3.fromRGB(19,19,19)),
+            ColorSequenceKeypoint.new(0.50, Color3.fromRGB(39,39,39)),
+            ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0,0,0))
+        }),
+        ["Color Hub 2"] = Color3.fromRGB(21, 51, 39), -- main button color
+        ["Color Stroke"] = Color3.fromRGB(33, 79, 60), 
+        ["Color Theme"] = Color3.fromRGB(69, 164, 125),
+        ["Color Text"] = Color3.fromRGB(243, 243, 243),
+        ["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
+    },
+    Dark = {
+      ["Color Hub 1"] = ColorSequence.new({
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(40, 40, 40)),
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(47.5, 47.5, 47.5)),
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(40, 40, 40))
+      }),
+      ["Color Hub 2"] = Color3.fromRGB(45, 45, 45),
+      ["Color Stroke"] = Color3.fromRGB(65, 65, 65),
+      ["Color Theme"] = Color3.fromRGB(65, 150, 255),
+      ["Color Text"] = Color3.fromRGB(245, 245, 245),
+      ["Color Dark Text"] = Color3.fromRGB(190, 190, 190)
+    },
+    Purple = {
+      ["Color Hub 1"] = ColorSequence.new({
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(27.5, 25, 30)),
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(32.5, 32.5, 32.5)),
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(27.5, 25, 30))
+      }),
+      ["Color Hub 2"] = Color3.fromRGB(30, 30, 30),
+      ["Color Stroke"] = Color3.fromRGB(40, 40, 40),
+      ["Color Theme"] = Color3.fromRGB(150, 0, 255),
+      ["Color Text"] = Color3.fromRGB(240, 240, 240),
+      ["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
+    }
+  },
+  Info = {
+    Version = "1.1.0"
+  },
+  Save = {
+    UISize = {550, 380},
+    TabSize = 160,
+    Theme = "Darker"
+  },
+  Settings = {},
+  Connection = {},
+  Instances = {},
+  Elements = {},
+  Options = {},
+  Flags = {},
+  Tabs = {},
+  Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV5/main/Icons.Lua"))()
+}
+
+local ViewportSize = workspace.CurrentCamera.ViewportSize
+local UIScale = ViewportSize.Y / 450
+
+local Settings = redzlib.Settings
+local Flags = redzlib.Flags
+
+local SetProps, SetChildren, InsertTheme, Create do
+  InsertTheme = function(Instance, Type)
+    table.insert(redzlib.Instances, {
+      Instance = Instance,
+      Type = Type
+    })
+    return Instance
+  end
+  
+  SetChildren = function(Instance, Children)
+    if Children then
+      table.foreach(Children, function(_,Child)
+        Child.Parent = Instance
+      end)
+    end
+    return Instance
+  end
+  
+  SetProps = function(Instance, Props)
+    if Props then
+      table.foreach(Props, function(prop, value)
+        Instance[prop] = value
+      end)
+    end
+    return Instance
+  end
+  
+  Create = function(...)
+    local args = {...}
+    if type(args) ~= "table" then return end
+    local new = Instance.new(args[1])
+    local Children = {}
+    
+    if type(args[2]) == "table" then
+      SetProps(new, args[2])
+      SetChildren(new, args[3])
+      Children = args[3] or {}
+    elseif typeof(args[2]) == "Instance" then
+      new.Parent = args[2]
+      SetProps(new, args[3])
+      SetChildren(new, args[4])
+      Children = args[4] or {}
+    end
+    return new
+  end
+  
+  local function Save(file)
+    if readfile and isfile and isfile(file) then
+      local decode = HttpService:JSONDecode(readfile(file))
+      
+      if type(decode) == "table" then
+        if rawget(decode, "UISize") then redzlib.Save["UISize"] = decode["UISize"] end
+        if rawget(decode, "TabSize") then redzlib.Save["TabSize"] = decode["TabSize"] end
+        if rawget(decode, "Theme") and VerifyTheme(decode["Theme"]) then redzlib.Save["Theme"] = decode["Theme"] end
+      end
+    end
+  end
+  
+  pcall(Save, "redz library V5.json")
+end
+
+local Funcs = {} do
+  function Funcs:InsertCallback(tab, func)
+    if type(func) == "function" then
+      table.insert(tab, func)
+    end
+    return func
+  end
+  
+  function Funcs:FireCallback(tab, ...)
+    for _,v in ipairs(tab) do
+      if type(v) == "function" then
+        task.spawn(v, ...)
+      end
+    end
+  end
+  
+  function Funcs:ToggleVisible(Obj, Bool)
+    Obj.Visible = Bool ~= nil and Bool or Obj.Visible
+  end
+  
+  function Funcs:ToggleParent(Obj, Parent)
+    if Bool ~= nil then
+      Obj.Parent = Bool
+    else
+      Obj.Parent = not Obj.Parent and Parent
+    end
+  end
+  
+  function Funcs:GetConnectionFunctions(ConnectedFuncs, func)
+    local Connected = { Function = func, Connected = true }
+    
+    function Connected:Disconnect()
+      if self.Connected then
+        table.remove(ConnectedFuncs, table.find(ConnectedFuncs, self.Function))
+        self.Connected = false
+      end
+    end
+    
+    function Connected:Fire(...)
+      if self.Connected then
+        task.spawn(self.Function, ...)
+      end
+    end
+    
+    return Connected
+  end
+  
+  function Funcs:GetCallback(Configs, index)
+    local func = Configs[index] or Configs.Callback or function()end
+    
+    if type(func) == "table" then
+      return ({function(Value) func[1][func[2]] = Value end})
+    end
+    return {func}
+  end
+end
+
+local Connections, Connection = {}, redzlib.Connection do
+  local function NewConnectionList(List)
+    if type(List) ~= "table" then return end
+    
+    for _,CoName in ipairs(List) do
+      local ConnectedFuncs, Connect = {}, {}
+      Connection[CoName] = Connect
+      Connections[CoName] = ConnectedFuncs
+      Connect.Name = CoName
+      
+      function Connect:Connect(func)
+        if type(func) == "function" then
+          table.insert(ConnectedFuncs, func)
+          return Funcs:GetConnectionFunctions(ConnectedFuncs, func)
+        end
+      end
+      
+      function Connect:Once(func)
+        if type(func) == "function" then
+          local Connected;
+          
+          local _NFunc;_NFunc = function(...)
+            task.spawn(func, ...)
+            Connected:Disconnect()
+          end
+          
+          Connected = Funcs:GetConnectionFunctions(ConnectedFuncs, _NFunc)
+          return Connected
+        end
+      end
+    end
+  end
+  
+  function Connection:FireConnection(CoName, ...)
+    local Connection = type(CoName) == "string" and Connections[CoName] or Connections[CoName.Name]
+    for _,Func in pairs(Connection) do
+      task.spawn(Func, ...)
+    end
+  end
+  
+  NewConnectionList({"FlagsChanged", "ThemeChanged", "FileSaved", "ThemeChanging", "OptionAdded"})
+end
+
+local GetFlag, SetFlag, CheckFlag do
+  CheckFlag = function(Name)
+    return type(Name) == "string" and Flags[Name] ~= nil
+  end
+  
+  GetFlag = function(Name)
+    return type(Name) == "string" and Flags[Name]
+  end
+  
+  SetFlag = function(Flag, Value)
+    if Flag and (Value ~= Flags[Flag] or type(Value) == "table") then
+      Flags[Flag] = Value
+      Connection:FireConnection("FlagsChanged", Flag, Value)
+    end
+  end
+  
+  local db
+  Connection.FlagsChanged:Connect(function(Flag, Value)
+    local ScriptFile = Settings.ScriptFile
+    if not db and ScriptFile and writefile then
+      db=true;task.wait(0.1);db=false
+      
+      local Success, Encoded = pcall(function()
+        -- local _Flags = {}
+        -- for _,Flag in pairs(Flags) do _Flags[_] = Flag.Value end
+        return HttpService:JSONEncode(Flags)
+      end)
+      
+      if Success then
+        local Success = pcall(writefile, ScriptFile, Encoded)
+        if Success then
+          Connection:FireConnection("FileSaved", "Script-Flags", ScriptFile, Encoded)
+        end
+      end
+    end
+  end)
+end
+
+local checkhidden = game:GetService("CoreGui"):FindFirstChild("HiddenUI")
+local parentthis = nil
+if checkhidden  and checkhidden ~= nil then
+  parentthis = game:GetService("CoreGui").HiddenUI
+else
+  parentthis = game:GetService("CoreGui")
+end
+local ScreenGui = Create("ScreenGui", parentthis, {
+  Name = "AtlasHubFrame",
+}, {
+  Create("UIScale", {
+    Scale = UIScale,
+    Name = "Scale"
+  })
+})
+local ScreenFind = parentthis:FindFirstChild(ScreenGui.Name)
+if ScreenFind and ScreenFind ~= ScreenGui then
+  ScreenFind:Destroy()
+end
+
+local function GetStr(val)
+  if type(val) == "function" then
+    return val()
+  end
+  return val
+end
+
+local function ConnectSave(Instance, func)
+  Instance.InputBegan:Connect(function(Input)
+    if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
+      while UserInputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do task.wait()
+      end
+    end
+    func()
+  end)
+end
+
+local function CreateTween(Configs)
+  local Instance = Configs[1] or Configs.Instance
+  local Prop = Configs[2] or Configs.Prop
+  local NewVal = Configs[3] or Configs.NewVal
+  local Time = Configs[4] or Configs.Time or 0.5
+  local TweenWait = Configs[5] or Configs.wait or false
+  local TweenInfo = TweenInfo.new(Time, Enum.EasingStyle.Quint)
+  
+  local Tween = TweenService:Create(Instance, TweenInfo, {[Prop] = NewVal})
+  Tween:Play()
+  if TweenWait then
+    Tween.Completed:Wait()
+  end
+  return Tween
+end
+
+local function MakeDrag(Instance)
+  task.spawn(function()
+    SetProps(Instance, {
+      Active = true,
+      AutoButtonColor = false
+    })
+    
+		local DragStart, StartPos, InputOn
+		
+		local function Update(Input)
+			local delta = Input.Position - DragStart
+			local Position = UDim2.new(StartPos.X.Scale, StartPos.X.Offset + delta.X / UIScale, StartPos.Y.Scale, StartPos.Y.Offset + delta.Y / UIScale)
+			-- Instance.Position = Position
+			CreateTween({Instance, "Position", Position, 0.35})
+		end
+		
+		Instance.MouseButton1Down:Connect(function()
+		  InputOn = true
+		end)
+		
+    Instance.InputBegan:Connect(function(Input)
+      if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
+        StartPos = Instance.Position
+        DragStart = Input.Position
+        
+        while UserInputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do RunService.Heartbeat:Wait()
+          if InputOn then
+            Update(Input)
+          end
+        end
+        InputOn = false
+      end
+    end)
+	end)
+	return Instance
+end
+
+local function VerifyTheme(Theme)
+  for name,_ in pairs(redzlib.Themes) do
+    if name == Theme then
+      return true
+    end
+  end
+end
+
+local function SaveJson(FileName, save)
+  if writefile then
+    local json = HttpService:JSONEncode(save)
+    writefile(FileName, json)
+  end
+end
+
+local Theme = redzlib.Themes[redzlib.Save.Theme]
+
+local function AddEle(Name, Func)
+  redzlib.Elements[Name] = Func
+end
+
+local function Make(Ele, Instance, props, ...)
+  local Element = redzlib.Elements[Ele](Instance, props, ...)
+  return Element
+end
+
+AddEle("Corner", function(parent, CornerRadius)
+  local New = SetProps(Create("UICorner", parent, {
+    CornerRadius = CornerRadius or UDim.new(0, 7)
+  }), props)
+  return New
+end)
+
+AddEle("Stroke", function(parent, props, ...)
+  local args = {...}
+  local New = InsertTheme(SetProps(Create("UIStroke", parent, {
+    Color = args[1] or Theme["Color Stroke"],
+    Thickness = args[2] or 1,
+    ApplyStrokeMode = "Border"
+  }), props), "Stroke")
+  return New
+end)
+
+AddEle("Button", function(parent, props, ...)
+  local args = {...}
+  local New = InsertTheme(SetProps(Create("TextButton", parent, {
+    Text = "",
+    Size = UDim2.fromScale(1, 1),
+    BackgroundColor3 = Theme["Color Hub 2"],
+    AutoButtonColor = false
+  }), props), "Frame")
+  
+  New.MouseEnter:Connect(function()
+    New.BackgroundTransparency = 0.4
+  end)
+  New.MouseLeave:Connect(function()
+    New.BackgroundTransparency = 0
+  end)
+  if args[1] then
+    New.Activated:Connect(args[1])
+  end
+  return New
+end)
+
+AddEle("Gradient", function(parent, props, ...)
+  local args = {...}
+  local New = InsertTheme(SetProps(Create("UIGradient", parent, {
+    Color = Theme["Color Hub 1"]
+  }), props), "Gradient")
+  return New
+end)
+
+local function ButtonFrame(Instance, Title, Description, HolderSize)
+  local TitleL = InsertTheme(Create("TextLabel", {
+    Font = Enum.Font.GothamMedium,
+    TextColor3 = Theme["Color Text"],
+    Size = UDim2.new(1, -20),
+    AutomaticSize = "Y",
+    Position = UDim2.new(0, 0, 0.5),
+    AnchorPoint = Vector2.new(0, 0.5),
+    BackgroundTransparency = 1,
+    TextTruncate = "AtEnd",
+    TextSize = 10,
+    TextXAlignment = "Left",
+    Text = "",
+    RichText = true
+  }), "Text")
+  
+  local DescL = InsertTheme(Create("TextLabel", {
+    Font = Enum.Font.Gotham,
+    TextColor3 = Theme["Color Dark Text"],
+    Size = UDim2.new(1, -20),
+    AutomaticSize = "Y",
+    Position = UDim2.new(0, 12, 0, 15),
+    BackgroundTransparency = 1,
+    TextWrapped = true,
+    TextSize = 8,
+    TextXAlignment = "Left",
+    Text = "",
+    RichText = true
+  }), "DarkText")
+
+  local Frame = Make("Button", Instance, {
+    Size = UDim2.new(1, 0, 0, 25),
+    AutomaticSize = "Y",
+    Name = "Option"
+  })Make("Corner", Frame, UDim.new(0, 6))
+  
+	LabelHolder = Create("Frame", Frame, {
+		AutomaticSize = "Y",
+		BackgroundTransparency = 1,
+		Size = HolderSize,
+		Position = UDim2.new(0, 10, 0),
+		AnchorPoint = Vector2.new(0, 0)
+	}, {
+		Create("UIListLayout", {
+			SortOrder = "LayoutOrder",
+			VerticalAlignment = "Center",
+			Padding = UDim.new(0, 2)
+		}),
+		Create("UIPadding", {
+			PaddingBottom = UDim.new(0, 5),
+			PaddingTop = UDim.new(0, 5)
+		}),
+		TitleL,
+		DescL,
+	})
+  
+  local Label = {}
+  function Label:SetTitle(NewTitle)
+    if type(NewTitle) == "string" and NewTitle:gsub(" ", ""):len() > 0 then
+      TitleL.Text = NewTitle
+    end
+  end
+  function Label:SetDesc(NewDesc)
+    if type(NewDesc) == "string" and NewDesc:gsub(" ", ""):len() > 0 then
+      DescL.Visible = true
+      DescL.Text = NewDesc
+      LabelHolder.Position = UDim2.new(0, 10, 0)
+      LabelHolder.AnchorPoint = Vector2.new(0, 0)
+    else
+      DescL.Visible = false
+      DescL.Text = ""
+      LabelHolder.Position = UDim2.new(0, 10, 0.5)
+      LabelHolder.AnchorPoint = Vector2.new(0, 0.5)
+    end
+  end
+  
+  Label:SetTitle(Title)
+  Label:SetDesc(Description)
+  return Frame, Label
+end
+
+local function GetColor(Instance)
+  if Instance:IsA("Frame") then
+    return "BackgroundColor3"
+  elseif Instance:IsA("ImageLabel") then
+    return "ImageColor3"
+  elseif Instance:IsA("TextLabel") then
+    return "TextColor3"
+  elseif Instance:IsA("ScrollingFrame") then
+    return "ScrollBarImageColor3"
+  elseif Instance:IsA("UIStroke") then
+    return "Color"
+  end
+  return ""
+end
+
+-- /////////// --
+function redzlib:GetIcon(IconName)
+  if IconName:find("rbxassetid://") or IconName:len() < 1 then return IconName end
+  IconName = IconName:lower():gsub("lucide", ""):gsub("-", "")
+  
+  for Name, Icon in pairs(redzlib.Icons) do
+    Name = Name:gsub("lucide", ""):gsub("-", "")
+    if Name == IconName then
+      return Icon
+    end
+  end
+  for Name, Icon in pairs(redzlib.Icons) do
+    Name = Name:gsub("lucide", ""):gsub("-", "")
+    if Name:find(IconName) then
+      return Icon
+    end
+  end
+  return IconName
+end
+
+function redzlib:SetTheme(NewTheme)
+  if not VerifyTheme(NewTheme) then return end
+  
+  redzlib.Save.Theme = NewTheme
+  SaveJson("redz library V5.json", redzlib.Save)
+  Theme = redzlib.Themes[NewTheme]
+  
+  Comnection:FireConnection("ThemeChanged", NewTheme)
+  table.foreach(redzlib.Instances, function(_,Val)
+    if Val.Type == "Gradient" then
+      Val.Instance.Color = Theme["Color Hub 1"]
+    elseif Val.Type == "Frame" then
+      Val.Instance.BackgroundColor3 = Theme["Color Hub 2"]
+    elseif Val.Type == "Stroke" then
+      Val.Instance[GetColor(Val.Instance)] = Theme["Color Stroke"]
+    elseif Val.Type == "Theme" then
+      Val.Instance[GetColor(Val.Instance)] = Theme["Color Theme"]
+    elseif Val.Type == "Text" then
+      Val.Instance[GetColor(Val.Instance)] = Theme["Color Text"]
+    elseif Val.Type == "DarkText" then
+      Val.Instance[GetColor(Val.Instance)] = Theme["Color Dark Text"]
+    elseif Val.Type == "ScrollBar" then
+      Val.Instance[GetColor(Val.Instance)] = Theme["Color Theme"]
+    end
+  end)
+end
+
+function redzlib:SetScale(NewScale)
+  NewScale = ViewportSize.Y / math.clamp(NewScale, 300, 2000)
+  UIScale, ScreenGui.Scale.Scale = NewScale, NewScale
+end
+
+function redzlib:MakeWindow(Configs)
+  local WTitle = Configs[1] or Configs.Name or Configs.Title or "Atlas Hub"
+  local WMiniText = Configs[2] or Configs.SubTitle or "Beta"
+  
+  Settings.ScriptFile = Configs[3] or Configs.SaveFolder or false
+  
+  local function LoadFile()
+    local File = Settings.ScriptFile
+    if type(File) ~= "string" then return end
+    if not readfile or not isfile then return end
+    local s, r = pcall(isfile, File)
+    
+    if s and r then
+      local s, _Flags = pcall(readfile, File)
+      
+      if s and type(_Flags) == "string" then
+        local s,r = pcall(function() return HttpService:JSONDecode(_Flags) end)
+        Flags = s and r or {}
+      end
+    end
+  end;LoadFile()
+  
+  local UISizeX, UISizeY = unpack(redzlib.Save.UISize)
+  local MainFrame = InsertTheme(Create("ImageButton", ScreenGui, {
+    Size = UDim2.fromOffset(UISizeX, UISizeY),
+    Position = UDim2.new(0.5, -UISizeX/2, 0.5, -UISizeY/2),
+    BackgroundTransparency = 0.5,
+    Name = "Atlas"
+  }), "Main")
+  MainFrame.Image = "rbxassetid://83959536678840"
+--   Make("Gradient", MainFrame, {
+--     Rotation = 45
+--   })
+  MakeDrag(MainFrame)
+  
+  local MainCorner = Make("Corner", MainFrame)
+  
+  local Components = Create("Folder", MainFrame, {
+    Name = "Components"
+  })
+  
+  local DropdownHolder = Create("Folder", ScreenGui, {
+    Name = "Dropdown"
+  })
+  
+  local TopBar = Create("Frame", Components, {
+    Size = UDim2.new(1, 0, 0, 28),
+    BackgroundTransparency = 1,
+    Name = "Top Bar"
+  })
+  
+  local Title = InsertTheme(Create("TextLabel", TopBar, {
+    Position = UDim2.new(0, 15, 0.5),
+    AnchorPoint = Vector2.new(0, 0.5),
+    AutomaticSize = "XY",
+    Text = WTitle,
+    TextXAlignment = "Left",
+    TextSize = 12,
+    TextColor3 = Theme["Color Text"],
+    BackgroundTransparency = 1,
+    Font = Enum.Font.GothamMedium,
+    Name = "Title"
+  }, {
+    InsertTheme(Create("TextLabel", {
+      Size = UDim2.fromScale(0, 1),
+      AutomaticSize = "X",
+      AnchorPoint = Vector2.new(0, 1),
+      Position = UDim2.new(1, 5, 0.9),
+      Text = WMiniText,
+      TextColor3 = Theme["Color Dark Text"],
+      BackgroundTransparency = 1,
+      TextXAlignment = "Left",
+      TextYAlignment = "Bottom",
+      TextSize = 8,
+      Font = Enum.Font.Gotham,
+      Name = "SubTitle"
+    }), "DarkText")
+  }), "Text")
+  
+  local MainScroll = InsertTheme(Create("ScrollingFrame", Components, {
+    Size = UDim2.new(0, redzlib.Save.TabSize, 1, -TopBar.Size.Y.Offset),
+    ScrollBarImageColor3 = Theme["Color Theme"],
+    Position = UDim2.new(0, 0, 1, 0),
+    AnchorPoint = Vector2.new(0, 1),
+    ScrollBarThickness = 1.5,
+    BackgroundTransparency = 1,
+    ScrollBarImageTransparency = 0.2,
+    CanvasSize = UDim2.new(),
+    AutomaticCanvasSize = "Y",
+    ScrollingDirection = "Y",
+    BorderSizePixel = 0,
+    Name = "Tab Scroll"
+  }, {
+    Create("UIPadding", {
+      PaddingLeft = UDim.new(0, 10),
+      PaddingRight = UDim.new(0, 10),
+      PaddingTop = UDim.new(0, 10),
+      PaddingBottom = UDim.new(0, 10)
+    }), Create("UIListLayout", {
+      Padding = UDim.new(0, 5)
+    })
+  }), "ScrollBar")
+  
+  local Containers = Create("Frame", Components, {
+    Size = UDim2.new(1, -MainScroll.Size.X.Offset, 1, -TopBar.Size.Y.Offset),
+    AnchorPoint = Vector2.new(1, 1),
+    Position = UDim2.new(1, 0, 1, 0),
+    BackgroundTransparency = 1,
+    ClipsDescendants = true,
+    Name = "Containers"
+  })
+  
+  local ControlSize1, ControlSize2 = MakeDrag(Create("ImageButton", MainFrame, {
+    Size = UDim2.new(0, 35, 0, 35),
+    Position = MainFrame.Size,
+    Active = true,
+    AnchorPoint = Vector2.new(0.8, 0.8),
+    BackgroundTransparency = 1,
+    Name = "Control Hub Size"
+  })), MakeDrag(Create("ImageButton", MainFrame, {
+    Size = UDim2.new(0, 20, 1, -30),
+    Position = UDim2.new(0, MainScroll.Size.X.Offset, 1, 0),
+    AnchorPoint = Vector2.new(0.5, 1),
+    Active = true,
+    BackgroundTransparency = 1,
+    Name = "Control Tab Size"
+  }))
+  
+  local function ControlSize()
+    local Pos1, Pos2 = ControlSize1.Position, ControlSize2.Position
+    ControlSize1.Position = UDim2.fromOffset(math.clamp(Pos1.X.Offset, 430, 1000), math.clamp(Pos1.Y.Offset, 200, 500))
+    ControlSize2.Position = UDim2.new(0, math.clamp(Pos2.X.Offset, 135, 250), 1, 0)
+    
+    MainScroll.Size = UDim2.new(0, ControlSize2.Position.X.Offset, 1, -TopBar.Size.Y.Offset)
+    Containers.Size = UDim2.new(1, -MainScroll.Size.X.Offset, 1, -TopBar.Size.Y.Offset)
+    MainFrame.Size = ControlSize1.Position
+  end
+  
+  ControlSize1:GetPropertyChangedSignal("Position"):Connect(ControlSize)
+  ControlSize2:GetPropertyChangedSignal("Position"):Connect(ControlSize)
+  
+  ConnectSave(ControlSize1, function()
+    if not Minimized then
+      redzlib.Save.UISize = {MainFrame.Size.X.Offset, MainFrame.Size.Y.Offset}
+      SaveJson("redz library V5.json", redzlib.Save)
+    end
+  end)
+  
+  ConnectSave(ControlSize2, function()
+    redzlib.Save.TabSize = MainScroll.Size.X.Offset
+    SaveJson("redz library V5.json", redzlib.Save)
+  end)
+  
+  local ButtonsFolder = Create("Folder", TopBar, {
+    Name = "Buttons"
+  })
+  
+  local CloseButton = Create("ImageButton", {
+    Size = UDim2.new(0, 14, 0, 14),
+    Position = UDim2.new(1, -10, 0.5),
+    AnchorPoint = Vector2.new(1, 0.5),
+    BackgroundTransparency = 1,
+    Image = "rbxassetid://81911748716337",
+    AutoButtonColor = false,
+    Name = "Close"
+  })
+  
+  local MinimizeButton = SetProps(CloseButton:Clone(), {
+    Position = UDim2.new(1, -35, 0.5),
+    Image = "rbxassetid://105615612588825",
+    Name = "Minimize"
+  })
+  local GreenButton = SetProps(CloseButton:Clone(), {
+    Position = UDim2.new(1, -60, 0.5),
+    Image = "rbxassetid://96745368445366",
+    Name = "Other"
+  })
+  
+  SetChildren(ButtonsFolder, {
+    CloseButton,
+    MinimizeButton,
+    GreenButton
+  })
+  
+  local Minimized, SaveSize, WaitClick
+  local Window, FirstTab = {}, false
+  function Window:CloseBtn()
+    local Dialog = Window:Dialog({
+      Title = "Close",
+      Text = "Are you sure you want to close this?",
+      Options = {
+        {"Confirm", function()
+          ScreenGui:Destroy()
+        end},
+        {"Cancel"}
+      }
+    })
+  end
+  function Window:MinimizeBtn()
+    if WaitClick then return end
+    WaitClick = true
+    
+    if Minimized then
+      MinimizeButton.Image = "rbxassetid://105615612588825"
+      CreateTween({MainFrame, "Size", SaveSize, 0.25, true})
+      ControlSize1.Visible = true
+      ControlSize2.Visible = true
+      Minimized = false
+    else
+      MinimizeButton.Image = "rbxassetid://105615612588825"
+      SaveSize = MainFrame.Size
+      ControlSize1.Visible = false
+      ControlSize2.Visible = false
+      CreateTween({MainFrame, "Size", UDim2.fromOffset(MainFrame.Size.X.Offset, 28), 0.25, true})
+      Minimized = true
+    end
+    
+    WaitClick = false
+  end
+  function Window:Minimize()
+    MainFrame.Visible = not MainFrame.Visible
+  end
+  function Window:AddMinimizeButton(Configs)
+    local Button = MakeDrag(Create("ImageButton", ScreenGui, {
+      Size = UDim2.fromOffset(35, 35),
+      Position = UDim2.fromScale(0.15, 0.15),
+      BackgroundTransparency = 1,
+      BackgroundColor3 = Theme["Color Hub 2"],
+      AutoButtonColor = false
+    }))
+    
+    local Stroke, Corner
+    if Configs.Corner then
+      Corner = Make("Corner", Button)
+      SetProps(Corner, Configs.Corner)
+    end
+    if Configs.Stroke then
+      Stroke = Make("Stroke", Button)
+      SetProps(Stroke, Configs.Corner)
+    end
+    
+    SetProps(Button, Configs.Button)
+    Button.Activated:Connect(Window.Minimize)
+    
+    return {
+      Stroke = Stroke,
+      Corner = Corner,
+      Button = Button
+    }
+  end
+  function Window:Set(Val1, Val2)
+    if type(Val1) == "string" and type(Val2) == "string" then
+      Title.Text = Val1
+      Title.SubTitle.Text = Val2
+    elseif type(Val1) == "string" then
+      Title.Text = Val1
+    end
+  end
+  function Window:Dialog(Configs)
+    if MainFrame:FindFirstChild("Dialog") then return end
+    if Minimized then
+      Window:MinimizeBtn()
+    end
+    
+    local DTitle = Configs[1] or Configs.Title or "Dialog"
+    local DText = Configs[2] or Configs.Text or "This is a Dialog"
+    local DOptions = Configs[3] or Configs.Options or {}
+    
+    local Frame = Create("Frame", {
+      Active = true,
+      Size = UDim2.fromOffset(250 * 1.08, 150 * 1.08),
+      Position = UDim2.fromScale(0.5, 0.5),
+      AnchorPoint = Vector2.new(0.5, 0.5)
+    }, {
+      InsertTheme(Create("TextLabel", {
+        Font = Enum.Font.GothamBold,
+        Size = UDim2.new(1, 0, 0, 20),
+        Text = DTitle,
+        TextXAlignment = "Left",
+        TextColor3 = Theme["Color Text"],
+        TextSize = 15,
+        ZIndex = 2,
+        Position = UDim2.fromOffset(15, 5),
+        BackgroundTransparency = 1
+      }), "Text"),
+      InsertTheme(Create("TextLabel", {
+        Font = Enum.Font.GothamMedium,
+        Size = UDim2.new(1, -25),
+        AutomaticSize = "Y",
+        Text = DText,
+        TextXAlignment = "Left",
+        TextColor3 = Theme["Color Dark Text"],
+        TextSize = 12,
+        ZIndex = 2,
+        Position = UDim2.fromOffset(15, 25),
+        BackgroundTransparency = 1,
+        TextWrapped = true
+      }), "DarkText")
+    })Make("Gradient", Frame, {Rotation = 270})Make("Corner", Frame)
+    
+    local ButtonsHolder = Create("Frame", Frame, {
+      Size = UDim2.fromScale(1, 0.35),
+      Position = UDim2.fromScale(0, 1),
+      AnchorPoint = Vector2.new(0, 1),
+      BackgroundColor3 = Theme["Color Hub 2"],
+      BackgroundTransparency = 1
+    }, {
+      Create("UIListLayout", {
+        Padding = UDim.new(0, 10),
+			  VerticalAlignment = "Center",
+			  FillDirection = "Horizontal",
+			  HorizontalAlignment = "Center"
+      })
+    })
+    
+    local Screen = InsertTheme(Create("Frame", MainFrame, {
+      BackgroundTransparency = 0.6,
+      Active = true,
+      BackgroundColor3 = Theme["Color Hub 2"],
+      Size = UDim2.new(1, 0, 1, 0),
+      BackgroundColor3 = Theme["Color Stroke"],
+      Name = "Dialog"
+    }), "Stroke")
+    
+    MainCorner:Clone().Parent = Screen
+    Frame.Parent = Screen
+    background = Instance.new("ImageLabel",Frame)
+    background.Image = "rbxassetid://83959536678840"
+    background.Name = "Pattern"
+    background.Size = Frame.Size
+    uicorner = Instance.new("UICorner",background)
+    CreateTween({Frame, "Size", UDim2.fromOffset(250, 150), 0.2})
+    CreateTween({Frame, "Transparency", 0, 0.15})
+    CreateTween({Screen, "Transparency", 0.3, 0.15})
+    
+    local ButtonCount, Dialog = 1, {}
+    function Dialog:Button(Configs)
+      local Name = Configs[1] or Configs.Name or Configs.Title or ""
+      local Callback = Configs[2] or Configs.Callback or function()end
+      
+      ButtonCount = ButtonCount + 1
+      local Button = Make("Button", ButtonsHolder)
+      Make("Corner", Button)
+      SetProps(Button, {
+        Text = Name,
+        Font = Enum.Font.GothamBold,
+        ZIndex = 2,
+        TextColor3 = Theme["Color Text"],
+        TextSize = 12
+      })
+      
+      for _,Button in pairs(ButtonsHolder:GetChildren()) do
+        if Button:IsA("TextButton") then
+          Button.Size = UDim2.new(1 / ButtonCount, -(((ButtonCount - 1) * 20) / ButtonCount), 0, 32) -- Fluent Library :)
+        end
+      end
+      Button.Activated:Connect(Dialog.Close)
+      Button.Activated:Connect(Callback)
+    end
+    function Dialog:Close()
+      CreateTween({Frame, "Size", UDim2.fromOffset(250 * 1.08, 150 * 1.08), 0.2})
+      CreateTween({Screen, "Transparency", 1, 0.15})
+      CreateTween({Frame, "Transparency", 1, 0.15, true})
+      Screen:Destroy()
+    end
+    table.foreach(DOptions, function(_,Button)
+      Dialog:Button(Button)
+    end)
+    return Dialog
+  end
+  function Window:SelectTab(TabSelect)
+    if type(TabSelect) == "number" then
+      redzlib.Tabs[TabSelect].func:Enable()
+    else
+      for _,Tab in pairs(redzlib.Tabs) do
+        if Tab.Cont == TabSelect.Cont then
+          Tab.func:Enable()
+        end
+      end
+    end
+  end
+  
+  local ContainerList = {}
+  function Window:MakeTab(paste, Configs)
+    if type(paste) == "table" then Configs = paste end
+    local TName = Configs[1] or Configs.Title or "Tab!"
+    local TIcon = Configs[2] or Configs.Icon or ""
+    
+    TIcon = redzlib:GetIcon(TIcon)
+    if not TIcon:find("rbxassetid://") or TIcon:gsub("rbxassetid://", ""):len() < 6 then
+      TIcon = false
+    end
+    
+    
+    local TabSelect = Make("Button", MainScroll, {
+      Size = UDim2.new(1, 0, 0, 24)
+    })Make("Corner", TabSelect)
+    
+    local LabelTitle = InsertTheme(Create("TextLabel", TabSelect, {
+      Size = UDim2.new(1, TIcon and -25 or -15, 1),
+      Position = UDim2.fromOffset(TIcon and 25 or 15),
+      BackgroundTransparency = 1,
+      Font = Enum.Font.GothamMedium,
+      Text = TName,
+      TextColor3 = Theme["Color Text"],
+      TextSize = 10,
+      TextXAlignment = Enum.TextXAlignment.Left,
+      TextTransparency = (FirstTab and 0.3) or 0,
+      TextTruncate = "AtEnd"
+    }), "Text")
+    
+    local LabelIcon = InsertTheme(Create("ImageLabel", TabSelect, {
+      Position = UDim2.new(0, 8, 0.5),
+      Size = UDim2.new(0, 13, 0, 13),
+      AnchorPoint = Vector2.new(0, 0.5),
+      Image = TIcon or "",
+      BackgroundTransparency = 1,
+      ImageTransparency = (FirstTab and 0.3) or 0
+    }), "Text")
+    
+    local Selected = InsertTheme(Create("Frame", TabSelect, {
+      Size = FirstTab and UDim2.new(0, 4, 0, 4) or UDim2.new(0, 4, 0, 13),
+      Position = UDim2.new(0, 1, 0.5),
+      AnchorPoint = Vector2.new(0, 0.5),
+      BackgroundColor3 = Theme["Color Theme"],
+      BackgroundTransparency = FirstTab and 1 or 0
+    }), "Theme")Make("Corner", Selected, UDim.new(0.5, 0))
+    
+    local Container = InsertTheme(Create("ScrollingFrame", {
+      Size = UDim2.new(1, 0, 1, 0),
+      Position = UDim2.new(0, 0, 1),
+      AnchorPoint = Vector2.new(0, 1),
+      ScrollBarThickness = 1.5,
+      BackgroundTransparency = 1,
+      ScrollBarImageTransparency = 0.2,
+      ScrollBarImageColor3 = Theme["Color Theme"],
+      AutomaticCanvasSize = "Y",
+      ScrollingDirection = "Y",
+      BorderSizePixel = 0,
+      CanvasSize = UDim2.new(),
+      Name = ("Container %i [ %s ]"):format(#ContainerList + 1, TName)
+    }, {
+      Create("UIPadding", {
+        PaddingLeft = UDim.new(0, 10),
+        PaddingRight = UDim.new(0, 10),
+        PaddingTop = UDim.new(0, 10),
+        PaddingBottom = UDim.new(0, 10)
+      }), Create("UIListLayout", {
+        Padding = UDim.new(0, 5)
+      })
+    }), "ScrollBar")
+    
+    table.insert(ContainerList, Container)
+    
+    if not FirstTab then Container.Parent = Containers end
+    
+    local function Tabs()
+      if Container.Parent then return end
+      for _,Frame in pairs(ContainerList) do
+        if Frame:IsA("ScrollingFrame") and Frame ~= Container then
+          Frame.Parent = nil
+        end
+      end
+      Container.Parent = Containers
+      Container.Size = UDim2.new(1, 0, 1, 150)
+      table.foreach(redzlib.Tabs, function(_,Tab)
+        if Tab.Cont ~= Container then
+          Tab.func:Disable()
+        end
+      end)
+      CreateTween({Container, "Size", UDim2.new(1, 0, 1, 0), 0.3})
+      CreateTween({LabelTitle, "TextTransparency", 0, 0.35})
+      CreateTween({LabelIcon, "ImageTransparency", 0, 0.35})
+      CreateTween({Selected, "Size", UDim2.new(0, 4, 0, 13), 0.35})
+      CreateTween({Selected, "BackgroundTransparency", 0, 0.35})
+    end
+    TabSelect.Activated:Connect(Tabs)
+    
+    FirstTab = true
+    local Tab = {}
+    table.insert(redzlib.Tabs, {TabInfo = {Name = TName, Icon = TIcon}, func = Tab, Cont = Container})
+    Tab.Cont = Container
+    
+    function Tab:Disable()
+      Container.Parent = nil
+      CreateTween({LabelTitle, "TextTransparency", 0.3, 0.35})
+      CreateTween({LabelIcon, "ImageTransparency", 0.3, 0.35})
+      CreateTween({Selected, "Size", UDim2.new(0, 4, 0, 4), 0.35})
+      CreateTween({Selected, "BackgroundTransparency", 1, 0.35})
+    end
+    function Tab:Enable()
+      Tabs()
+    end
+    function Tab:Visible(Bool)
+      Funcs:ToggleVisible(TabSelect, Bool)
+      Funcs:ToggleParent(Container, Bool, Containers)
+    end
+    function Tab:Destroy() TabSelect:Destroy() Container:Destroy() end
+    
+    function Tab:AddSection(Configs)
+      local SectionName = type(Configs) == "string" and Configs or Configs[1] or Configs.Name or Configs.Title or Configs.Section
+      
+      local SectionFrame = Create("Frame", Container, {
+        Size = UDim2.new(1, 0, 0, 20),
+        BackgroundTransparency = 1,
+        Name = "Option"
+      })
+      
+      local SectionLabel = InsertTheme(Create("TextLabel", SectionFrame, {
+        Font = Enum.Font.GothamBold,
+        Text = SectionName,
+        TextColor3 = Theme["Color Text"],
+        Size = UDim2.new(1, -25, 1, 0),
+        Position = UDim2.new(0, 5),
+        BackgroundTransparency = 1,
+        TextTruncate = "AtEnd",
+        TextSize = 14,
+        TextXAlignment = "Left"
+      }), "Text")
+      
+      local Section = {}
+      table.insert(redzlib.Options, {type = "Section", Name = SectionName, func = Section})
+      function Section:Visible(Bool)
+        if Bool == nil then SectionFrame.Visible = not SectionFrame.Visible return end
+        SectionFrame.Visible = Bool
+      end
+      function Section:Destroy()
+        SectionFrame:Destroy()
+      end
+      function Section:Set(New)
+        if New then
+          SectionLabel.Text = GetStr(New)
+        end
+      end
+      return Section
+    end
+    function Tab:AddParagraph(Configs)
+      local PName = Configs[1] or Configs.Title or "Paragraph"
+      local PDesc = Configs[2] or Configs.Text or ""
+      
+      local Frame, LabelFunc = ButtonFrame(Container, PName, PDesc, UDim2.new(1, -20))
+      
+      local Paragraph = {}
+      function Paragraph:Visible(...) Funcs:ToggleVisible(Frame, ...) end
+      function Paragraph:Destroy() Frame:Destroy() end
+      function Paragraph:SetTitle(Val)
+        LabelFunc:SetTitle(GetStr(Val))
+      end
+      function Paragraph:SetDesc(Val)
+        LabelFunc:SetDesc(GetStr(Val))
+      end
+      function Paragraph:Set(Val1, Val2)
+        if Val1 and Val2 then
+          LabelFunc:SetTitle(GetStr(Val1))
+          LabelFunc:SetDesc(GetStr(Val2))
+        elseif Val1 then
+          LabelFunc:SetDesc(GetStr(Val1))
+        end
+      end
+      return Paragraph
+    end
+    function Tab:AddButton(Configs)
+      local BName = Configs[1] or Configs.Name or Configs.Title or "Button!"
+      local BDescription = Configs.Desc or Configs.Description or ""
+      local Callback = Funcs:GetCallback(Configs, 2)
+      
+      local FButton, LabelFunc = ButtonFrame(Container, BName, BDescription, UDim2.new(1, -20))
+      
+      local ButtonIcon = Create("ImageLabel", FButton, {
+        Size = UDim2.new(0, 14, 0, 14),
+        Position = UDim2.new(1, -10, 0.5),
+        AnchorPoint = Vector2.new(1, 0.5),
+        BackgroundTransparency = 1,
+        Image = "rbxassetid://10709791437"
+      })
+      
+      FButton.Activated:Connect(function()
+        Funcs:FireCallback(Callback)
+      end)
+      
+      local Button = {}
+      function Button:Visible(...) Funcs:ToggleVisible(FButton, ...) end
+      function Button:Destroy() FButton:Destroy() end
+      function Button:Callback(...) Funcs:InsertCallback(Callback, ...) end
+      function Button:Set(Val1, Val2)
+        if type(Val1) == "string" and type(Val2) == "string" then
+          LabelFunc:SetTitle(Val1)
+          LabelFunc:SetDesc(Val2)
+        elseif type(Val1) == "string" then
+          LabelFunc:SetTitle(Val1)
+        elseif type(Val1) == "function" then
+          Callback = Val1
+        end
+      end
+      return Button
+    end
+    function Tab:AddToggle(Configs)
+      local TName = Configs[1] or Configs.Name or Configs.Title or "Toggle"
+      local TDesc = Configs.Desc or Configs.Description or ""
+      local Callback = Funcs:GetCallback(Configs, 3)
+      local Flag = Configs[4] or Configs.Flag or false
+      local Default = Configs[2] or Configs.Default or false
+      if CheckFlag(Flag) then Default = GetFlag(Flag) end
+      
+      local Button, LabelFunc = ButtonFrame(Container, TName, TDesc, UDim2.new(1, -38))
+      
+      local ToggleHolder = InsertTheme(Create("Frame", Button, {
+        Size = UDim2.new(0, 35, 0, 18),
+        Position = UDim2.new(1, -10, 0.5),
+        AnchorPoint = Vector2.new(1, 0.5),
+        BackgroundColor3 = Theme["Color Stroke"]
+      }), "Stroke")Make("Corner", ToggleHolder, UDim.new(0.5, 0))
+      
+      local Slider = Create("Frame", ToggleHolder, {
+        BackgroundTransparency = 1,
+        Size = UDim2.new(0.8, 0, 0.8, 0),
+        Position = UDim2.new(0.5, 0, 0.5, 0),
+        AnchorPoint = Vector2.new(0.5, 0.5)
+      })
+      
+      local Toggle = InsertTheme(Create("Frame", Slider, {
+        Size = UDim2.new(0, 12, 0, 12),
+        Position = UDim2.new(0, 0, 0.5),
+        AnchorPoint = Vector2.new(0, 0.5),
+        BackgroundColor3 = Theme["Color Theme"]
+      }), "Theme")Make("Corner", Toggle, UDim.new(0.5, 0))
+      
+      local WaitClick
+      local function SetToggle(Val)
+        if WaitClick then return end
+        
+        WaitClick, Default = true, Val
+        SetFlag(Flag, Default)
+        Funcs:FireCallback(Callback, Default)
+        if Default then
+          CreateTween({Toggle, "Position", UDim2.new(1, 0, 0.5), 0.25})
+          CreateTween({Toggle, "BackgroundTransparency", 0, 0.25})
+          CreateTween({Toggle, "AnchorPoint", Vector2.new(1, 0.5), 0.25, Wait or false})
+        else
+          CreateTween({Toggle, "Position", UDim2.new(0, 0, 0.5), 0.25})
+          CreateTween({Toggle, "BackgroundTransparency", 0.8, 0.25})
+          CreateTween({Toggle, "AnchorPoint", Vector2.new(0, 0.5), 0.25, Wait or false})
+        end
+        WaitClick = false
+      end;task.spawn(SetToggle, Default)
+      
+      Button.Activated:Connect(function()
+        SetToggle(not Default)
+      end)
+      
+      local Toggle = {}
+      function Toggle:Visible(...) Funcs:ToggleVisible(Button, ...) end
+      function Toggle:Destroy() Button:Destroy() end
+      function Toggle:Callback(...) Funcs:InsertCallback(Callback, ...)() end
+      function Toggle:Set(Val1, Val2)
+        if type(Val1) == "string" and type(Val2) == "string" then
+          LabelFunc:SetTitle(Val1)
+          LabelFunc:SetDesc(Val2)
+        elseif type(Val1) == "string" then
+          LabelFunc:SetTitle(Val1, false, true)
+        elseif type(Val1) == "boolean" then
+          if WaitClick and Val2 then
+            repeat task.wait() until not WaitClick
+          end
+          task.spawn(SetToggle, Val1)
+        elseif type(Val1) == "function" then
+          Callback = Val1
+        end
+      end
+      return Toggle
+    end
+    function Tab:AddDropdown(Configs)
+      print("test")
+      local DName = Configs[1] or Configs.Name or Configs.Title or "Dropdown"
+      local DDesc = Configs.Desc or Configs.Description or ""
+      local DOptions = Configs[2] or Configs.Options or {}
+      local OpDefault = Configs[3] or Configs.Default or {}
+      local Flag = Configs[5] or Configs.Flag or false
+      local DMultiSelect = Configs.MultiSelect or false
+      local Callback = Funcs:GetCallback(Configs, 4)
+      
+      local Button, LabelFunc = ButtonFrame(Container, DName, DDesc, UDim2.new(1, -180))
+      
+      local SelectedFrame = InsertTheme(Create("Frame", Button, {
+        Size = UDim2.new(0, 150, 0, 18),
+        Position = UDim2.new(1, -10, 0.5),
+        AnchorPoint = Vector2.new(1, 0.5),
+        BackgroundColor3 = Theme["Color Stroke"]
+      }), "Stroke")Make("Corner", SelectedFrame, UDim.new(0, 4))
+      
+      local ActiveLabel = InsertTheme(Create("TextLabel", SelectedFrame, {
+        Size = UDim2.new(0.85, 0, 0.85, 0),
+        AnchorPoint = Vector2.new(0.5, 0.5),
+        Position = UDim2.new(0.5, 0, 0.5, 0),
+        BackgroundTransparency = 1,
+        Font = Enum.Font.GothamBold,
+        TextScaled = true,
+        TextColor3 = Theme["Color Text"],
+        Text = "..."
+      }), "Text")
+      
+      local Arrow = Create("ImageLabel", SelectedFrame, {
+        Size = UDim2.new(0, 15, 0, 15),
+        Position = UDim2.new(0, -5, 0.5),
+        AnchorPoint = Vector2.new(1, 0.5),
+        Image = "rbxassetid://10709791523",
+        BackgroundTransparency = 1
+      })
+      
+      local NoClickFrame = Create("TextButton", DropdownHolder, {
+        Name = "AntiClick",
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+        Visible = false,
+        Text = ""
+      })
+      
+      local DropFrame = Create("Frame", NoClickFrame, {
+        Size = UDim2.new(SelectedFrame.Size.X, 0, 0),
+        BackgroundTransparency = 0.1,
+        BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+        AnchorPoint = Vector2.new(0, 1),
+        Name = "DropdownFrame",
+        ClipsDescendants = true,
+        Active = true
+      })Make("Corner", DropFrame)Make("Stroke", DropFrame)Make("Gradient", DropFrame, {Rotation = 60})
+      
+      local ScrollFrame = InsertTheme(Create("ScrollingFrame", DropFrame, {
+        ScrollBarImageColor3 = Theme["Color Theme"],
+        Size = UDim2.new(1, 0, 1, 0),
+        ScrollBarThickness = 1.5,
+        BackgroundTransparency = 1,
+        BorderSizePixel = 0,
+        CanvasSize = UDim2.new(),
+        ScrollingDirection = "Y",
+        AutomaticCanvasSize = "Y",
+        Active = true
+      }, {
+        Create("UIPadding", {
+          PaddingLeft = UDim.new(0, 8),
+          PaddingRight = UDim.new(0, 8),
+          PaddingTop = UDim.new(0, 5),
+          PaddingBottom = UDim.new(0, 5)
+        }), Create("UIListLayout", {
+          Padding = UDim.new(0, 4)
+        })
+      }), "ScrollBar")
+      
+      local ScrollSize, WaitClick = 5
+      local function Disable()
+        WaitClick = true
+        CreateTween({Arrow, "Rotation", 0, 0.2})
+        CreateTween({DropFrame, "Size", UDim2.new(0, 152, 0, 0), 0.2, true})
+        CreateTween({Arrow, "ImageColor3", Color3.fromRGB(255, 255, 255), 0.2})
+        Arrow.Image = "rbxassetid://10709791523"
+        NoClickFrame.Visible = false
+        WaitClick = false
+      end
+      
+      local function GetFrameSize()
+        return UDim2.fromOffset(152, ScrollSize)
+      end
+      
+      local function CalculateSize()
+        local Count = 0
+        for _,Frame in pairs(ScrollFrame:GetChildren()) do
+          if Frame:IsA("Frame") or Frame.Name == "Option" then
+            Count = Count + 1
+          end
+        end
+        ScrollSize = (math.clamp(Count, 0, 10) * 25) + 10
+        if NoClickFrame.Visible then
+          NoClickFrame.Visible = true
+          CreateTween({DropFrame, "Size", GetFrameSize(), 0.2, true})
+        end
+      end
+      
+      local function Minimize()
+        if WaitClick then return end
+        WaitClick = true
+        if NoClickFrame.Visible then
+          Arrow.Image = "rbxassetid://10709791523" 
+          CreateTween({Arrow, "ImageColor3", Color3.fromRGB(255, 255, 255), 0.2})
+          CreateTween({DropFrame, "Size", UDim2.new(0, 152, 0, 0), 0.2, true})
+          NoClickFrame.Visible = false
+        else
+          NoClickFrame.Visible = true
+          Arrow.Image = "rbxassetid://10709790948"
+          CreateTween({Arrow, "ImageColor3", Theme["Color Theme"], 0.2})
+          CreateTween({DropFrame, "Size", GetFrameSize(), 0.2, true})
+        end
+        WaitClick = false
+      end
+      
+      local function CalculatePos()
+        local FramePos = SelectedFrame.AbsolutePosition
+        local ScreenSize = ScreenGui.AbsoluteSize
+        local ClampX = math.clamp((FramePos.X / UIScale), 0, ScreenSize.X / UIScale - DropFrame.Size.X.Offset)
+        local ClampY = math.clamp((FramePos.Y / UIScale) , 0, ScreenSize.Y / UIScale)
+        
+        local NewPos = UDim2.fromOffset(ClampX, ClampY)
+        local AnchorPoint = FramePos.Y > ScreenSize.Y / 1.4 and 1 or ScrollSize > 80 and 0.5 or 0
+        DropFrame.AnchorPoint = Vector2.new(0, AnchorPoint)
+        CreateTween({DropFrame, "Position", NewPos, 0.1})
+      end
+      print("test")
+      local AddNewOptions, GetOptions, AddOption, RemoveOption, Selected do
+        local Default = type(OpDefault) ~= "table" and {OpDefault} or OpDefault
+        local MultiSelect = DMultiSelect
+        local Options = {}
+        Selected = MultiSelect and {} or CheckFlag(Flag) and GetFlag(Flag) or Default[1]
+        
+        if MultiSelect then
+          for index, Value in pairs(CheckFlag(Flag) and GetFlag(Flag) or Default) do
+            if type(index) == "string" and (DOptions[index] or table.find(DOptions, index)) then
+              Selected[index] = Value
+            elseif DOptions[Value] then
+              Selected[Value] = true
+            end
+          end
+        end
+        
+        local function CallbackSelected()
+          SetFlag(Flag, MultiSelect and Selected or tostring(Selected))
+          Funcs:FireCallback(Callback, Selected)
+        end
+        
+        local function UpdateLabel()
+          if MultiSelect then
+            local list = {}
+            for index, Value in pairs(Selected) do
+              if Value then
+                table.insert(list, index)
+              end
+            end
+            ActiveLabel.Text = #list > 0 and table.concat(list, ", ") or "..."
+          else
+            ActiveLabel.Text = tostring(Selected or "...")
+          end
+        end
+        
+        local function UpdateSelected()
+          if MultiSelect then
+            for _,v in pairs(Options) do
+              local nodes, Stats = v.nodes, v.Stats
+              CreateTween({nodes[2], "BackgroundTransparency", Stats and 0 or 0.8, 0.35})
+              CreateTween({nodes[2], "Size", Stats and UDim2.fromOffset(4, 12) or UDim2.fromOffset(4, 4), 0.35})
+              CreateTween({nodes[3], "TextTransparency", Stats and 0 or 0.4, 0.35})
+            end
+          else
+            for _,v in pairs(Options) do
+              local Slt = v.Value == Selected
+              local nodes = v.nodes
+              CreateTween({nodes[2], "BackgroundTransparency", Slt and 0 or 1, 0.35})
+              CreateTween({nodes[2], "Size", Slt and UDim2.fromOffset(4, 14) or UDim2.fromOffset(4, 4), 0.35})
+              CreateTween({nodes[3], "TextTransparency", Slt and 0 or 0.4, 0.35})
+            end
+          end
+          UpdateLabel()
+        end
+        
+        local function Select(Option)
+          if MultiSelect then
+            Option.Stats = not Option.Stats
+            Option.LastCB = tick()
+            
+            Selected[Option.Name] = Option.Stats
+            CallbackSelected()
+          else
+            Option.LastCB = tick()
+            
+            Selected = Option.Value
+            CallbackSelected()
+          end
+          UpdateSelected()
+        end
+        
+        AddOption = function(index, Value)
+          local Name = tostring(type(index) == "string" and index or Value)
+          
+          if Options[Name] then return end
+          Options[Name] = {
+            index = index,
+            Value = Value,
+            Name = Name,
+            Stats = false,
+            LastCB = 0
+          }
+          
+          if MultiSelect then
+            local Stats = Selected[Name]
+            Selected[Name] = Stats or false
+            Options[Name].Stats = Stats
+          end
+          
+          local Button = Make("Button", ScrollFrame, {
+            Name = "Option",
+            Size = UDim2.new(1, 0, 0, 21),
+            Position = UDim2.new(0, 0, 0.5),
+            AnchorPoint = Vector2.new(0, 0.5)
+          })Make("Corner", Button, UDim.new(0, 4))
+          
+          local IsSelected = InsertTheme(Create("Frame", Button, {
+            Position = UDim2.new(0, 1, 0.5),
+            Size = UDim2.new(0, 4, 0, 4),
+            BackgroundColor3 = Theme["Color Theme"],
+            BackgroundTransparency = 1,
+            AnchorPoint = Vector2.new(0, 0.5)
+          }), "Theme")Make("Corner", IsSelected, UDim.new(0.5, 0))
+          
+          local OptioneName = InsertTheme(Create("TextLabel", Button, {
+            Size = UDim2.new(1, 0, 1),
+            Position = UDim2.new(0, 10),
+            Text = Name,
+            TextColor3 = Theme["Color Text"],
+            Font = Enum.Font.GothamBold,
+            TextXAlignment = "Left",
+            BackgroundTransparency = 1,
+            TextTransparency = 0.4
+          }), "Text")
+          
+          Button.Activated:Connect(function()
+            Select(Options[Name])
+          end)
+          
+          Options[Name].nodes = {Button, IsSelected, OptioneName}
+        end
+        
+        RemoveOption = function(index, Value)
+          local Name = tostring(type(index) == "string" and index or Value)
+          if Options[Name] then
+            if MultiSelect then Selected[Name] = nil else Selected = nil end
+            Options[Name].nodes[1]:Destroy()
+            table.clear(Options[Name])
+            Options[Name] = nil
+          end
+        end
+        
+        GetOptions = function()
+          return Options
+        end
+        
+        AddNewOptions = function(List, Clear)
+          if Clear then
+            table.foreach(Options, RemoveOption)
+          end
+          table.foreach(List, AddOption)
+          CallbackSelected()
+          UpdateSelected()
+        end
+        
+        table.foreach(DOptions, AddOption)
+        CallbackSelected()
+        UpdateSelected()
+      end
+      
+      Button.Activated:Connect(Minimize)
+      NoClickFrame.MouseButton1Down:Connect(Disable)
+      NoClickFrame.MouseButton1Click:Connect(Disable)
+      MainFrame:GetPropertyChangedSignal("Visible"):Connect(Disable)
+      SelectedFrame:GetPropertyChangedSignal("AbsolutePosition"):Connect(CalculatePos)
+      
+      Button.Activated:Connect(CalculateSize)
+      ScrollFrame.ChildAdded:Connect(CalculateSize)
+      ScrollFrame.ChildRemoved:Connect(CalculateSize)
+      CalculatePos()
+      CalculateSize()
+      
+      local Dropdown = {}
+      function Dropdown:Visible(...) Funcs:ToggleVisible(Button, ...) end
+      function Dropdown:Destroy() Button:Destroy() end
+      function Dropdown:Callback(...) Funcs:InsertCallback(Callback, ...)(Selected) end
+      
+      function Dropdown:Add(...)
+        local NewOptions = {...}
+        if type(NewOptions[1]) == "table" then
+          table.foreach(Option, function(_,Name)
+            AddOption(Name)
+          end)
+        else
+          table.foreach(NewOptions, function(_,Name)
+            AddOption(Name)
+          end)
+        end
+      end
+      function Dropdown:Remove(Option)
+        for index, Value in pairs(GetOptions()) do
+          if type(Option) == "number" and index == Option or Value.Name == "Option" then
+            RemoveOption(index, Value.Value)
+          end
+        end
+      end
+      function Dropdown:Select(Option)
+        if type(Option) == "string" then
+          for _,Val in pairs(Options) do
+            if Val.Name == Option then
+              Val.Active()
+            end
+          end
+        elseif type(Option) == "number" then
+          for ind,Val in pairs(Options) do
+            if ind == Option then
+              Val.Active()
+            end
+          end
+        end
+      end
+      function Dropdown:Set(Val1, Clear)
+        if type(Val1) == "table" then
+          AddNewOptions(Val1, not Clear)
+        elseif type(Val1) == "function" then
+          Callback = Val1
+        end
+      end
+      return Dropdown
+    end
+    function Tab:AddSlider(Configs)
+      local SName = Configs[1] or Configs.Name or Configs.Title or "Slider!"
+      local SDesc = Configs.Desc or Configs.Description or ""
+      local Min = Configs[2] or Configs.MinValue or Configs.Min or 10
+      local Max = Configs[3] or Configs.MaxValue or Configs.Max or 100
+      local Increase = Configs[4] or Configs.Increase or 1
+      local Callback = Funcs:GetCallback(Configs, 6)
+      local Flag = Configs[7] or Configs.Flag or false
+      local Default = Configs[5] or Configs.Default or 25
+      if CheckFlag(Flag) then Default = GetFlag(Flag) end
+      Min, Max = Min / Increase, Max / Increase
+      
+      local Button, LabelFunc = ButtonFrame(Container, SName, SDesc, UDim2.new(1, -180))
+      
+      local SliderHolder = Create("TextButton", Button, {
+        Size = UDim2.new(0.45, 0, 1),
+        Position = UDim2.new(1),
+        AnchorPoint = Vector2.new(1, 0),
+        AutoButtonColor = false,
+        Text = "",
+        BackgroundTransparency = 1
+      })
+      
+      local SliderBar = InsertTheme(Create("Frame", SliderHolder, {
+        BackgroundColor3 = Theme["Color Stroke"],
+        Size = UDim2.new(1, -20, 0, 6),
+        Position = UDim2.new(0.5, 0, 0.5),
+        AnchorPoint = Vector2.new(0.5, 0.5)
+      }), "Stroke")Make("Corner", SliderBar)
+      
+      local Indicator = InsertTheme(Create("Frame", SliderBar, {
+        BackgroundColor3 = Theme["Color Theme"],
+        Size = UDim2.fromScale(0.3, 1),
+        BorderSizePixel = 0
+      }), "Theme")Make("Corner", Indicator)
+      
+      local SliderIcon = Create("Frame", SliderBar, {
+        Size = UDim2.new(0, 6, 0, 12),
+        BackgroundColor3 = Color3.fromRGB(220, 220, 220),
+        Position = UDim2.fromScale(0.3, 0.5),
+        AnchorPoint = Vector2.new(0.5, 0.5),
+        BackgroundTransparency = 0.2
+      })Make("Corner", SliderIcon)
+      
+      local LabelVal = InsertTheme(Create("TextLabel", SliderHolder, {
+        Size = UDim2.new(0, 14, 0, 14),
+        AnchorPoint = Vector2.new(1, 0.5),
+        Position = UDim2.new(0, 0, 0.5),
+        BackgroundTransparency = 1,
+        TextColor3 = Theme["Color Text"],
+        Font = Enum.Font.FredokaOne,
+        TextSize = 12
+      }), "Text")
+      
+      local UIScale = Create("UIScale", LabelVal)
+      
+      local BaseMousePos = Create("Frame", SliderBar, {
+        Position = UDim2.new(0, 0, 0.5, 0),
+        Visible = false
+      })
+      
+      local function UpdateLabel(NewValue)
+        local Number = tonumber(NewValue * Increase)
+        Number = math.floor(Number * 100) / 100
+        
+        Default, LabelVal.Text = Number, tostring(Number)
+        Funcs:FireCallback(Callback, Default)
+      end
+      
+      local function ControlPos()
+        local MousePos = Player:GetMouse()
+        local APos = MousePos.X - BaseMousePos.AbsolutePosition.X
+        local ConfigureDpiPos = APos / SliderBar.AbsoluteSize.X
+        
+        SliderIcon.Position = UDim2.new(math.clamp(ConfigureDpiPos, 0, 1), 0, 0.5, 0)
+      end
+      
+      local function UpdateValues()
+        Indicator.Size = UDim2.new(SliderIcon.Position.X.Scale, 0, 1, 0)
+        local SliderPos = SliderIcon.Position.X.Scale
+        local NewValue = math.floor(((SliderPos * Max) / Max) * (Max - Min) + Min)
+        UpdateLabel(NewValue)
+      end
+      
+      SliderHolder.MouseButton1Down:Connect(function()
+        CreateTween({SliderIcon, "Transparency", 0, 0.3})
+        Container.ScrollingEnabled = false
+        while UserInputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do task.wait()
+          ControlPos()
+        end
+        CreateTween({SliderIcon, "Transparency", 0.2, 0.3})
+        Container.ScrollingEnabled = true
+        SetFlag(Flag, Default)
+      end)
+      
+      LabelVal:GetPropertyChangedSignal("Text"):Connect(function()
+        UIScale.Scale = 0.3
+        CreateTween({UIScale, "Scale", 1.2, 0.1})
+        CreateTween({LabelVal, "Rotation", math.random(-1, 1) * 5, 0.15, true})
+        CreateTween({UIScale, "Scale", 1, 0.2})
+        CreateTween({LabelVal, "Rotation", 0, 0.1})
+      end)
+      
+			function SetSlider(NewValue)
+			  if type(NewValue) ~= "number" then return end
+			  
+        local Min, Max = Min * Increase, Max * Increase
+        
+        local SliderPos = (NewValue - Min) / (Max - Min)
+        
+        SetFlag(Flag, NewValue)
+        CreateTween({ SliderIcon, "Position", UDim2.fromScale(math.clamp(SliderPos, 0, 1), 0.5), 0.3, true })
+			end;SetSlider(Default)
+			
+			SliderIcon:GetPropertyChangedSignal("Position"):Connect(UpdateValues)UpdateValues()
+			
+			local Slider = {}
+      function Slider:Set(NewVal1, NewVal2)
+        if NewVal1 and NewVal2 then
+          LabelFunc:SetTitle(NewVal1)
+          LabelFunc:SetDesc(NewVal2)
+        elseif type(NewVal1) == "string" then
+          LabelFunc:SetTitle(NewVal1)
+        elseif type(NewVal1) == "function" then
+          Callback = NewVal1
+        elseif type(NewVal1) == "number" then
+          SetSlider(NewVal1)
+        end
+      end
+      function Slider:Callback(...) Funcs:InsertCallback(Callback, ...)(tonumber(Default)) end
+      function Slider:Visible(...) Funcs:ToggleVisible(Button, ...) end
+      function Slider:Destroy() Button:Destroy() end
+			return Slider
+    end
+    function Tab:AddTextBox(Configs)
+      local TName = Configs[1] or Configs.Name or Configs.Title or "Text Box"
+      local TDesc = Configs.Desc or Configs.Description or ""
+      local TDefault = Configs[2] or Configs.Default or ""
+      local TPlaceholderText = Configs[5] or Configs.PlaceholderText or "Input"
+      local TClearText = Configs[3] or Configs.ClearText or false
+      local Callback = Funcs:GetCallback(Configs, 4)
+      
+      if type(TDefault) ~= "string" or TDefault:gsub(" ", ""):len() < 1 then
+        TDefault = false
+      end
+      
+      local Button, LabelFunc = ButtonFrame(Container, TName, TDesc, UDim2.new(1, -38))
+      
+      local SelectedFrame = InsertTheme(Create("Frame", Button, {
+        Size = UDim2.new(0, 150, 0, 18),
+        Position = UDim2.new(1, -10, 0.5),
+        AnchorPoint = Vector2.new(1, 0.5),
+        BackgroundColor3 = Theme["Color Stroke"]
+      }), "Stroke")Make("Corner", SelectedFrame, UDim.new(0, 4))
+      
+      local TextBoxInput = InsertTheme(Create("TextBox", SelectedFrame, {
+        Size = UDim2.new(0.85, 0, 0.85, 0),
+        AnchorPoint = Vector2.new(0.5, 0.5),
+        Position = UDim2.new(0.5, 0, 0.5, 0),
+        BackgroundTransparency = 1,
+        Font = Enum.Font.GothamBold,
+        TextScaled = true,
+        TextColor3 = Theme["Color Text"],
+        ClearTextOnFocus = TClearText,
+        PlaceholderText = TPlaceholderText,
+        Text = ""
+      }), "Text")
+      
+      local Pencil = Create("ImageLabel", SelectedFrame, {
+        Size = UDim2.new(0, 12, 0, 12),
+        Position = UDim2.new(0, -5, 0.5),
+        AnchorPoint = Vector2.new(1, 0.5),
+        Image = "rbxassetid://15637081879",
+        BackgroundTransparency = 1
+      })
+      
+      local TextBox = {}
+      local function Input()
+        local Text = TextBoxInput.Text
+        if Text:gsub(" ", ""):len() > 0 then
+          if type(TextBox.OnChanging) then Text = TextBox.OnChanging(Text) or Text end
+          Funcs:FireCallback(Callback, Text)
+          TextBoxInput.Text = Text
+        end
+      end
+      
+      TextBoxInput.FocusLost:Connect(Input)Input()
+      
+      TextBoxInput.FocusLost:Connect(function()
+        CreateTween({Pencil, "ImageColor3", Color3.fromRGB(255, 255, 255), 0.2})
+      end)
+      TextBoxInput.Focused:Connect(function()
+        CreateTween({Pencil, "ImageColor3", Theme["Color Theme"], 0.2})
+      end)
+      
+      TextBox.OnChanging = false
+      function TextBox:Visible(...) Funcs:ToggleVisible(Button, ...) end
+      function TextBox:Destroy() Button:Destroy() end
+      return TextBox
+    end
+    function Tab:AddDiscordInvite(Configs)
+      local Title = Configs[1] or Configs.Name or Configs.Title or "Discord"
+      local Desc = Configs.Desc or Configs.Description or ""
+      local Logo = Configs[2] or Configs.Logo or ""
+      local Invite = Configs[3] or Configs.Invite or ""
+      
+      local InviteHolder = Create("Frame", Container, {
+        Size = UDim2.new(1, 0, 0, 80),
+        Name = "Option",
+        BackgroundTransparency = 1
+      })
+      
+      local InviteLabel = Create("TextLabel", InviteHolder, {
+        Size = UDim2.new(1, 0, 0, 15),
+        Position = UDim2.new(0, 5),
+        TextColor3 = Color3.fromRGB(40, 150, 255),
+        Font = Enum.Font.GothamBold,
+        TextXAlignment = "Left",
+        BackgroundTransparency = 1,
+        TextSize = 10,
+        Text = Invite
+      })
+      
+      local FrameHolder = InsertTheme(Create("Frame", InviteHolder, {
+        Size = UDim2.new(1, 0, 0, 65),
+        AnchorPoint = Vector2.new(0, 1),
+        Position = UDim2.new(0, 0, 1),
+        BackgroundColor3 = Theme["Color Hub 2"]
+      }), "Frame")Make("Corner", FrameHolder)
+      
+      local ImageLabel = Create("ImageLabel", FrameHolder, {
+        Size = UDim2.new(0, 30, 0, 30),
+        Position = UDim2.new(0, 7, 0, 7),
+        Image = Logo,
+        BackgroundTransparency = 1
+      })Make("Corner", ImageLabel, UDim.new(0, 4))Make("Stroke", ImageLabel)
+      
+      local LTitle = InsertTheme(Create("TextLabel", FrameHolder, {
+        Size = UDim2.new(1, -52, 0, 15),
+        Position = UDim2.new(0, 44, 0, 7),
+        Font = Enum.Font.GothamBold,
+        TextColor3 = Theme["Color Text"],
+        TextXAlignment = "Left",
+        BackgroundTransparency = 1,
+        TextSize = 10,
+        Text = Title
+      }), "Text")
+      
+      local LDesc = InsertTheme(Create("TextLabel", FrameHolder, {
+        Size = UDim2.new(1, -52, 0, 0),
+        Position = UDim2.new(0, 44, 0, 22),
+        TextWrapped = "Y",
+        AutomaticSize = "Y",
+        Font = Enum.Font.Gotham,
+        TextColor3 = Theme["Color Dark Text"],
+        TextXAlignment = "Left",
+        BackgroundTransparency = 1,
+        TextSize = 8,
+        Text = Desc
+      }), "DarkText")
+      
+      local JoinButton = Create("TextButton", FrameHolder, {
+        Size = UDim2.new(1, -14, 0, 16),
+        AnchorPoint = Vector2.new(0.5, 1),
+        Position = UDim2.new(0.5, 0, 1, -7),
+        Text = "Join",
+        Font = Enum.Font.GothamBold,
+        TextSize = 12,
+        TextColor3 = Color3.fromRGB(220, 220, 220),
+        BackgroundColor3 = Color3.fromRGB(50, 150, 50)
+      })Make("Corner", JoinButton, UDim.new(0, 5))
+      
+      local ClickDelay
+      JoinButton.Activated:Connect(function()
+        setclipboard(Invite)
+        if ClickDelay then return end
+        
+        ClickDelay = true
+        SetProps(JoinButton, {
+          Text = "Copied to Clipboard",
+          BackgroundColor3 = Color3.fromRGB(100, 100, 100),
+          TextColor3 = Color3.fromRGB(150, 150, 150)
+        })task.wait(5)
+        SetProps(JoinButton, {
+          Text = "Join",
+          BackgroundColor3 = Color3.fromRGB(50, 150, 50),
+          TextColor3 = Color3.fromRGB(220, 220, 220)
+        })ClickDelay = false
+      end)
+      
+      local DiscordInvite = {}
+      function DiscordInvite:Destroy() InviteHolder:Destroy() end
+      function DiscordInvite:Visible(...) Funcs:ToggleVisible(InviteHolder, ...) end
+      return DiscordInvite
+    end
+    return Tab
+  end
+  
+  CloseButton.Activated:Connect(Window.CloseBtn)
+  MinimizeButton.Activated:Connect(Window.MinimizeBtn)
+  return Window
+end
+
+return redzlib
