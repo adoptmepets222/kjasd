@@ -175,7 +175,7 @@ local loadingtween = game.TweenService:Create(loadingimage, tweenInfo, {ImageTra
 loadingtween:Play()
 local currentlynotifying = false
 function CreateNotification(title,description,time)
-    local NotifGui = game:GetObjects("rbxassetid://80766307642579")[1]
+    local NotifGui = game:GetObjects("rbxassetid://134132495822048")[1]
     NotifGui.Parent = game:GetService("CoreGui")
     local Frame = NotifGui.Main
     Frame.ZIndex = 60
