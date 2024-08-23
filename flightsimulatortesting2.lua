@@ -1,5 +1,3 @@
--- This file was generated using Luraph Obfuscator v14.1 [https://lura.ph/]
--- Testing for my flight sim game
 local Atlas1 = {}
 local MainAtlasGuiColor = Color3.fromRGB(0, 213, 255)
 local SecondaryAtlasGuiColor = Color3.fromRGB(0, 71, 84)
@@ -805,6 +803,7 @@ local function CreateTween(Configs)
   local NewVal = Configs[3] or Configs.NewVal
   local Time = Configs[4] or Configs.Time or 0.5
   local TweenWait = Configs[5] or Configs.wait or false
+  print("tewst")
   local TweenInfo = TweenInfo.new(Time, Enum.EasingStyle.Quint)
   
   local Tween = TweenService:Create(Instance, TweenInfo, {[Prop] = NewVal})
