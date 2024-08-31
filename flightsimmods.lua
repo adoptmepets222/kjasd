@@ -151,7 +151,7 @@ for i, v in next, getconnections(Handshake.OnClientEvent) do
 end
 
 task.spawn(function()
-    while task.wait() do
+    while task.wait(0.4) do
         if (HandshakeInts) then
             Handshake:fireServer(AC_STRING, HandshakeInts, nil)
             getrawmetatable(HandshakeInts).__tostring = nil
