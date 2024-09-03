@@ -164,7 +164,7 @@ end
 task.spawn(function()
     while task.wait(0.4) do
         if LastCheck and (tick() - LastCheck) >= 20 then
-            LocalPlayer:Kick("[ATLAS-HUB]: Bypass timed out. Bypass initialization aborted.")
+            LocalPlayer:Kick("The Bypass has timed out!")
             task.wait(3)
             game:Shutdown()
         end
