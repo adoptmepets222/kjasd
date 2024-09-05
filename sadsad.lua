@@ -2926,32 +2926,31 @@ if KeyGradient then KeyGradient:Disconnect() end
 if LoadingConnection then LoadingConnection:Disconnect() end
 if AtlasLoadingConnection then AtlasLoadingConnection:Disconnect() end
 
-local Window = redzlib:MakeWindow({
-  Title = "Atlas",
-  SubTitle = "Auto 3s",
-  SaveFolder = "AtlashubSaveConfigs.lua"
-})
-QBAimbotGravity = 31
-wrtab = Window:MakeTab({"WR", "rbxassetid://91148684014462"})
-qbtab = Window:MakeTab({"QB", "rbxassetid://130089606329240"})
-defensetab = Window:MakeTab({"Defense", "rbxassetid://97052018610732"})
-physicstab = Window:MakeTab({"Physics", 'rbxassetid://106738018294992'})
-settingstab = Window:MakeTab({"Settings", 'rbxassetid://130604079483277'})
-effectstab = Window:MakeTab({"Effects", 'rbxassetid://100500296638402'})
-Section = settingstab:AddSection({"Join Us"})
-settingstab:AddDiscordInvite({
-  Name = "Atlas",
-  Logo = "rbxassetid://140195185056728",
-  Invite = "https://discord.gg/BngS4PFTDK"
-})
+-- local Window = redzlib:MakeWindow({
+--   Title = "Atlas",
+--   SubTitle = "Auto 3s",
+--   SaveFolder = "AtlashubSaveConfigs.lua"
+-- })
+-- QBAimbotGravity = 31
+-- wrtab = Window:MakeTab({"WR", "rbxassetid://91148684014462"})
+-- qbtab = Window:MakeTab({"QB", "rbxassetid://130089606329240"})
+-- defensetab = Window:MakeTab({"Defense", "rbxassetid://97052018610732"})
+-- physicstab = Window:MakeTab({"Physics", 'rbxassetid://106738018294992'})
+-- settingstab = Window:MakeTab({"Settings", 'rbxassetid://130604079483277'})
+-- effectstab = Window:MakeTab({"Effects", 'rbxassetid://100500296638402'})
+-- Section = settingstab:AddSection({"Join Us"})
+-- settingstab:AddDiscordInvite({
+--   Name = "Atlas",
+--   Logo = "rbxassetid://140195185056728",
+--   Invite = "https://discord.gg/BngS4PFTDK"
+-- })
 
-antiwobbleD = qbtab:AddToggle({Name="Anti Wobble",Default=false,Callback=function(antiwobblestate)
-  AntiWobble = antiwobblestate
-end})
+-- antiwobbleD = qbtab:AddToggle({Name="Anti Wobble",Default=false,Callback=function(antiwobblestate)
+--   AntiWobble = antiwobblestate
+-- end})
 
-qbtab:AddSlider({Name="Anti Wobble Force",Description="Recommended: 0.5-1",Min=0,Max=2,Increase=0.1,Default=0.6,Callback=function(awforce)
-  AntiWobbleForce = awforce
-end})	
+-- qbtab:AddSlider({Name="Anti Wobble Force",Description="Recommended: 0.5-1",Min=0,Max=2,Increase=0.1,Default=0.6,Callback=function(awforce)
+--   AntiWobbleForce = awforce
+-- end})	
 
-print("got here")
 return redzlib, UIParent
