@@ -2953,5 +2953,5 @@ qbtab:AddSlider({Name="Anti Wobble Force",Description="Recommended: 0.5-1",Min=0
   AntiWobbleForce = awforce
 end})	
 
-
+print("got here")
 return redzlib, UIParent
