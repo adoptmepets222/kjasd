@@ -1,10 +1,64 @@
-local ff2practice = 4103061728.5 * 2
-local ff2main = 4102449570 * 2
-local ff2league = 4103063493.5 * 2
-local a3main = 3078739363 * 2
-local a3practice = 3366553389.5 * 2
+local ffpractice = 4103061728.5 * 2
+-- get the flight simulator plane
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local ffmain = 4102449570 * 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local ffleague = 4103063493.5 * 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local amain = 3078739363 * 2
+
+
+
+
+
+
+
+
+
+
+local apractice = 3366553389.5 * 2
 if not hookmetamethod then warn("Error ".. "Loading ".."Bypass") return end
-if game.PlaceId == ff2main or game.PlaceId == ff2league or game.PlaceId == ff2practice then
+if game.PlaceId == ffmain or game.PlaceId == ffleague or game.PlaceId == ffpractice then
     -- -- -- --V1
     -- local LPH_OBFUSCATED = false
     -- local hooktest = hookmetamethod
@@ -178,7 +232,7 @@ if game.PlaceId == ff2main or game.PlaceId == ff2league or game.PlaceId == ff2pr
         end
     end)
     task.wait(0.41)
-elseif game.PlaceId == a3main or game.PlaceId == a3practice then
+elseif game.PlaceId == amain or game.PlaceId == apractice then
     originalhk = hookmetamethod
     local remote = game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("GameService"):WaitForChild("RF"):WaitForChild("GetTicker")
     if originalhk then
