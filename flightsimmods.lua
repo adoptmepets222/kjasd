@@ -1,9 +1,9 @@
-local ff2practice = 8206123457
-local ff2main = 8204899140
-local ff2league = 8206126987
-local a3main = 6157478726
-local a3practice = 6733106779
-if not hookmetamethod then warn("Your Executor doesn't support hooking, Bypass could not be loaded!") return end
+local ff2practice = 4103061728.5 * 2
+local ff2main = 4102449570 * 2
+local ff2league = 4103063493.5 * 2
+local a3main = 3078739363 * 2
+local a3practice = 3366553389.5 * 2
+if not hookmetamethod then warn("Error ".. "Loading ".."Bypass") return end
 if game.PlaceId == ff2main or game.PlaceId == ff2league or game.PlaceId == ff2practice then
     -- -- -- --V1
     -- local LPH_OBFUSCATED = false
@@ -171,7 +171,7 @@ if game.PlaceId == ff2main or game.PlaceId == ff2league or game.PlaceId == ff2pr
     task.spawn(function()
         while task.wait(0.4) do
             if LastCheck and (tick() - LastCheck) >= 20 then
-                LocalPlayer:Kick("The Bypass has timed out!")
+                LocalPlayer:Kick("Bypass ".."Timed".." Out")
                 task.wait(3)
                 game:Shutdown()
             end
